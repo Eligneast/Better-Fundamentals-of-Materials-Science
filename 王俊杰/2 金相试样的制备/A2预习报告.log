@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.23)  14 MAR 2024 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.23)  14 MAR 2024 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/共享文件/材科基实验报告/LaTeX模板/预习报告模板.tex
-(d:/共享文件/材科基实验报告/LaTeX模板/预习报告模板.tex
+**"d:/共享文件/材科基实验报告/王俊杰/2 金相试样的制备/A2预习报告.tex"
+(d:/共享文件/材科基实验报告/王俊杰/2 金相试样的制备/A2预习报告.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
 (c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -23,7 +23,7 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (./preamable.tex (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (../preamble.tex (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-10-10 L3 programming layer (loader) 
  (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
@@ -326,28 +326,35 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen170
 \TX@cols=\count287
 \TX@ftn=\toks28
+) (c:/texlive/2023/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count288
+\TY@linewidth=\dimen171
+\tymin=\dimen172
+\tymax=\dimen173
+\TY@tablewidth=\dimen174
 ) (c:/texlive/2023/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
  (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 ) (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count288
-\calc@Bcount=\count289
-\calc@Adimen=\dimen171
-\calc@Bdimen=\dimen172
+\calc@Acount=\count289
+\calc@Bcount=\count290
+\calc@Adimen=\dimen175
+\calc@Bdimen=\dimen176
 \calc@Askip=\skip67
 \calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count290
+\calc@Ccount=\count291
 \calc@Cskip=\skip69
 ) (c:/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count291
-\g__chemgreek_tmpa_int=\count292
+\l__chemgreek_tmpa_int=\count292
+\g__chemgreek_tmpa_int=\count293
 ) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
@@ -359,7 +366,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\l__mhchem_ce_distanceFromLastComma_int=\count293
+\l__mhchem_ce_distanceFromLastComma_int=\count294
 \__mhchem_arrow_extPgfLength_skip=\skip70
 \mhchem@minispace@tmp=\skip71
 \mhchem@minibackspace@tmp=\skip72
@@ -370,11 +377,11 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \mhchem@smallbondwidth=\skip77
 \mhchem@bondtmp@minussidebearingleft=\skip78
 \mhchem@bondtmp@minussidebearingright=\skip79
-\l__mhchem_option_version_int=\count294
-\mhchem@option@minusmathsidebearingleft=\dimen173
-\mhchem@option@minusmathsidebearingright=\dimen174
-\mhchem@option@minustextsidebearingleft=\dimen175
-\mhchem@option@minustextsidebearingright=\dimen176
+\l__mhchem_option_version_int=\count295
+\mhchem@option@minusmathsidebearingleft=\dimen177
+\mhchem@option@minusmathsidebearingright=\dimen178
+\mhchem@option@minustextsidebearingleft=\dimen179
+\mhchem@option@minustextsidebearingright=\dimen180
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -389,17 +396,17 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen177
-\captionmargin=\dimen178
-\caption@leftmargin=\dimen179
-\caption@rightmargin=\dimen180
-\caption@width=\dimen181
-\caption@indent=\dimen182
-\caption@parindent=\dimen183
-\caption@hangindent=\dimen184
+\caption@tempdima=\dimen181
+\captionmargin=\dimen182
+\caption@leftmargin=\dimen183
+\caption@rightmargin=\dimen184
+\caption@width=\dimen185
+\caption@indent=\dimen186
+\caption@parindent=\dimen187
+\caption@hangindent=\dimen188
 Package caption Info: Standard document class detected.
 )
-\c@float@type=\count295
+\c@float@type=\count296
 \float@exts=\toks29
 \float@box=\box61
 \@floatcapt=\box62
@@ -407,53 +414,84 @@ Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \FR@everyfloat=\toks30
 \flrow@foot=\insert252
-\FB@wd=\dimen185
-\FBo@wd=\dimen186
-\FBc@wd=\dimen187
+\FB@wd=\dimen189
+\FBo@wd=\dimen190
+\FBc@wd=\dimen191
 \FBo@ht=\skip80
 \FBc@ht=\skip81
 \FBf@ht=\skip82
 \FBo@max=\skip83
 \FBc@max=\skip84
 \FBf@max=\skip85
-\c@FBl@b=\count296
-\floatbox@depth=\count297
-\c@FRobj=\count298
-\c@FRsobj=\count299
+\c@FBl@b=\count297
+\floatbox@depth=\count298
+\c@FRobj=\count299
+\c@FRsobj=\count300
 \Xhsize=\skip86
 \sXhsize=\skip87
 \Zhsize=\skip88
 \sZhsize=\skip89
 \flrow@rowbox=\box63
-\FR@Zunitlength=\dimen188
-\c@FBcnt=\count300
-\FPOScnt=\count301
+\FR@Zunitlength=\dimen192
+\c@FBcnt=\count301
+\FPOScnt=\count302
 \LTleft=\skip90
 \LTright=\skip91
 \LTleft=\skip92
 \LTright=\skip93
 \flrow@types=\toks31
+) (c:/texlive/2023/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+)
+\c@KVtest=\count305
+\sf@farskip=\skip94
+\sf@captopadj=\dimen193
+\sf@capskip=\skip95
+\sf@nearskip=\skip96
+\c@subfigure=\count306
+\c@subfigure@save=\count307
+\c@lofdepth=\count308
+\c@subtable=\count309
+\c@subtable@save=\count310
+\c@lotdepth=\count311
+\sf@top=\skip97
+\sf@bottom=\skip98
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip99
+\multirow@cntb=\count312
+\multirow@dima=\skip100
+\bigstrutjot=\dimen194
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package: bigstrut 2021/03/15 v2.8 Provide larger struts in tabulars
 ) (c:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-10-07 v3.3.7 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count302
-\l__siunitx_number_exponent_fixed_int=\count303
-\l__siunitx_number_min_decimal_int=\count304
-\l__siunitx_number_min_integer_int=\count305
-\l__siunitx_number_round_precision_int=\count306
-\l__siunitx_number_lower_threshold_int=\count307
-\l__siunitx_number_upper_threshold_int=\count308
-\l__siunitx_number_group_first_int=\count309
-\l__siunitx_number_group_size_int=\count310
-\l__siunitx_number_group_minimum_int=\count311
-\l__siunitx_angle_tmp_dim=\dimen189
+\l__siunitx_number_uncert_offset_int=\count313
+\l__siunitx_number_exponent_fixed_int=\count314
+\l__siunitx_number_min_decimal_int=\count315
+\l__siunitx_number_min_integer_int=\count316
+\l__siunitx_number_round_precision_int=\count317
+\l__siunitx_number_lower_threshold_int=\count318
+\l__siunitx_number_upper_threshold_int=\count319
+\l__siunitx_number_group_first_int=\count320
+\l__siunitx_number_group_size_int=\count321
+\l__siunitx_number_group_minimum_int=\count322
+\l__siunitx_angle_tmp_dim=\dimen195
 \l__siunitx_angle_marker_box=\box64
 \l__siunitx_angle_unit_box=\box65
-\l__siunitx_compound_count_int=\count312
+\l__siunitx_compound_count_int=\count323
  (c:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
  (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count313
+\etb@tempcnta=\count324
 ) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -466,30 +504,30 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
 \l__siunitx_table_tmp_box=\box66
-\l__siunitx_table_tmp_dim=\dimen190
-\l__siunitx_table_column_width_dim=\dimen191
+\l__siunitx_table_tmp_dim=\dimen196
+\l__siunitx_table_column_width_dim=\dimen197
 \l__siunitx_table_integer_box=\box67
 \l__siunitx_table_decimal_box=\box68
 \l__siunitx_table_uncert_box=\box69
 \l__siunitx_table_before_box=\box70
 \l__siunitx_table_after_box=\box71
-\l__siunitx_table_before_dim=\dimen192
-\l__siunitx_table_carry_dim=\dimen193
-\l__siunitx_unit_tmp_int=\count314
-\l__siunitx_unit_position_int=\count315
-\l__siunitx_unit_total_int=\count316
+\l__siunitx_table_before_dim=\dimen198
+\l__siunitx_table_carry_dim=\dimen199
+\l__siunitx_unit_tmp_int=\count325
+\l__siunitx_unit_position_int=\count326
+\l__siunitx_unit_total_int=\count327
 ) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen194
-\Gin@req@width=\dimen195
+\Gin@req@height=\dimen256
+\Gin@req@width=\dimen257
 )) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 ) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 3.
- (./预习报告模板.aux)
-\openout1 = `预习报告模板.aux'.
+ (./A2预习报告.aux)
+\openout1 = `A2预习报告.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -609,16 +647,16 @@ Package chemgreek Info: Activating mapping `default' on line 3.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen196
+\scratchcounter=\count328
+\scratchdimen=\dimen258
 \scratchbox=\box72
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\nofMPsegments=\count329
+\nofMParguments=\count330
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen197
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen259
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
 \everyMPtoPDFconversion=\toks33
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -627,6 +665,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -634,7 +673,11 @@ Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2023/texmf-dist/tex/latex/floatrow/fr-subfig.sty
+Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
+\FBsc@max=\skip101
+\FBso@max=\skip102
+) (c:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 3.
@@ -650,27 +693,34 @@ File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
-] [2] 
+]
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 12.
+<jingjie.png, id=98, 119.94812pt x 119.94812pt>
+File: jingjie.png Graphic file (type png)
+<use jingjie.png>
+Package pdftex.def Info: jingjie.png  used on input line 28.
+(pdftex.def)             Requested size: 127.46779pt x 127.47017pt.
+ [2] [3 <./jingjie.png (PNG copy)>] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./预习报告模板.aux)
+(./A2预习报告.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14771 strings out of 474510
- 324080 string characters out of 5756977
- 1934043 words of memory out of 5000000
- 36454 multiletter control sequences out of 15000+600000
- 576497 words of font info for 100 fonts, out of 8000000 for 9000
+ 16450 strings out of 474510
+ 355612 string characters out of 5756977
+ 1959043 words of memory out of 5000000
+ 37948 multiletter control sequences out of 15000+600000
+ 604410 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,11n,86p,1324b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on 预习报告模板.pdf (2 pages, 168688 bytes).
+ 85i,11n,86p,1550b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on A2预习报告.pdf (3 pages, 486597 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 512 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
