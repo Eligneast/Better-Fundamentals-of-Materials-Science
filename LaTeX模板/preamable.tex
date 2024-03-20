@@ -14,17 +14,17 @@
 }
 \newcommand{\fgref}[1]{图~\ref{#1}\xspace}
 \newcommand{\seqref}[1]{式~(\ref{#1})}
-\newcommand{\expinfo}[5]{
+\newcommand{\expinfo}[6][无]{
     {\zihao{-3}\bfseries\songti
-    实验名称：\uline{\hfill\mbox{#1}\hfill} \\[2.9mm]
-    学\quad 号：\uline{\makebox[25mm]{#2}}\hfill
-    姓\quad 名：\uline{\makebox[25mm]{#3}}\hfill
-    班\quad 级：\uline{\makebox[25mm]{#4}} \\[2.9mm]
-    合作者：\uline{\makebox[25mm]{无}} \hfill
+    实验名称：\uline{\hfill\mbox{#2}\hfill} \\[2.9mm]
+    学\quad 号：\uline{\makebox[25mm]{#3}}\hfill
+    姓\quad 名：\uline{\makebox[25mm]{#4}}\hfill
+    班\quad 级：\uline{\makebox[25mm]{#5}} \\[2.9mm]
+    合作者：\uline{\makebox[25mm]{#1}} \hfill
     桌\quad号：\uline{\makebox[25mm]{}}\hfill\makebox[25mm+4em]{}\\[2.9mm]
-    指导教师：\uline{\makebox[30mm]{#5}}\hfill\mbox{} \\[2.9mm]
+    指导教师：\uline{\makebox[30mm]{#6}}\hfill\mbox{} \\[2.9mm]
     实验日期：\uline{\makebox[30mm]{}}\hfill\mbox{} \\[58.7mm]
     }
-}%\expinfo{实验名称}{学号}{姓名}{班级}{指导教师}
+}%\expinfo[合作者]{实验名称}{学号}{姓名}{班级}{指导教师}
 \pagestyle{fancy}
 \fancyhf{} \fancyhead[C]{材料科学基础实验} \fancyfoot[C]{\thepage~/~\pageref{LastPage}}
