@@ -1,14 +1,28 @@
-PWD d:/共享文件/材科基实验报告/王俊杰/2 金相试样的制备
+PWD d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/2 金相试样的制备
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/共享文件/材科基实验报告/王俊杰/2 金相试样的制备/A2预习报告.tex
+INPUT d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/2 金相试样的制备/A2预习报告.tex
 OUTPUT A2预习报告.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT ../preamble.tex
 INPUT ../preamble.tex
 INPUT ../preamble.tex
@@ -98,8 +112,6 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
@@ -127,16 +139,6 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/floatrow/floatrow.sty
@@ -165,8 +167,6 @@ INPUT c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
@@ -374,7 +374,10 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei8f.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei7a.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5b.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei9a.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei89.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei6c.tfm
 INPUT A2预习报告.aux
+INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
