@@ -83,14 +83,15 @@
         报告结果随附，以下是误差分析：\par
         已知温度测量范围为： \qrange{19}{99.99}{\degreeCelsius}，温度测量精度 $\pm 0.05 \unit{\degreeCelsius}$ 。热流计热流测量范围：\linebreak \qrange{0.5}{2000}{\watt}，分辨率 0.25 \unit{\watt} 。游标卡尺的测量精度为 0.02 \unit{\mm} 。假定矩形分布来评估仪器精度引入的不确定度。计算样品热导率测量结果的相对不确定度。假设包含因子 $k=2$，给出扩展不确定度。
         \begin{figure}[!ht]
-            \subfloat[使用 MMA 计算不确定度]{\includegraphics[width=\textwidth]{EP.png}}
+            \subfloat[MMA 计算不确定度的源代码]{\includegraphics[width=\textwidth]{EF.png}}\par
+            \subfloat[使用 MMA 计算不确定度]{\includegraphics[width=\textwidth]{result.png}}
         \end{figure}\par
         最后得到的拓展不确定度为：
         \begin{equation*}
             k = ( 121.44 \pm 0.27 ) \unit{\TTR}
         \end{equation*}
-        其中在“$\pm$”号后的数为扩展不确定度 $U=ku_c$ 的数值, $ U $ 是由 $ u_c= 0.139251 \unit{\ohm\cm}$ 和 $ k = 2 $ 确定的, $k$ 是基于矩形分布得到的，自由度在讲义中未提到。确定区间的包含概率在讲义中未提到。\par
-    \subsection{由Origin处理后绘制的图像}\newpage
+        其中在“$\pm$”号后的数为扩展不确定度 $U=ku_c$ 的数值, $ U $ 是由 $ u_c= 0.139251 \unit{\ohm\cm}$ 和 $ k = 2 $ 确定的, $k$ 是基于矩形分布得到的，自由度在讲义中未提到。确定区间的包含概率在讲义中未提到。\newpage
+    \subsection{由Origin处理后绘制的图像}
         \begin{figure}[!ht]
             \subfloat[有机玻璃]{\includegraphics[width=0.8\textwidth]{fig2.pdf}}\par
             \subfloat[黑橡胶]{\includegraphics[width=0.8\textwidth]{fig3.pdf}}
@@ -132,20 +133,22 @@
                 \item 对于平板状和空心圆筒状样品，热量散失不可忽略
             \end{itemize}
         \item 已知有机玻璃的热导率 $ \lambda = 0.17 ~\unit{\TTR}$ ，比热 $c = 1.31*10^3 ~\unit{\J\per\kg\per\K}$ ；橡胶的热导率 $ \lambda =0.426 ~\unit{\TTR}$ ，比热 $c=1.19*10^3 ~\unit{\J\per\kg\per\K}$ 。根据实测值和参考值估算两种材料的热导率和比热的相对误差，并分析误差的来源\par
-        \begin{table}[!ht]
-            \centering\begin{tabular}{c c c}\hline
-                样品 & 热导率相对误差 & 热容相对误差 \\ \hline
-                \makebox[50mm]{有机玻璃} & $ 55.34\% $ &\makebox[50mm]{$ 36.52\% $} \\
-                黑橡胶 & $ 3.53\% $ & $ 36.51\% $ \\\hline
-            \end{tabular}
-        \end{table}
-        误差来源：
-            \begin{itemize}
-                \item 可能没有拧紧转轮，导致样品对外有散热
-                \item 可能未等到仪器完全散热即开始下一组测试
-                \item 但与其它同学测得的结果较为接近，也有可能是长时间放置导致样品实际热学性能与标准产生偏差
-                \item 在实际操作实验过程中待测样品周围的空气温度并非一直不变，样品室内空气温度升高使得测量值较实际值偏大
-                \item 测试时并非在同一台机器，而是两台机器，仪器的不同也会造成误差
-            \end{itemize}\par
-    \end{enumerate}
+            \begin{table}[!ht]
+                \centering\begin{tabular}{c c c}\hline
+                    样品 & 热导率相对误差 & 热容相对误差 \\ \hline
+                    \makebox[50mm]{有机玻璃} & $ 55.34\% $ &\makebox[50mm]{$ 36.52\% $} \\
+                    黑橡胶 & $ 3.53\% $ & $ 36.51\% $ \\\hline
+                \end{tabular}
+            \end{table}
+            误差来源：
+                \begin{itemize}
+                    \item 可能没有拧紧转轮，导致样品对外有散热
+                    \item 可能未等到仪器完全散热即开始下一组测试
+                    \item 但与其它同学测得的结果较为接近，也有可能是长时间放置导致样品实际热学性能与标准产生偏差
+                    \item 在实际操作实验过程中待测样品周围的空气温度并非一直不变，样品室内空气温度升高使得测量值较实际值偏大
+                    \item 测试时并非在同一台机器，而是两台机器，仪器的不同也会造成误差
+                \end{itemize}\par
+        \item 判定系统达到准稳态导热的依据是什么？\par
+        准稳态是指物质内各个点的温升速率相同且保持不变，样品内两点间温差恒定。也就是 $V_t$ 和 $\Delta V$不变
+        \end{enumerate}
 \end{document}
