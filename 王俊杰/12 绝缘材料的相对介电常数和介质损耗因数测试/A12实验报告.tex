@@ -1,0 +1,79 @@
+\documentclass[a4paper,utf8]{article}
+\usepackage{graphicx}
+\input{../preamble}
+\begin{document}
+\begin{center}
+    {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
+    材料科学基础实验预习报告}\\[34mm]
+    \expinfo{绝缘材料的相对介电常数和介质损耗因数测试}{22301056}{王俊杰}{22 材物}{艾斌}
+\end{center}
+\newpage
+\section{实验目的}
+    \begin{enumerate}
+        \item 了解 Q 表法和变电纳法测量绝缘材料相对介电常数和介质损耗因数的原理
+        \item 学会用 Q 表法和变电纳法测量绝缘材料的相对介电常数和介质损耗因数
+        \item 了解影响测量结果准确性的因素及避免方法
+    \end{enumerate}
+\section{实验原理}%简单描述，含必要的公式和附图；
+    \subsection{基本概念}
+        \begin{enumerate}
+            \item 当电容器的两个极板之间充以绝缘材料时，其电容 $C_x$ 与两个极板之间充以真空时的电容 $C_0$ 之比就定义为该绝缘材料的相对介电常数 $\varepsilon_r$。平行板电容器的电容：$C_x=\frac{\varepsilon_0 \varepsilon_r S}{d}$
+            \item 在交流电路中，由于理想电容的电流始终超前电压 90°相位，所以理想电容在充放电过程中不会消耗能量。作为对比，由绝缘材料作为介质的实际电容器在充放电过程中会消耗能量，其原因是电介质内部的电荷在外加交变电场的作用下被反复极化，电荷的频繁极化运动（取向极化或位移极化）需克服材料内部的摩擦力做功，另一方面，还有一部分能量以漏电电流产生焦耳热的形式消耗。这两种能量消耗都以热能的形式释放并造成电容器温度升高。
+            \item 圆柱状薄片电介质构成的平行板电容器可用一个理想电容和一个电阻的并联来描述它在交流电路中的性能，它们应具有相同的阻抗和介质损耗因数。介质损耗角 $\delta$ 被定义为由电介质材料组成的实际电容器上的电压 U 与电流 I 之间的相位角 $\varphi$ 的余角 $\delta$ ，即 $\delta  = 90\si{\degree} - \varphi$ ，而介质损耗因数 D 被定义为介质损耗角 $\delta$ 的正切值 $D=\tan\delta=\frac{1}{\omega C_{p}R_{p}}$ 。品质因子 Q 则表示储能器件（电容或者电感）在谐振电路中每一个周期所储存的能量与每一个周期因介质损耗损失的能量之比，它在数值上等于 $\dfrac{1}{\tan\delta}$。
+        \end{enumerate}
+        
+    \subsection{测试原理}
+        介质损耗是指电介质材料在外电场作用下因发热而引起的功率损耗。直流电场中电介质的损耗主要是由电导电流造成的电导损耗。此外，交流电场作用中电介质的损耗还有极化损耗。由于电场频繁转向，电介质的极化损耗要比电导损耗大得多，故介质损耗通常是指交流损耗。介质损耗不但会消耗电能，使元件发热影响其正常工作，而且还可能因介质损耗过大造成元件热击穿而失效。因此，介质损耗是应用于交流电场特别是高频电场中的电介质材料的一个重要品质指标，对其进行测试具有重要的意义。\par
+        根据电介质材料应用领域（频率域）的不同，测量电介质材料相对介电常数和介质损耗因数的方法可分为：电桥法（小于\unit{\mega\hertz}），谐振法（在\unit{\mega\hertz}\~{}100\unit{\mega\hertz}），同轴探针法（\unit{\mega\hertz}\~{} \unit{\giga\hertz}），传输线法（\unit{\mega\hertz}\~{}100 \unit{\giga\hertz}），自由空间法（\unit{\giga\hertz}\~{}100 \unit{\giga\hertz}）等。\par
+        本实验利用 WY2851 Q 表、WY915 介质损耗测试装置（测试架）和标准电感组成的实验装置测量电介质材料的相对介电常数和介质损耗因数。该实验装置可提供两种方法（Q 表法和变电纳法）测量材料的相对介电常数和介质损耗因数。
+        \begin{figure}[!ht]\centering
+            \includegraphics[width=80mm]{fg3.jpg}\
+            \caption{整个实验装置的实物照片（左图）和测试架的实物照片（右图）\label{fig:3}}
+        \end{figure}
+        \subsubsection{Q 表法（谐振法）测量绝缘材料相对介电常数和介质损耗因数的原理}
+            Q 表法（谐振法）测量绝缘材料相对介电常数和介质损耗因数的原理：WY2851 Q 表由一个频率可调的信号发生器、可变电容 C 和连接在电容器两端的电压表 V 组成。当接入标准电感 L 时，就形成了 LC 串联振荡电路。当该 RLC 电路谐振时，电路的品质因子 Q 等于谐振时感抗（$\omega L$）或容抗（$\frac{1}{\omega C}$）与电阻（$\frac{1}{G_0}$）之比，进一步推导可知当信号发生器输出的电压 $U_0$ 保持恒定时，电压表上的读数 $U_c$ 可以用谐振回路的品质因子 Q 来标定，这样就能直接从电压表上读出谐振回路的品质因子 Q，这就是 Q 表的工作原理。\par
+            \begin{figure}[!ht]\centering
+                \includegraphics[width=60mm]{fg4.jpg}\
+                \caption{谐振法（Q 表法）测量电介质材料相对介电常数和介质损耗因数的原理简图\label{fig:4}}
+            \end{figure}\par
+        \subsubsection{变电纳法测量绝缘材料相对介电常数和介质损耗因数的原理}
+            WY915 测试架除了配备有平行板电容器之外，还配备了一个电容线性变化率为 \SI{0.33}{\pico\farad/\milli\metre}、长度调节范围为 0 \~{} 25 \unit{\milli\metre}、分辨率为 \SI{0.0033}{\pico\farad} 的圆筒电容器，如 \fgref{fig:3} 所示。该圆筒电容器为我们提供了另外一种测量电介质材料相对介电常数和介质损耗因数的方法（变电纳法）。与谐振法相比，变电纳法通常具有更高的测量精度。
+
+        \begin{figure}[!ht]\centering
+            \includegraphics[width=100mm]{fg5.jpg}\
+            \caption{变电纳法测量绝缘材料相对介电常数和介质损耗因数的电路图（左）和原理图（右）\label{fig:5}}
+        \end{figure}
+
+\section{实验仪器}%规格及参数
+    WY2851 Q 表，WY915 介质损耗因数测试架，\SI{1}{\micro\henry} 标准电感，\SI{100}{\micro\henry} 标准电感，被测样品（印刷电路板、聚四氟乙烯和石英玻璃）。
+
+\section{实验过程}%简述主要过程和实验内容
+    \subsection{利用谐振法（或 Q 表法）测量 \SI{1}{\mega\hertz} 下三种样品（印刷电路板、聚四氟乙烯和石英玻璃）的相对介电常数和介质损耗因数}
+    \begin{enumerate}
+        \item 在 Q 表没有接入标准电感和电容的状态下，检查 Q 表的指针是否指零。如果不为零，应调节 Q 使 Q 表的指针指向零点。
+        \item 检查 Q 表是否正常，具体做法是将频率调至 \SI{1}{\mega\hertz}；将 30-100-300 三个量程按钮全部按下。将 \SI{1}{\micro\henry} 的标准电感接入到 Q 表的电感接线端（即 $L_x$）上；将微调谐电容置于 \SI{0}{\pico\farad} 处，调节主调谐电容使电路谐振，此时 Q 值应该在 190 左右，调谐电容的值在 \SI{249}{\pico\farad} 左右。如果调节主调谐电容，电路确实发生谐振且示数相仿，则说明 Q 表工作正常。
+        \item 检查 WY915 介质损耗测试装置（测试架）上的平行板电容器的螺旋测微器的零点：调节平行板电容器的螺旋测微器，使两极板接触，这时螺旋测微器的读数应该为 \SI{0}{\milli\metre}。如果螺旋测微器的读数不为 \SI{0}{\milli\metre}，读取两极板接触时的刻度值记为 $D_0$。
+        \item 将 WY915 测试架接入 Q 表的电容接线端（即 $C_x$）。调节螺旋测微器手轮松开 WY915 测试架上的平行板电容器两极板，将样品插入两极板，调节测微器手轮直到两极板夹紧样品，读取刻度值记为 $D_1$，则样品厚度为 $d = D_1 - D_0$。把圆筒电容器螺旋测微器置于 \SI{12}{\milli\metre} 处（圆筒电容器螺旋测微器的调节范围为 0—25 \unit{\milli\metre}）。检查 Q 表频率是否为 \SI{1}{\mega\hertz}，如果不是，将 Q 表频率调节到 \SI{1}{\mega\hertz}。调节 Q 表主调谐电容使电路谐振，进一步调节 Q 表微调谐电容使 Q 表指针指到最大，记下此时的 $Q_1$ 值。与此同时，记下主调谐电容和微调谐电容之和，记为 $C_1$。
+        \item 调节螺旋测微器手轮，松开 WY915 测试架上的平行板电容器的两极板，取出样品。重新将两极板间距调到样品厚度处，即平行板电容器螺旋测微器处于刻度 $D_1$ 处。圆筒电容器螺旋测微器处于 \SI{12}{\milli\metre} 处不变。Q 表频率处于 \SI{1}{\mega\hertz} 不变。调节 Q 表主调谐电容使电路再次谐振，进一步调节 Q 表微调谐电容使 Q 表指针指到最大，记下此时的 $Q_2$ 值。与此同时，记下主调谐电容和微调谐电容之和，记为 $C_2$。根据以上实验记录数据、\seqref{eq18}、\seqref{eq19} 和\seqref{eq22} 计算材料的相对介电常数和介质损耗因数。需要说明的是，WY915 测试架上的平行板电容器的极板半径为 \SI{1.9}{\centi\metre}。
+    \end{enumerate}
+    \begin{align}
+        \varepsilon_r&=\frac{c_x}{c_p}=\frac{(C_2-C_1)+C_p}{c_p}\label{eq18}\\
+        C_p&=\frac{100\varepsilon_aS}{3.6\pi d}\:\unit{\pico\farad}=\frac{100\times1.00053\times\pi r^2\times10^{-4}}{3.6\pi d\times10^{-2}}\:\unit{\pico\farad}\approx\frac{r^2}{3.6d}\:\unit{\pico\farad}\label{eq19}\\
+        \mathrm{tan}\delta_{x}&=\frac{G_{x}}{\omega C_{x}}=\frac{C_{p}+C_{2}}{C_{x}}\biggl(\frac{1}{Q_{1}}-\frac{1}{Q_{2}}\biggr)=\frac{C_{p}+C_{2}}{C_{p}+C_{2}-C_{1}}\biggl(\frac{1}{Q_{1}}-\frac{1}{Q_{2}}\biggr)\label{eq22}
+    \end{align}
+    \subsection{利用谐振法（或 Q 表法）测量 \SI{10}{\mega\hertz} 下三种样品的相对介电常数和介质损耗因数}
+        与测试频率为 \SI{1}{\mega\hertz} 时选用 \SI{100}{\micro\henry} 的标准电感不同，测试频率为 \SI{10}{\mega\hertz} 时应选用 \SI{1}{\micro\henry} 的标准电感。除此以外，\SI{10}{\mega\hertz} 下相对介电常数和介质损耗因数的测试方法和步骤与 \SI{1}{\mega\hertz}下的类似。
+    \subsection{利用变电纳法测量 \SI{1}{\mega\hertz} 下三种样品的相对介电常数和介质损耗因数}
+        \begin{enumerate}
+            \item 调节 Q 表的频率至 \SI{1}{\mega\hertz}，将 \SI{100}{\micro\henry} 的标准电感接到 Q 表的电感接线端。将 WY915 测试架接入 Q 表的电容接线端。
+            \item 调节 WY915 测试架上的平行板电容器螺旋测微器的调节手轮，使两极板接触，读取刻度值，记为 $D_0$，这时测微杆应处于 \SI{0}{\milli\metre} 附近。松开两极板，把被测样品插入两极板。调节测微器直到两极板夹紧样品，读取刻度值记为 $D_1$，这时样品厚度为 $D_2 = D_1 - D_0$。把圆筒电容器螺旋测微器置于 \SI{12}{\milli\metre} 处，调节 Q 表主调谐电容和微调谐电容使电路谐振，读取 $Q_s$ 值（对应的电压为 $U_{rs}$）。调节圆筒电容器将电路调离谐振点，使电压值降到 $\dfrac{U_{rs}}{\sqrt{2}}$，而对应于同一个电压值（$\dfrac{U_{rs}}{\sqrt{2}}$）有两个电容值，且位于最大谐振点 $Q_s$ 对应的电容值 $C_r$ 的两边，取这两个电容的差值 $\varDelta C_s$ 。再次将圆筒电容器螺旋测微器调回到 \SI{12}{\milli\metre} 处，此时电路再次谐振。取出平行板电容器中的样品，此时电路再次偏离谐振。调节平行板电容器的极板间距，使电路再次谐振，读取谐振电压 $U_{ra}$ 和螺旋测微器的刻度 $D_3$，并计算使电路发生谐振的空气隙的厚度 $D_4=D_3-D_0$。再次调节圆筒电容器螺旋测微器使电路偏离谐振，用类似的方法确定出与以空气为介质的平行板电容器相对应的 $\dfrac{U_{ra}}{\sqrt{2}}$ 和 $\varDelta C_a$。假定圆筒电容器螺旋测微器两次刻度的差值为 $M_2$。$M_2$ 总比 $M_1$ 小。根据以上测量结果、\seqref{eq23} 和\seqref{eq24} 计算材料的相对介电常数和介质损耗因数。
+        \end{enumerate}
+        \begin{align}
+            \varepsilon_r&=\frac{D_2}{D_4}\label{eq23}\\
+            \tan\delta&=\frac{\Delta C_{s}-\Delta C_{a}}{2C_{x}}=\frac{D_{4}(\Delta C_{s}-\Delta C_{a})}{2D_{2}C_{p}}=\frac{D_{4}K(M_{1}-M_{2})}{2D_{2}C_{p}}\label{eq24}
+        \end{align}
+    \pagebreak
+\section{实验数据与分析}
+\subsection{实验数据}
+\input{../uncertainty.tex}
+\end{document}

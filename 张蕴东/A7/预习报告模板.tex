@@ -4,12 +4,48 @@
 \begin{center}
     {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
     材料科学基础实验报告}\\[34mm]
-    \expinfo{铁碳合金的显微组织观察及性能分析}{22301056}{王俊杰}{22材物}{杨玉华}
-\end{center}
-\newpage
+    \expinfo{超声波无损探伤实验}{22301077}{张蕴东}{22高分子}{李继玲}
+    {\zihao{4}\bfseries\songti
+    实验考核\\[3mm]
+    \extrarowheight=3mm
+    \begin{tabularx}{150mm}{|X|X|X|X|X|}\hline
+        \hfil 项目 \hfil  & \hfil 实验预习 \hfil & \hfil 实验过程 \hfil & \hfil 分析与讨论 \hfil & \hfil 总评 \hfil \\[3mm] \hline
+        \hfil 评价 \hfil &  &  &  &  \\[3mm] \hline
+    \end{tabularx}
+    }
+\end{center}\newpage
 \section{实验目的}
+    \begin{itemize}
+        \item 学习超声波的产生原理及特点，了解超声波探伤仪的工作原理及使用方法 
+        \item 学习超声探头指向性原理及其实际应用
+        \item 认识超声换能器及超声波探头的不同种类
+        \item 了解超声波的传播、波型和波型转换原理及超声波声速的测量方法
+    \end{itemize}
 \section{实验原理}%简单描述，含必要的公式和附图；
+    超声波是频率高于 20kHz 的机械波，具有穿透力强、传播方向性好等特点，实验所用探头通过压电晶片的逆压电效应，将电能转为机械能以产生脉冲超声波。超声波探头结构复杂，包括压电晶片、保护膜、匹配电感等部分，根据不同结构和应用情况可分为直探头、斜探头和可变角探头。超声波的指向性是指探头发射的声束扩散角大小，与波长、频率及探头内压电晶片尺寸有关。声束扩散角越小，指向性越好，测量精度越高。指向性大小可用公式表示：
+    \begin{equation}
+        \theta=2\sin^{-1}\left(1.22\frac\lambda D\right)
+    \end{equation}\par
+    超声波根据波形可分为超声纵波、超声横波和超声表面波三种，在介质界面发生反射、折射和波形转换时需满足斯特令定律：
+    \begin{equation}
+        \begin{aligned}
+            \text{反射：}\frac{\sin\alpha}C&=\frac{\sin\alpha_L}{C_{1L}}=\frac{\sin\alpha_S}{C_{1S}}\\
+            \text{折射：}\frac{\sin\alpha}C&=\frac{\sin\beta_L}{C_{2L}}=\frac{\sin\beta_S}{C_{2S}}
+        \end{aligned}
+    \end{equation}\par
+    测量超声波声速可采用直接或相对测量法。直接测量法利用超声波探头内部延迟时间和探头测量的人工反射体回波时间计算声速；相对测量法则通过测量两次反射回波的时间差来计算声速。
 \section{实验仪器}%规格及参数
+    JDUT-2 型超声波试验仪、DS1102E 双通示波器（100MHz）、直探头、斜探头、CSK-IB 试块、耦合剂(水)等。
 \section{实验过程}%简述主要过程和实验内容
+    \begin{enumerate}
+        \item 组装实验仪器；
+        \item 利用直探头测量脉冲超声纵波频率和波长
+        \item 测量直探头延迟和间接测量法测量试块纵波声速
+        \item 测量斜探头延迟、入射点和间接测量法测试块横波声速
+        \item 测量斜探头的折射角
+        \item 测量直探头和斜探头的声束扩散角
+        \item 使用直探头探测缺陷深度
+        \item 使用斜探头探测待测试块内部缺陷位置
+    \end{enumerate}
 \section{实验数据}
 \end{document}

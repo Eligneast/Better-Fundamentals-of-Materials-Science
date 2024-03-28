@@ -2,8 +2,8 @@ PWD d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探针法测量半导体电阻率和薄层电阻/预习报告青春版.tex
-OUTPUT 预习报告青春版.log
+INPUT d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探针法测量半导体电阻率和薄层电阻/A11预习报告.tex
+OUTPUT A11预习报告.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
@@ -171,10 +171,10 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 INPUT c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-INPUT ./预习报告青春版.aux
-INPUT ./预习报告青春版.aux
-INPUT 预习报告青春版.aux
-OUTPUT 预习报告青春版.aux
+INPUT ./A11预习报告.aux
+INPUT ./A11预习报告.aux
+INPUT A11预习报告.aux
+OUTPUT A11预习报告.aux
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -203,7 +203,7 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhsong.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhsong.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhsong.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong67.tfm
-OUTPUT 预习报告青春版.pdf
+OUTPUT A11预习报告.pdf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong65.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong79.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5b.tfm
@@ -405,7 +405,7 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei88.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5e.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei4e.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong77.tfm
-INPUT 预习报告青春版.aux
+INPUT A11预习报告.aux
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
