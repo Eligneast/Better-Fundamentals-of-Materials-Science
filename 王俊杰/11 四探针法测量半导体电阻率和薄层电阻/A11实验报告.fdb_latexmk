@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1711648517 "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探针法测量半导体电阻率和薄层电阻/A11实验报告.tex" "A11实验报告.pdf" "A11实验报告" 1711648519 0
+["pdflatex"] 1711650303 "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探针法测量半导体电阻率和薄层电阻/A11实验报告.tex" "A11实验报告.pdf" "A11实验报告" 1711650305 0
   "../preamble.tex" 1711639900 1982 0375001f21cf9ecac3fc352362567775 ""
   "../uncertainty.tex" 1711638973 3711 d6e3098455d7f5a0d560a862f8eb83f2 ""
-  "A11实验报告.aux" 1711648518 5831 4e3679638c33d527828e804958461745 "pdflatex"
-  "A11实验报告.tex" 1711648517 19574 4c28d88a4b5d044c91f122bb650b66b7 ""
+  "A11实验报告.aux" 1711650304 5831 4e3679638c33d527828e804958461745 "pdflatex"
+  "A11实验报告.tex" 1711650303 19929 088d051dcfe755acf4286fe10c94b998 ""
   "c:/Windows/Fonts/msyh.ttc" 1697871940 19701556 07c864a5b15e68fa47639738197fae38 ""
   "c:/Windows/Fonts/simhei.ttf" 1651842600 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simsun.ttc" 1697871940 18008680 490583a172d4371a68d1e0526a6bca81 ""
@@ -13,6 +13,7 @@
   "c:/texlive/2023/texmf-dist/fonts/sfd/ttf2pk/Unicode.sfd" 1697969977 103212 c249c63d38b8b55408aee52d643b0c18 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1697969169 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1697968898 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1697968898 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1697968898 996 a18840b13b499c08ac2de96a99eda4bc ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1697968898 916 f87d7c45f9c908e672703b83b72241a3 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1697968898 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -24,7 +25,9 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1697969055 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1697969055 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1697969055 1528 abec98dbc43e172678c11b3b9031252a ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1697969055 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1697969055 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm" 1697969055 1528 e2423ae06dc7dee599cceb79d1c9dc32 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1697969055 1524 d89e2d087a9828407a196f428428ef4a ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1697969055 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1697969055 1288 655e228510b4c2a1abe905c368440826 ""
@@ -34,6 +37,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1697969055 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1697969055 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1697969055 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm" 1697969055 1120 2b3f9b25605010c69bc328bea6ac000f ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1697969055 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1697969420 520 4889cce2180234b97cad636b6039c722 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei4e.tfm" 1697970091 1172 2d5e87dd6ec409d864e1fe1662d00646 ""
@@ -274,7 +278,7 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698038967 4750288 3c81ae0e61ea5051a9e1e981a6246c40 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698041272 8195721 2e9c14566af4dc155e11f19ccb38eda6 ""
   "c:/texlive/2023/texmf.cnf" 1697970098 713 e69b156964470283e0530f5060668171 ""
-  "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探针法测量半导体电阻率和薄层电阻/A11实验报告.tex" 1711648517 19574 4c28d88a4b5d044c91f122bb650b66b7 ""
+  "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/11 四探针法测量半导体电阻率和薄层电阻/A11实验报告.tex" 1711650303 19929 088d051dcfe755acf4286fe10c94b998 ""
   "img/1.jpg" 1711039327 17190 c4041c556d29159436f385c78f2632cd ""
   (generated)
   "A11实验报告.aux"

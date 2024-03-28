@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1711648922 "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/12 绝缘材料的相对介电常数和介质损耗因数测试/A12实验报告.tex" "A12实验报告.pdf" "A12实验报告" 1711648923 0
+["pdflatex"] 1711650345 "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/12 绝缘材料的相对介电常数和介质损耗因数测试/A12实验报告.tex" "A12实验报告.pdf" "A12实验报告" 1711650347 0
   "../preamble.tex" 1711639900 1982 0375001f21cf9ecac3fc352362567775 ""
   "../uncertainty.tex" 1711638973 3711 d6e3098455d7f5a0d560a862f8eb83f2 ""
-  "A12实验报告.aux" 1711648923 3841 5b3895b8a48c7468f97fec2639f5a305 "pdflatex"
-  "A12实验报告.tex" 1711648920 12844 2f411f857be1fdc5cbe9189f1e6d81a6 ""
+  "A12实验报告.aux" 1711650346 3841 5b3895b8a48c7468f97fec2639f5a305 "pdflatex"
+  "A12实验报告.tex" 1711650345 13199 41683156bd51f43b2648b40438bb7908 ""
   "c:/Windows/Fonts/msyh.ttc" 1697871940 19701556 07c864a5b15e68fa47639738197fae38 ""
   "c:/Windows/Fonts/simhei.ttf" 1651842600 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simsun.ttc" 1697871940 18008680 490583a172d4371a68d1e0526a6bca81 ""
@@ -26,6 +26,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1697969055 1528 abec98dbc43e172678c11b3b9031252a ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1697969055 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1697969055 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm" 1697969055 1528 e2423ae06dc7dee599cceb79d1c9dc32 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1697969055 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1697969055 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1697969055 1288 655e228510b4c2a1abe905c368440826 ""
@@ -35,6 +36,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1697969055 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1697969055 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1697969055 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm" 1697969055 1120 2b3f9b25605010c69bc328bea6ac000f ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1697969055 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1697969420 520 4889cce2180234b97cad636b6039c722 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei30.tfm" 1697970091 1172 18ad1097cc3f3c36c758d33bf2dd19bd ""
@@ -261,7 +263,7 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698038967 4750288 3c81ae0e61ea5051a9e1e981a6246c40 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698041272 8195721 2e9c14566af4dc155e11f19ccb38eda6 ""
   "c:/texlive/2023/texmf.cnf" 1697970098 713 e69b156964470283e0530f5060668171 ""
-  "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/12 绝缘材料的相对介电常数和介质损耗因数测试/A12实验报告.tex" 1711648920 12844 2f411f857be1fdc5cbe9189f1e6d81a6 ""
+  "d:/共享文件/Better-Fundamentals-of-Materials-Science/王俊杰/12 绝缘材料的相对介电常数和介质损耗因数测试/A12实验报告.tex" 1711650345 13199 41683156bd51f43b2648b40438bb7908 ""
   "fg3.jpg" 1711039327 92691 cc9ff865d13cc2f093d2c4456eebbafd ""
   "fg4.jpg" 1711039327 32898 e9cb1a229056ade15216ab801f709958 ""
   "fg5.jpg" 1711039327 55620 93a5eee0d452bb4497b1150416da5b5a ""
