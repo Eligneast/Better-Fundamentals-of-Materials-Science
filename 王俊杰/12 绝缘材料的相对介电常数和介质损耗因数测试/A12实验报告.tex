@@ -80,8 +80,84 @@
             \varepsilon_r&=\frac{D_2}{D_4}\label{eq23}\\
             \tan\delta&=\frac{\Delta C_{s}-\Delta C_{a}}{2C_{x}}=\frac{D_{4}(\Delta C_{s}-\Delta C_{a})}{2D_{2}C_{p}}=\frac{D_{4}K(M_{1}-M_{2})}{2D_{2}C_{p}}\label{eq24}
         \end{align}
-    \pagebreak
 \section{实验数据与分析}
-\subsection{实验数据}
+\subsection{谐振法}
+谐振法测得的实验数据如表 \ref{table:xiezhen} 所示。
+\begin{table}[!ht]
+    \caption{谐振法实验数据} \label{table:xiezhen}
+    \begin{tabular}{c*{6}{r}} \toprule
+        频率 & \multicolumn{3}{c}{\SI{1}{\MHz}} & \multicolumn{3}{c}{\SI{10}{\MHz}} \\
+        样品名称 & 印刷电路板 & 聚四氟乙烯 & 石英玻璃 & 印刷电路板 & 聚四氟乙烯 & 石英玻璃 \\ \midrule
+        $Q_1$ & 91 & 191 & 182 & 139 & 220 & 220 \\
+        $C_1$/\unit{\pF} & 194.9 & 210.0 & 209.8 & 224.6 & 233.2 & 235.0 \\
+        $Q_2$ & 194 & 192 & 190 & 211 & 221 & 222 \\
+        $C_2$/\unit{\pF} & 224.5 & 220 & 224.8 & 246.2 & 242 & 246.8 \\
+        $d$/\unit{\cm} & 0.1599 & 0.0991 & 0.1900 & 0.1599 & 0.0940 & 0.1890 \\
+        $r^2$/\unit{\cm^2} & 3.61 & 3.61 & 3.61 & 3.61 & 3.61 & 3.61 \\
+        $C_p$/\unit{\pF} & 6.27 & 10.12 & 5.28 & 6.27 & 10.67 & 5.31 \\
+        相对介电常数 & 5.72 & 1.98 & 3.84 & 4.44 & 1.82 & 3.22 \\
+        介质损耗因数 & 0.037534 & 0.000311 & 0.002624 & 0.022237 & 0.000266 & 0.000603 \\ \bottomrule
+    \end{tabular}
+\end{table}
+\subsection{变电纳法}
+变电纳法测得的实验数据如表 \ref{table:biandian} 所示。
+\begin{table}[!ht]
+    \caption{变电纳法实验数据} \label{table:biandian}
+    \begin{tabular}{c*{3}{r}} \toprule
+        频率 & \multicolumn{3}{c}{\SI{1}{\MHz}} \\
+        样品名称 & 印刷电路板 & 聚四氟乙烯 & 石英玻璃 \\ \midrule
+        $D_0$/\unit{\mm} & -0.010 & -0.010 & -0.010 \\
+        $D_1$/\unit{\mm} & 1.628 & 0.942 & 1.898 \\
+        $D_2$/\unit{\mm} & 1.638 & 0.952 & 1.908 \\
+        $D_3$/\unit{\mm} & 0.289 & 0.501 & 0.753 \\
+        $D_4$/\unit{\mm} & 0.299 & 0.511 & 0.763 \\
+        $M_1$/\unit{\mm} & 11.851 & 8.324 & 8.799 \\
+        $M_2$/\unit{\mm} & 7.743 & 7.821 & 8.320 \\
+        $C_p$/\unit{\pF} & 6.122 & 10.53 & 5.256 \\
+        相对介电常数 & 5.478 & 1.863 & 2.501 \\ 
+        介质损耗因数 & 0.00202 & 0.00042 & 0.00060 \\ \bottomrule
+    \end{tabular}
+\end{table}
 \input{../uncertainty.tex}
+\subsection{变电纳法的不确定度分析}
+由于 Q 表度数不精确，对谐振法作不确定度分析意义不大，故只对变电纳法作不确定度分析。下面以印刷电路板为例。
+\subsubsection{有贡献的不确定度}
+\begin{align}
+    u_c^2(\varepsilon_r)&=c_{D2}^2 u^2(D_2)+ c_{D4}^2u^2(D_4) \\
+    u^2(D_2)&=u^2(D_1)+u^2(D_0)\\
+    u^2(D_4)&=u^2(D_3)+u^2(D_0)
+\end{align}
+计算仪器精度引入的不确定度，可以得到表 \ref{table:bUncertainty}
+    \begin{table}[!ht]
+        \caption{仪器精度引入的不确定度}\label{table:bUncertainty}
+        \centering\begin{tabular}{ccc}\toprule
+            直接测量量 & 精度 & B 类不确定度 \\ \midrule
+            \makebox[50mm]{螺旋测微器} & $\pm 0.01 \unit{\milli\meter}$ &\makebox[50mm]{0.0057735} \\
+            可调电容 & $\pm 0.2 \unit{\pF}$ & 0.11547 \\ \bottomrule
+        \end{tabular}
+    \end{table}\par
+利用\seqref{exp:uncertaintyPropagation} 代入数据可得
+\begin{align}
+    u_c(\varepsilon_r)&=0.052\\
+    u_c(\tan \delta)&=0.00021
+\end{align}
+\subsubsection{最终结果}
+根据以上讨论，最终结果可表示为
+\begin{align}
+    \varepsilon_r&=5.478(52)\\
+    \tan \delta&=2.02(21)\times 10^{-3}
+\end{align}
+\section{结果分析与讨论}
+    对比谐振法中不同频率下相对介电常数与介质损耗因数变化，可以粗略得出相对介电常数与介质损耗因数都会随着频率改变的结论。本次实验测得的介质损耗因数变化与理论存在一定出入，值得进一步研究和实验来判定究竟是实验操作误差还是理论有误。\par
+    从实验数据还可以看出，谐振法与变电纳法得到的结果有一定偏差。这跟 Q 表示数不稳定，实验时间跨度大有关。
+\section{思考题} 
+    \subsection{介质损耗的根源是什么？}
+        介质损耗是指电介质材料在外电场作用下因发热而引起的功率损耗。直流电场中电介质的损耗主要是由电导电流造成的电导损耗。此外，交流电场作用中电介质的损耗还有极化损耗。由于电场频繁转向，电介质的极化损耗要比电导损耗大得多，故介质损耗通常是指交流损耗。
+    \subsection{影响测量结果准确性的因素有哪些？应如何做才能保证测试结果的精度？}
+        \begin{enumerate}
+            \item 样品表面的杂志，由于样品的重复使用，样品上的灰尘和油污也会影响测试结果。测试前可以先清洁样品。
+            \item 测试前 Q 表是否调零了。
+            \item 平行板电容器极板与样品的接触情况是影响测试结果精度的关键。为了减小空气隙的干扰，在用极板夹持样品时，应旋转样品，使平行板电容器螺旋测微器上的示数取最小值。此外，要使样品表面尽可能平整，以使样品与极板无缝接触。
+            \item 环境温度和湿度对相对介电常数和介质损耗因数测试结果有较大的影响。尽量选用相同的环境测试。
+        \end{enumerate}
 \end{document}
