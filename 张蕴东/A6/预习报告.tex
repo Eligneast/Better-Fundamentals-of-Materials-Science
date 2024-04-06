@@ -1,11 +1,19 @@
 \documentclass[a4paper,utf8]{article}
+\pdfoptionpdfminorversion=6
 \input{../preamble.tex} %导入导言
 \begin{document}
 \begin{center}
     {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
-    材料科学基础实验预习报告}\\[34mm]
-    \expinfo{金属材料机械性能测量:拉伸和压缩
-    }{22301077}{张蕴东}{22高分子}{李继玲}
+    材料科学基础实验报告}\\[34mm]
+    \expinfo{金属材料机械性能测量:拉伸和压缩}{22301077}{张蕴东}{22高分子}{李继玲}
+    {\zihao{4}\bfseries\songti
+    实验考核\\[3mm]
+    \extrarowheight=3mm
+    \begin{tabularx}{150mm}{|X|X|X|X|X|}\hline
+        \hfil 项目 \hfil  & \hfil 实验预习 \hfil & \hfil 实验过程 \hfil & \hfil 分析与讨论 \hfil & \hfil 总评 \hfil \\[3mm] \hline
+        \hfil 评价 \hfil &  &  &  &  \\[3mm] \hline
+    \end{tabularx}
+    }
 \end{center}
 \newpage
 \part{拉伸实验}
@@ -29,7 +37,7 @@
 \subsubsection{铸铁的应力-应变曲线}
 铸铁是典型的脆性材料，铸铁的拉伸变形无屈服现象和缩颈现象，进行非常小的塑性变形后在较小的应力作用下就可被拉断，且突然断裂。拉断后铸铁的延伸率通常很小，约为 0.5\%。\fgref{fig:2} 为铸铁典型的应力-应变曲线，由图可见，铸铁的应力-应变曲线没有明显的直线部分。铸铁拉断前承受的最大应力值为其被拉伸的强度极限，定义为铸铁的抗拉强度。
 \subsection{相关概念基本定义及计算公式}
-\noindent 弹性模量：在应力-应变曲线上，应力低于弹性极限的范围内，应力与应变的比值，表达式为：\linebreak $E =\displaystyle \frac{\sigma}{\varepsilon}$，$\sigma$ 为应力，$\varepsilon$ 为应变。\\
+\noindent 弹性模量：在应力-应变曲线上，应力低于弹性极限的范围内，应力与应变的比值，表达式为：\linebreak $E =\displaystyle \frac{\sigma}{\varepsilon}$ ，$\sigma$ 为应力，$\varepsilon$ 为应变。\\
 上屈服强度 $R_{eH}$：试样发生屈服时应力下降时达到的最大值。\\
 下屈服强度 $R_{eL}$：试样屈服期间屈服平台上不计初始屈服瞬时效应的最低应力点。\\
 抗拉强度 $R_m$：试样缩颈前所达到的最大应力值。\\
@@ -58,44 +66,125 @@
 \part{压缩实验}
 \setcounter{section}{0}
 \section{实验目的}
-\begin{itemize}
-    \item 测定低碳钢在压缩时的名义屈服强度 $R_\text{pc0.2}$；
-    \item 测定铸铁在压缩时的强度极限 $R_m$；
-    \item 观察上述材料在压缩时的变形及破坏形式，并分析其破坏原因；
-    \item 比较塑性材料与脆性材料的力学性能及特点。
-\end{itemize}
+    \begin{itemize}
+        \item 测定低碳钢在压缩时的名义屈服强度 $R_\text{pc0.2}$；
+        \item 测定铸铁在压缩时的强度极限 $R_m$；
+        \item 观察上述材料在压缩时的变形及破坏形式，并分析其破坏原因；
+        \item 比较塑性材料与脆性材料的力学性能及特点。
+    \end{itemize}
 \section{实验原理}%简单描述，含必要的公式和附图；
-\subsection{低碳钢}
-低碳钢为塑性材料，其压缩曲线（$F$-$\Delta L$ 曲线）如\fgref{fig:4} 所示，开始加载时，力-变形曲线呈直线上升，此时材料服从胡克定律。当载荷达到一定值以后，随载荷增加变形加快，不再为线性关系，但试样无明显屈服现象。随载荷进一步增大，曲线逐渐向上弯曲。这是因为随着塑性变形的迅速增长，试样横截面积逐渐增大，增加了承载能力，同时纵向变形速度下降，从而导致力-变形关系曲线上翘。
-\begin{figure}[!ht]
-    \subfloat[\mbox{}]{\includegraphics[height=35mm]{4.jpg}\label{fig:4}}\hspace{10mm}
-    \subfloat[\mbox{}]{\includegraphics[height=35mm]{5.jpg}}
-    \caption{低碳钢压缩图}
-\end{figure}
-\subsection{铸铁}
-铸铁为脆性材料，其压缩曲线在开始时接近直线。随载荷增加曲率逐渐增大，最后至破坏，破坏后试件的断面法线方向与轴线夹角 $\alpha$ 大约为 $45^\circ$-$55^\circ$。\par
-如\fgref{fig:5} 所示，铸铁没有屈服极限，只有在最大载荷 $F_m$ 下测出的强度极限 $R_m$。铸铁的抗压强度极限比它的抗拉强度极限高 $3\sim4$ 倍。其它脆性材料，如混凝土、石料等的抗压强度也远高于相应材料的抗拉强度。
-\begin{figure}[!ht]
-    \subfloat{\includegraphics[height=35mm]{4.jpg}}\hspace{10mm}
-    \subfloat{\includegraphics[height=35mm]{5.jpg}}
-    \caption{铸铁压缩图\label{fig:5}}
-\end{figure}
+    \subsection{低碳钢}
+        低碳钢为塑性材料，其压缩曲线（$F$-$\Delta L$ 曲线）如\fgref{fig:4} 所示，开始加载时，力-变形曲线呈直线上升，此时材料服从胡克定律。当载荷达到一定值以后，随载荷增加变形加快，不再为线性关系，但试样无明显屈服现象。随载荷进一步增大，曲线逐渐向上弯曲。这是因为随着塑性变形的迅速增长，试样横截面积逐渐增大，增加了承载能力，同时纵向变形速度下降，从而导致力-变形关系曲线上翘。
+        \begin{figure}[!ht]
+            \subfloat[\mbox{}]{\includegraphics[height=35mm]{4.jpg}\label{fig:4}}\hspace{10mm}
+            \subfloat[\mbox{}]{\includegraphics[height=35mm]{5.jpg}}
+            \caption{低碳钢压缩图}
+        \end{figure}
+        \subsection{铸铁}
+            铸铁为脆性材料，其压缩曲线在开始时接近直线。随载荷增加曲率逐渐增大，最后至破坏，破坏后试件的断面法线方向与轴线夹角 $\alpha$ 大约为 $45^\circ$-$55^\circ$。\par
+            如\fgref{fig:5a} 所示，铸铁没有屈服极限，只有在最大载荷 $F_m$ 下测出的强度极限 $R_m$。铸铁的抗压强度极限比它的抗拉强度极限高 $3\sim4$ 倍。其它脆性材料，如混凝土、石料等的抗压强度也远高于相应材料的抗拉强度。
+            \begin{figure}[!ht]
+                \subfloat{\includegraphics[height=35mm]{4.jpg}}\hspace{10mm}
+                \subfloat{\includegraphics[height=35mm]{5.jpg}}
+                \caption{铸铁压缩图}\label{fig:5a}
+            \end{figure}
 \section{实验仪器}%规格及参数
-\begin{enumerate}
-    \item 实验所采用的设备及工具与拉伸实验相同。
-    \item 压缩模具。
-    \begin{figure}[!ht]
-        \caption{压缩模具}
-        \includegraphics[height=40mm]{3.jpg}
-    \end{figure}
-\end{enumerate}
+    \begin{enumerate}
+        \item 实验所采用的设备及工具与拉伸实验相同。
+        \item 压缩模具。
+        \begin{figure}[!ht]
+            \caption{压缩模具}
+            \includegraphics[height=40mm]{3.jpg}
+        \end{figure}
+    \end{enumerate}
 \section{实验过程}%简述主要过程和实验内容
-\begin{enumerate}
-    \item 用游标卡尺在互相垂直方向，两次测量金属材料试件的直径，取其平均值为 $d_0$（用于计算试件原始截面面积 $S_0$），同时测量试件高度 $h$（测一次即可）。
-    \item 打开设备
-    \item 设置试验方案
-    \item 装夹试样
-    \item 开始测试
-    \item 实验结束，将横梁上升，取出被测试样；点击“预览”生成测试结果报告并保存；
-\end{enumerate}
+    \begin{enumerate}
+        \item 用游标卡尺在互相垂直方向，两次测量金属材料试件的直径，取其平均值为 $d_0$（用于计算试件原始截面面积 $S_0$），同时测量试件高度 $h$（测一次即可）。
+        \item 打开设备
+        \item 设置试验方案
+        \item 装夹试样
+        \item 开始测试
+        \item 实验结束，将横梁上升，取出被测试样；点击“预览”生成测试结果报告并保存；
+    \end{enumerate}
+\section{实验结果}
+    \subsection{低碳钢}
+        根据设备采集到的数据，绘制以下曲线：\newpage
+        \begin{figure}[!ht]
+            \includegraphics[width=0.8\textwidth]{result/fig1a.pdf}
+            \caption{低碳钢拉伸图}
+        \end{figure}
+        \par
+        \begin{figure}[!ht]
+            \includegraphics[width=0.8\textwidth]{result/fig1b.pdf}
+            \caption{低碳钢压缩图}
+        \end{figure}
+        实验前后低碳钢的参数变化如下表：\newpage
+        \begin{table}[!ht]
+            \centering\begin{tabular}{c c c}\hline
+                 \ & 直径 $\bar{d}$ & 标距 $\bar{L}$ \\ \hline
+                拉伸前 & \SI{4.98}{\mm} & \SI{50.00}{\mm} \\ 
+                拉伸后 & \SI{2.83}{\mm} & \SI{61.10}{\mm} \\ \hline
+                \ & 直径 $\bar{d}$ & 高度 $\bar{h}$ \\ \hline
+                压缩前 & \SI{4.00}{\mm} & \SI{8.00}{\mm} \\ 
+                压缩后 & \SI{4.66}{\mm} & \SI{5.68}{\mm} \\ \hline
+                拟合直线方程 & $y=13029.12 x - 2150.65$ & $R^2=0.99987$ \\
+            \end{tabular}
+        \end{table}\par
+        由此可以计算出低碳钢的一些力学参数：
+        \begin{align*}
+            \text{断后延伸率：} A_1 & = \frac{L_1-L_0}{L_0} (\%) = 22.20 \% \\
+            \text{断后收缩率：} Z_1 & = \frac{\Delta d^2}{{d_0}^2} (\%) = 67.71 \% \\
+            \text{上屈服强度：} R_{eH1} & = \frac{F_{eH1}}{S_0} = \SI{359.668}{\MPa}\\
+            \text{下屈服强度：} R_{eL1} & = \frac{F_{eL1}}{S_0} = \SI{331.587}{\MPa}\\
+            \text{抗拉强度：} \sigma_1 & = \frac{F_1}{S_0} = \SI{465.385}{\MPa} \\
+            \text{抗压强度：} {\sigma^{'}}_1 & = \frac{F_1}{S_0} = \SI{224.151}{\MPa}\\
+        \end{align*}
+
+    \subsection{铸铁}
+    实验前后铸铁的参数变化如下表：\par
+        \begin{table}[!ht]
+            \centering\begin{tabular}{c c c}\hline
+                \ & 直径 $\bar{d}$ & 标距 $\bar{L}$ \\ \hline
+                拉伸前 & \SI{4.91}{\mm} & \SI{49.30}{\mm} \\ 
+                拉伸后 & \SI{4.81}{\mm} & \SI{49.40}{\mm} \\ \hline
+                \ & 直径 $\bar{d}$ & 高度 $\bar{h}$ \\ \hline
+                压缩前 & \SI{3.75}{\mm} & \SI{7.86}{\mm} \\ 
+                压缩后 & \SI{4.10}{\mm} & \SI{6.78}{\mm} \\ \hline
+            \end{tabular}
+        \end{table}\par
+        根据设备采集到的数据，绘制以下曲线：\newpage
+        \begin{figure}[!ht]
+            \includegraphics[width=0.8\textwidth]{result/fig2a.pdf}
+            \caption{铸铁拉伸图}
+        \end{figure}
+        \begin{figure}[!ht]
+            \includegraphics[width=0.8\textwidth]{result/fig2b.pdf}
+            \caption{铸铁压缩图}
+        \end{figure}
+        
+        由此可以计算出铸铁的一些力学参数：
+        \newpage
+        \begin{align*}
+            \text{断后延伸率：} A_2 & = \frac{L_1-L_0}{L_0} (\%) = 0.20 \% \\
+            \text{断后收缩率：} Z_2 & = \frac{\Delta d^2}{{d_0}^2} (\%) = 4.03 \% \\
+            \text{抗拉强度：} \sigma_2 & = \frac{F_2}{S_0} = \SI{188.734}{\MPa} \\
+            \text{抗压强度：} {\sigma^{'}}_2 & = \frac{F_2}{S_0} = \SI{689.340}{\MPa}\\
+        \end{align*}
+\input{../uncertainty.tex}
+    \subsection{不确定度计算结果}
+    低碳钢：\par
+    \begin{align*}
+        \text{断后延伸率：} A_1 & = (22.20 \pm 0.56) \% \\
+        \text{断后收缩率：} Z_1 & = (67.71 \pm 0.47) \% \\
+    \end{align*}\par
+    低碳钢：\par
+    \begin{align*}
+        \text{断后延伸率：} A_2 & = (0.20 \pm 0.11) \% \\
+        \text{断后收缩率：} Z_2 & = (4.03 \pm 0.15) \% \\
+    \end{align*}\par
+    其余量因为不能确定仪器的不确定度分布而难以计算。
+    \subsection{结果分析}
+    本次实验得到的数据均与理论值吻合较好、但在直径测量上由于颈缩和试样本身不均、导致不确定度较大。当然，其它因素也会影响到结果的准确性，诸如测量数据时的精度，加载应力时的均匀程度之类仪器本身的误差，以及用游标卡尺测量直径和长度时精度带来的误差。
+\input{sikao1.tex}
+\input{sikao2.tex}
 \end{document}

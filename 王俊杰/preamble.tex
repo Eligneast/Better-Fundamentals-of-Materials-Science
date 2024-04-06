@@ -45,6 +45,7 @@
 \fancyhf{} \fancyhead[C]{材料科学基础实验} \fancyfoot[C]{\thepage~/~\pageref{LastPage}}
 \newcounter{Rownumber}
 \newcommand*{\Rown}{\stepcounter{Rownumber}\theRownumber}
+\newcommand*{\resetRown}{\setcounter{Rownumber}{0}}
 \newcommand{\qrange}[3]{\qtyrange[range-phrase = \text{$\sim$},range-units =single]{#1}{#2}{#3}}
 \floatsetup[table]{capposition=top}
-
+\newcolumntype{C}{>{\hfil}X<{\hfil}}

@@ -1,0 +1,114 @@
+\documentclass[a4paper,utf8]{article}
+\usepackage[heading,fancyhdr]{ctex}
+\usepackage{amsmath,amssymb,geometry,lastpage,ulem}
+\usepackage{array,tabularx}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\lineskiplimit=1pt
+\lineskip=3pt
+\geometry{
+    top=25.4mm, 
+    left=25mm, 
+    right=25mm, 
+    bottom=25mm,
+    headsep=5.9mm,
+}
+\ctexset{
+    section = {format+=\raggedright}
+}
+\newcommand{\fgref}[1]{图~\ref{#1} }
+\newcommand{\seqref}[1]{式~(\ref{#1})}
+\pagestyle{fancy}
+\fancyhf{} \fancyhead[C]{材料科学基础实验} \fancyfoot[C]{\thepage\;/\;\pageref{LastPage}}
+\begin{document}
+\begin{center}
+    {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
+    材料科学基础实验预习报告}\\[34mm]
+    {\zihao{-3}\bfseries\songti
+    实验名称：\uline{\hfill\mbox{四探针法测量半导体电阻率和薄层电阻}\hfill} \\[2.9mm]
+    学\quad 号：\uline{\makebox[25mm]{22301070}}\hfill
+    姓\quad 名：\uline{\makebox[25mm]{杨雨燃}}\hfill
+    班\quad 级：\uline{\makebox[25mm]{22材物}} \\[2.9mm]
+    合作者：\uline{\makebox[25mm]{}}\enspace~
+    桌\quad 号：\uline{\makebox[25mm]{}}\hfill\mbox{}\\[2.9mm]
+    指导教师：\uline{\makebox[30mm]{艾斌}}\hfill\mbox{} \\[2.9mm]
+    实验日期：\uline{\makebox[30mm]{}}\hfill\mbox{} \\[58.7mm]
+    }
+\end{center}
+\newpage
+\section*{【实验目的】}
+    \begin{enumerate}
+        \item 理解四探针方法测量半导体电阻率和薄层电阻的原理；
+        \item 学会用四探针方法测量半导体电阻率和薄层电阻；
+        \item 针对不同几何尺寸的样品，了解其修正方法；
+        \item 了解影响测量结果准确性的因素及避免方法
+    \end{enumerate}
+\section*{【实验原理】}%简单描述，含必要的公式和附图；
+    \subsection{半导体材料体电阻率的测量}
+        \subsubsection{半无穷大样品体电阻率的测量}
+            
+            在四探针法中，当电流 $I$ 通过探针以点电流源形式注入半导体材料内部时，电流密度在材料内部是均匀分布的，具体是以探针尖为球心沿径向放射状分布。四根金属探针排成一列，间距均为 $S$。在这种情况下，当探针 1 和探针 4 通以电流 $I$ 时（探针 1 为正极，探针 4 为负极），探针 2 和探针 3 上测得的电压为 $V_{23}$。只要样品厚度及边缘与探针的最近距离大于四倍探针间距，半无穷大样品的体电阻率 $\rho$ 可以表示为：            \begin{equation*}
+                \rho = 2\pi S\cdot\frac{V_{23}}{I} \label{eq:0}
+            \end{equation*} 
+            
+            式中$\rho $以cm为单位，而所测电压，电流分别以mV，mA为单位。此外本实验测量时的探针间距S =0.1cm相比于样品的尺寸符合上式使用的要求，将电流I选取为2$ \pi $S =0.628 mA时，2，3探针所测电压示数即为所测电阻率的示数（直读法）。
+            
+            半导体材料的电阻率对温度比较灵敏，因此，测试半导体材料的电阻率时不但要记录测试的环境温度，还要将该温度下的实测电阻率修正到 23℃下的电阻率，引入修正系数 $F_T$ : 
+            \begin{equation*}
+                \rho =\frac{2\pi S}{F_T}\cdot\frac{V_{23}}{I}
+            \end{equation*}
+        \subsubsection{无穷大薄样品体电阻率的测量}
+        无穷大薄样品是指厚度 d 小于探针间距 S 而横向尺寸无穷大的样品。根据无穷大样品的模型推导，电流I以点接触的形式进入样品，此时形成的电流密度呈柱对称分布，取距离点电源 1 米处的电势为零，
+        用类似半无穷大样品的方法，等间距一字排开的四根金属探针压在薄样品表面，故无穷大薄样品的电阻率 $\rho$ 可表示为：
+            \begin{equation*}
+                \rho =\frac{\pi V_{23}}{I \ln 2} \label{eq:1}
+            \end{equation*}
+
+        电压电流分别以mV，mA为单位。
+    \subsection{半导体材料电阻的测量}        
+        \subsubsection{半导体薄层电阻（或方块电阻）的测量}
+        四探针法除了可以测量硅片、硅锭等体材料的电阻率外，还可用来测量扩散层、绝缘衬底上的半导体薄膜的薄层电阻。薄层电阻又称为方块电阻，是指平行于电流方向的正方形表面下的半导体薄层在电流方向上的电阻。
+        如果扩散片的结深用 $X_j$ 表示，根据定义，方块电阻 $R_{sq}$ 可表示为：
+            \begin{equation*}
+                R_{sq}=\rho\frac{L}{L\cdot X_{j}}=\frac{\rho}{X_{j}} \label{eq:2}
+            \end{equation*}
+            将其视为无穷大薄样品，可得其电阻表示为
+            \begin{equation*}
+                R_{sq}=4.5324\frac{V_{23} d}{I} \label{eq:3}
+            \end{equation*}
+            实际测量中，只要薄层的厚度小于 $0.5S$，并且样品面积相对于探针间距 $S$ 可视为无穷大时，就可以利用上式计算薄层电阻。如果不能将样品的横向面积视为无穷大，也需要使用包含修正因子 $F$ 的公式来计算方块电阻：
+            \begin{equation*}
+                R_{sq}= F \frac{V_{23}}{I} \label{eq:4}
+            \end{equation*}
+
+            由上式可知，如果半导体薄层可以视作无穷大薄样品，可以把测试电流设为 4.5324 mA，然后从电压表上直接读出样品的方块电阻。
+        
+\section*{【实验仪器】}%规格及参数
+    KDY-1 型四探针电阻率/方阻测试仪，一台计算机；p 型单晶硅棒(电阻率样品)、p 型单晶硅片(薄样品)、p 型硅基底上的 n 型扩散片(薄层电阻样品)各一个
+    \section*{【实验过程】}
+    \subsection*{测量样品电阻率或方块电阻的操作步骤}
+    \begin{enumerate}
+        \item 打开 KDB-1 四探针测试仪后面板上的电源开关，将“电阻率/方块电阻测试切换开关”（$\rho/R$ 开关）设置到相应位置。
+        \item 将样品置于样品台上，调节探针使其落在样品的测试点，注意轻压探针避免损坏。
+        \item 调节测试电流和恒流源电压档位，使得电压表显示稳定的测试电流和电压值。
+        \item 记录测试电流和电压，计算样品的电阻率或方块电阻，完成测量后取走样品。
+    \end{enumerate}
+    
+    \subsection*{测量 p 型硅棒的电阻率}
+    使用推荐的测试电流对硅棒横截面上多个位置处的电阻率进行测量，记录结果并修正至 \SI{23}{\degreeCelsius}。利用公式计算电阻率分布的不均匀度。
+    
+    \subsection*{测量 p 型单晶硅片（薄样品）的电阻率}
+    \begin{enumerate}
+        \item 直接读取电流和电压，计算硅片的电阻率。
+        \item 根据测得的电流和电压，以及硅片的尺寸，计算电阻率并修正至 \SI{23}{\degreeCelsius}。
+    \end{enumerate}
+    
+    \subsection*{测量 p 型单晶硅衬底上的 n 型扩散片的方块电阻}
+    在扩散片中心位置进行方块电阻的测量，记录结果并修正至 \SI{23}{\degreeCelsius}。
+    
+    \subsection*{测量 p 型单晶硅衬底上的 n 型透明导电玻璃的方块电阻}
+    测试方法与要求与扩散片一致。
+
+\section*{【实验数据】}
+    制作了excel表格，附后
+\end{document}

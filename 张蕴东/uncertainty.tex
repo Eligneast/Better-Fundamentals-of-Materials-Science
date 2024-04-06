@@ -1,0 +1,37 @@
+\subsection{不确定度分析}
+    \subsubsection{A 类不确定度分量的评估}
+    对一个随机变量 $x$ 进行了 $n$ 次重复测量，其算术平均值 $\bar{x}$ 作为对被测量 $x$ 的最佳统计评估值，平均值的标准偏差 $s(\bar{x})$ 作为实验结果的标准不确定度，自由度 $\nu=n-1$。计算公式为\\
+    \begin{align}
+        \bar{x}&=\frac{1}{n}\sum_{i=1}^{n}x_i \label{exp:amean} \\
+        s(\bar{x})&=\sqrt{\frac{1}{n(n-1)}\sum_{i=1}^{n}(x_i-\bar{x})^2} \label{exp:astd}
+    \end{align}
+
+    \subsubsection{B 类不确定度分量的评估}
+    对一个非重复测量得到的量 x 进行不确定度分析时，评估者需根据已获得的信息人为假定其服从某种概率分布来评估其方差 $u^2(x)$ 或标准不确定度 $u(x)$。具体步骤是，首先根据量 $x$ 的变化范围确定其半宽度 $a$，然后根据假定的概率分布计算标准不确定度。\\
+    \begin{equation}
+        u(x) = \frac a k \label{exp:uncertaintyB}
+    \end{equation}
+    在 100\% 和 95\% 置信概率下，矩形分布时的包含因子 $k$ 值分别为 $\sqrt{3}$ 和 $1.65$，三角形分布时的包含因子 $k$ 值分别为 $\sqrt{6}$ 和 $1.90$，正态分布时的包含因子 $k$ 值分别为 $3$ 和 $1.96$。
+
+    \subsubsection{直接测量量的合成标准不确定度}
+    直接测量量的合成标准不确定度 $u_c(x)$ 由其 A 类标准不确定度分量 $s(\bar{x})$ 与其 B 类标准不确定度分量 $u(x)$ 采用方和根法合成，即\\
+    \begin{equation}
+        u_c(x) = \sqrt{s^2(\bar{x})+u^2(x)} \label{exp:uncertaintyCombine}
+    \end{equation}
+    合成标准不确定度 $u_c$ 的自由度称为有效自由度，用 $\nu_\text{eff}$ 表示。当各分量间相互独立且合成量接近正态分布或 t 分布时，有效自由度 $\nu_\text{eff}$ 可以由下面的韦尔奇-萨特韦特（Welch-Satterthwaite）公式计算\\
+    \begin{equation}
+        \nu_\text{eff}=\frac{u_c^4(x)}{\displaystyle\frac{s^4(x)}{\nu_\text{A}}+\frac{u^4(x)}{\nu_\text{B}}} \label{exp:validFreedom}
+    \end{equation}
+    式中 $\nu_\text{A}$ 和 $\nu_\text{B}$ 分别是 A 类和 B 类标准不确定度分量对应的自由度数。如果 $\nu_\text{eff}$ 不是整数，则去掉小数部分取整，即将 $\nu_\text{eff}$ 取为一个不大于 $\nu_\text{eff}$ 本身的整数。
+
+    \subsubsection{标准不确定度的传播规律}
+    标准不确定度传播规律的数学基础是全微分。假设间接测量量 $y$ 与直接测量量 $x_1$, $x_2$, $x_3$, $\cdots$, $x_n$ 满足函数关系 $y = f(x_1,x_2,x_3,\cdots,x_n)$，且各个直接测量量 $x_1$, $x_2$, $x_3$, $\cdots$, $x_n$ 是相互独立的。对于以标准偏差表示的标准不确定度，需以方和根的形式求和，因此，当各个直接测量量依次有 $u(x_1)$, $u(x_2)$, $u(x_3)$, $\cdots$, $x_n$ 的标准不确定度时，间接测量量 $y$ 的标准不确定度 $u_c(y)$ 可以表示为\\
+    \begin{equation}
+        u_c^2(y)=\sum_{i=1}^{n}\left[\frac{\partial f}{\partial x_i}\right]^{2}u^2\left(x_{i}\right)=\sum_{i=1}^{n}c_i^2 u^2\left(x_{i}\right) \label{exp:uncertaintyPropagation}
+    \end{equation}
+    间接测量量 $y$ 的有效自由度由下式计算\\
+    \begin{equation}
+        \nu_\text{eff}=\frac{u_c^4(y)}{\displaystyle\sum_{i=1}^{n}\frac{c_i u^4(x_i)}{\nu_i}} \label{exp:validFreedom2}
+    \end{equation}
+
+    当需要评定扩展不确定度 $U$ 时，可根据合成标准不确定度的有效自由度 $\nu_\text{eff}$ 和给定的置信概率（譬如 95\%），通过查 t 分布表得出包含因子 $k$，进而给出扩展不确定度 $U = k u_c$。

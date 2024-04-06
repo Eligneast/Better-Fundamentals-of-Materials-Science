@@ -1,0 +1,136 @@
+\documentclass[a4paper,utf8]{article}
+\usepackage[heading,fancyhdr]{ctex}
+\usepackage{amsmath,amssymb,geometry,lastpage,ulem}
+\usepackage{array,tabularx,mhchem,xspace,floatrow,subfig}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\lineskiplimit=1pt
+\lineskip=3pt
+\geometry{
+    top=25.4mm, 
+    left=25mm, 
+    right=25mm, 
+    bottom=25mm,
+    headsep=5.9mm,
+}
+% \ctexset{
+%     section = {format+=\raggedright}
+% }
+\newcommand{\fgref}[1]{图~\ref{#1}\xspace}
+\newcommand{\seqref}[1]{式~(\ref{#1})}
+\newcommand{\expinfo}[5]{
+    {\zihao{-3}\bfseries\songti
+    实验名称：\uline{\hfill\mbox{#1}\hfill} \\[2.9mm]
+    学\quad 号：\uline{\makebox[25mm]{#2}}\hfill
+    姓\quad 名：\uline{\makebox[25mm]{#3}}\hfill
+    班\quad 级：\uline{\makebox[25mm]{#4}} \\[2.9mm]
+    合作者：\uline{\makebox[25mm]{}}\enspace~
+    桌\quad号：\uline{\makebox[25mm]{}}\hfill\mbox{}\\[2.9mm]
+    指导教师：\uline{\makebox[30mm]{#5}}\hfill\mbox{} \\[2.9mm]
+    实验日期：\uline{\makebox[30mm]{}}\hfill\mbox{} \\[58.7mm]
+    }
+}%\expinfo{实验名称}{学号}{姓名}{班级}{指导教师}
+\pagestyle{fancy}
+\fancyhf{} \fancyhead[C]{材料科学基础实验} \fancyfoot[C]{\thepage~/~\pageref{LastPage}}
+\begin{document}
+\begin{center}
+    {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
+    材料科学基础实验报告}\\[34mm]
+    \expinfo{碳钢淬火、回火后的组织观察与硬度分析}{22301056}{王俊杰}{22材物}{杨玉华}
+\end{center}
+\newpage
+\section{实验目的}
+    \begin{enumerate}
+        \item 了解碳钢的淬火、回火过程。
+        \item 观察和研究碳钢经不同淬火、回火处理后显微组织的特点，分析冷却条件、淬火温度及回火条件对其组织形态与硬度的影响，并了解淬火、回火的应用领域。
+    \end{enumerate}
+\section{实验原理}%简单描述，含必要的公式和附图；
+    热处理包括四个因素：加热速度、最高温度、加热时间（通常将工件升温和保温所需时间算在一起，统称为加热时间）和冷却速度。根据热处理工艺的使用和进行方式不同，热处理一般可分为下列四种类型：退火、正火、淬火、回火。\par
+    \subsection{淬火}
+        将钢奥氏体化后以大于临界冷却速度的速度进行冷却，获得马氏体或下贝氏体组织的热处理工艺，称为淬火。钢淬火的主要目的是为了获得马氏体，提高它的硬度和强度。
+        \subsubsection{淬火温度的选择}
+            根据钢的相变点选择淬火加热温度，主要以获得细小均匀的奥氏体为主，一般原则是：亚共析钢为$A_{3}+(30{\sim}50)~\unit{\degreeCelsius}$（$A_3$ 线是钢 $\alpha$ 固溶体转变为 $\gamma$ 固溶体之临界温度），共析钢和过共析钢$A_{1}+(30{\sim}50)~\unit{\degreeCelsius}$（$A_1$ 为共析转变温度），如\fgref{fig:1} 所示。
+            \begin{figure}[!ht]
+                \caption{淬火的加热温度范围\label{fig:1}}
+                \includegraphics[width=60mm]{fig1.jpg}
+            \end{figure}
+        \subsubsection{保温时间}
+            保温的目的是使钢件热透，使奥氏体充分转变为均匀化。保温时间的长短主要根据钢的成分、加热介质和零件尺寸决定，计算公式为
+            \begin{equation}
+                \tau=\alpha KD
+            \end{equation}
+            式中，$\alpha$ 为加热系数；$K$ 为装炉系数；$D$ 为有效尺寸。
+        \subsubsection{淬火冷却介质}
+            钢在加热获得奥氏体后要选用适当的冷却介质进行冷却，获得马氏体组织。
+        \subsubsection{淬火后的组织}
+            亚共析钢淬火后得到马氏体组织，马氏体组织为板条状或针状，低碳钢（碳含量小于 0.25\% 的非合金钢）淬火后的组织在光学显微镜下，其形态为一束束接近相互平行的细条状马氏体群。\par
+            中碳钢（碳含量界于 $0.25\%-0.6\%$ 之间的非合金钢）经正常淬火后将得到细针状马氏体和板条状马氏体的混合组织。高碳钢（碳含量大于 $0.6\%$ 的非合金钢）如共析钢和过共析钢在等温淬火后可得到贝氏体组织。上贝氏体是由成束平行排列的条状铁素体和条间断分布的渗碳体组成的片层状组织；当转变量不多时，在光学显微镜下可看到成束的铁素体由奥氏体晶界向内伸展，具有羽毛特征，如\fgref{fig:2a} 所示。下贝氏体是在片状铁素体内部沉淀有碳化物的组织；由于易受浸蚀，所以在显微镜下呈黑色针状特征，如\fgref{fig:2b} 所示。\par
+            共析钢和过共析钢在淬火后亦得到马氏体组织，如 T8 钢淬火后除得到针状马氏体外，还有较多的残余奥氏体。高碳马氏体呈片状，片间互成一定角度，如\fgref{fig:2c} 所示。
+            \begin{figure}[!ht]
+                \centering
+                \subfloat[上贝氏体]{\includegraphics[height=35mm]{fig2a.jpg}\label{fig:2a}}\hspace{20pt}
+                \subfloat[下贝氏体]{\includegraphics[height=35mm]{fig2b.jpg}\label{fig:2b}}\hspace{20pt}
+                \subfloat[马氏体]{\includegraphics[height=35mm]{fig2c.jpg}\label{fig:2c}}
+                \caption{T8 钢的淬火组织\label{fig:2}}
+            \end{figure}
+    \subsection{回火}
+        回火是将经过淬火的试样加热到临界点 $A_1$ 以下的适当温度，保持一定时间后，采用适当的冷却方式进行冷却，以获得所需的组织和性能的热处理工艺。根据回火温度的不同，回火可分为低温回
+        火（$150 \sim 250~\unit{\degreeCelsius}$）、中温回火（$350 \sim 500~\unit{\degreeCelsius}$）和高温回火（$500 \sim 650~\unit{\degreeCelsius}$）三种。
+            \subsubsection{回火马氏体}
+                经低温回火后，从淬火马氏体内脱溶沉淀析出高度弥散的与母相保持着共格联系的碳化物质点的组织。45 钢经淬火+低温回火后的组织如\fgref{fig:2a} 所示。
+            \subsubsection{回火屈氏体}
+                经中温回火后，在铁素体基体上弥散分布着微小粒状的渗碳体组织。45 钢经淬火+中温回火后的组织如图\fgref{fig:2b} 所示。
+            \subsubsection{回火索氏体}
+                经高温回火后，由颗粒状渗碳体和多边形的铁素体组成的组织。45 钢经淬火+高温回火后的组织如\fgref{fig:2c} 所示。\par
+                回火所得到的回火索氏体和回火屈氏体与由过冷奥氏体直接分解出来的索氏体和屈氏体在显微组织上是不同的，前者中的渗碳体呈粒状而后者则为片状。
+                \begin{figure}[!ht]
+                    \centering
+                    \subfloat[淬火+低温回火]{\includegraphics[height=35mm]{fig3a.jpg}\label{fig:3a}}\hspace{20pt}
+                    \subfloat[淬火+中温回火]{\includegraphics[height=35mm]{fig3b.jpg}\label{fig:3b}}\hspace{20pt}
+                    \subfloat[淬火+高温回火]{\includegraphics[height=35mm]{fig3c.jpg}\label{fig:3c}}
+                    \caption{T8 钢的淬火组织\label{fig:3}}
+                \end{figure}
+\section{实验仪器}%规格及参数
+箱式电阻加热炉，洛氏硬度计，砂纸，抛光机，金相显微镜。热处理试样：45 钢。冷却介质水和油及淬火水桶，长柄铁钳等。
+\section{实验过程}%简述主要过程和实验内容
+    \begin{enumerate}
+        \item 每4人一组，领取45钢（4个），每组共同完成一套实验（对应下表中相应的热处理工艺方法）。
+        \begin{table}[!ht]\centering
+            \caption{试样的热处理工艺}
+            \newcounter{sample} \newcommand{\Sam}{\stepcounter{sample}\thesample}
+            \begin{tabular}{|*{5}{c|}}\hline
+                试样号码 & 钢号 & 热处理工艺 & 浸蚀剂 & 建议放大倍数 \\ \hline
+                \Sam & 45 & 淬火，油冷 & 4\% 硝酸酒精 & 200 $\sim$ 500 \\ \hline
+                \Sam & 45 & 淬火，水冷 & 4\% 硝酸酒精 & 200 $\sim$ 500 \\ \hline
+                \Sam & 45 & 淬火+中温回火 & 4\% 硝酸酒精 & 200 $\sim$ 500 \\ \hline
+                \Sam & 45 & 淬火+高温回火 & 4\% 硝酸酒精 & 200 $\sim$ 500 \\ \hline
+            \end{tabular}
+        \end{table}
+        \item 制定热处理工艺参数，加热温度和淬火冷却方式按照表中给定的实施，淬火加热保温时间根据给定试样的尺寸，依据公式计算求得（20-30 分钟），回火保温时间均采用 1 小时且均采用空冷方式。
+        \begin{enumerate}
+            \item 45 钢淬火工艺：加热温度为 $860 \pm \SI{10}{\degreeCelsius}$，根据试样有效尺寸计算保温时间，保温后用长柄铁钳夹出放入\textbf{淬火油}中冷却。
+            \item 45 钢淬火工艺：加热温度为 $860 \pm \SI{10}{\degreeCelsius}$，根据试样有效尺寸计算保温时间，保温后用长柄铁钳夹出放入\textbf{水}中进行冷却。
+            \item 45 钢淬水+中温回火工艺：加热温度为 $860 \pm \SI{10}{\degreeCelsius}$，根据试样有效尺寸计算保温时间，保温后出炉进行水淬。随后放入炉中加热至 \SI{400}{\degreeCelsius}，保温 1 个小时后出炉空冷。
+            \item 45 钢淬水+高温回火工艺：加热温度为 $860 \pm \SI{10}{\degreeCelsius}$，根据试样有效尺寸计算保温时间，保温后出炉进行水淬。随后放入炉中加热至 \SI{600}{\degreeCelsius}，保温 1 个小时后出炉空冷。
+        \end{enumerate}
+        \item 利用硬度计对\textbf{所有热处理后的试样进行硬度测试}，每个试样至少三个试验点，再取一个平均值。\textbf{进行回火的试样需进行两次硬度测试，即淬火后回火前、回火后两次}，测试结果记录于下表中。（硬度测试须在金相磨制观察前完成）
+        \item 根据拟定的热处理工艺对试样进行相应的热处理，然后利用金相砂纸对热处理后的试样进行\textbf{磨制、抛光}，并用 $4\%$ 的硝酸酒精进行腐蚀制得金相试样。\textbf{利用金相显微镜对其进行显微组织观察，分析热处理工艺对其组织的影响。}
+        \item 实验结束后，汇总各小组实验数据，根据实验数据分析冷却方法及回火温度对碳钢性能（硬度）的影响，画出回火温度同硬度的关系曲线，并阐明硬度变化的原因。
+    \end{enumerate}
+\section{实验数据}
+\begin{table}[!ht]\centering
+    \caption{不同热处理试样的硬度值}
+    \extrarowheight=11pt
+    \begin{tabularx}{\textwidth}{|m{10em}|*{8}{X|}}\hline
+        \hfil 材料及热处理状态 \hfil & \multicolumn{6}{c|}{测得硬度数据} & \multicolumn{2}{c|}{平均值} \\[10pt] \hline
+        45 钢经 \SI{860}{\degreeCelsius} 加热、油淬 & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{} \\[14pt] \hline
+        45 钢经 \SI{860}{\degreeCelsius} 加热、水淬 & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{} & \multicolumn{2}{c|}{} \\[14pt] \hline
+        45 钢经 \SI{860}{\degreeCelsius} 加热、水淬、\SI{400}{\degreeCelsius} 回火 &  &  &  &  &  &  &  & \\[14pt] \hline
+        45 钢经 \SI{860}{\degreeCelsius} 加热、水淬、\SI{600}{\degreeCelsius} 回火 &  &  &  &  &  &  &  & \\[14pt] \hline
+    \end{tabularx}
+\end{table}
+\begin{figure}[!ht]
+    \caption{洛氏硬度计参数}
+    \includegraphics[width=\textwidth]{yingdu.jpg}
+\end{figure}
+\end{document}

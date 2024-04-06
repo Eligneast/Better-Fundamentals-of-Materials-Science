@@ -1,5 +1,5 @@
 \documentclass[a4paper,utf8]{article}
-\input{../preamable.tex} %导入导言
+\input{../preamble.tex} %导入导言
 \begin{document}
 \begin{center}
     {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
@@ -47,5 +47,114 @@
         \item 使用直探头探测缺陷深度
         \item 使用斜探头探测待测试块内部缺陷位置
     \end{enumerate}
-\section{实验数据}
+\section{实验数据及处理}
+    \subsection{实验数据}
+        测得的实验数据见下表：
+        \begin{figure}[!ht]
+            \includegraphics[width=0.8\textwidth]{result.pdf}
+        \end{figure}
+    \input{../uncertainty.tex}
+    
+    \subsection{实验结果}
+        依据以上的公式，下面给出了最终结果及其不确定度：\par
+        \subsubsection{直探头延迟、超声波频率和纵波波长、声速的计算}
+            \begin{table}[!ht]\caption{计算值}
+                \centering\begin{tabular}{c c|c c|c c}\hline
+                    $\bar t$ & \SI{1.592}{\us} & $\bar{t_1}$ & \SI{14.52}{\us}& $\bar{t_2}$ & \SI{28.76}{\us} \\ \hline
+                    频率 $f$ & \SI{2.512}{\MHz} & 直探头延迟 $t$ & \SI{0.28}{\us}& 纵波声速 $C_L$ & \SI{6.320}{\mm\per\us} \\ \hline
+                    纵波波长 $\lambda$ & \SI{2.522}{\mm} &  & & & \\ \hline
+                \end{tabular}
+            \end{table}\par
+            \begin{align*}
+                f &= (2.512 \pm 0.027) \unit{\MHz}\\
+                t &= (0.28 \pm 0.04) \unit{\us}\\
+                C_L &= (6.320 \pm 0.025) \unit{\mm\per\us}\\
+                \lambda &= (2.522 \pm 0.026) \unit{\mm}
+            \end{align*}
+        \subsubsection{斜探头延迟、入射点和横波波长、声速的计算}
+            \begin{table}[!ht]\caption{计算值}
+                \centering\begin{tabular}{c c|c c|c c}\hline
+                    $\bar{t_1}$ & \SI{23.44}{\us} & $\bar{t_2}$ & \SI{42.58}{\us}& $\bar{L}$ & \SI{12.73}{\mm} \\ \hline
+                    斜探头延迟 $t$ & \SI{4.30}{\us} & 横波声速 $C_S$ & \SI{3.1348}{\mm\per\us}& 横波波长 $\lambda$ & \SI{1.2476}{\mm} \\ \hline
+                     斜探头前沿距离 $L_0$ & \SI{17.27}{\mm} & & & & \\ \hline
+                \end{tabular}
+            \end{table}\par
+            注：在这里只量取了探头到 $R_1$ 的距离，故在实际计算时用 $R_1$ 减去 $\bar{L}$。
+            \begin{align*}
+                t &= (4.3 \pm 0.2) \unit{\us}\\
+                C_S &= (3.14 \pm 0.11) \unit{\mm\per\us}\\
+                \lambda &= (1.25 \pm 0.08) \unit{\mm}\\
+                L_0 &= (17.27 \pm 0.14) \unit{\mm}
+            \end{align*}
+        \subsubsection{斜探头的折射角计算}
+            \begin{table}[!ht]\caption{计算值}
+                \centering\begin{tabular}{c c|c c|c c|c c}\hline
+                    $\bar{L_{A1}}$ & \SI{27.52}{\mm} & $\bar{L_{A1}}$ & \SI{86.54}{\mm}& $\bar{L}$ & \SI{30.04}{\mm} & $\bar{H}$ & \SI{29.56}{\mm}\\ \hline
+                    \multicolumn{4}{c}{斜探头折射角 $\beta$} & \multicolumn{4}{c}{\SI{44.4325}{\degree}} \\ \hline  
+                \end{tabular}
+            \end{table}\par
+            \begin{align*}
+                \beta &= (44.53 \pm 0.37) \unit{\degree}
+            \end{align*}
+        \subsubsection{直探头和斜探头的声束扩散角的计算}
+            \begin{table}[!ht]\caption{计算值}
+                \centering\begin{tabular}{c c|c c|c c|c c}\hline
+                    $\bar{x_1}$ & \SI{44.54}{\mm} & $\bar{x_2}$ & \SI{34.04}{\mm}& $\bar{x_3}$ & \SI{81.82}{\mm} & $\bar{x_4}$ & \SI{93.82}{\mm}\\ \hline
+                    \multicolumn{2}{c}{直探头扩散角 $\theta_1$} & \multicolumn{2}{c}{\SI{15.43}{\degree}} & \multicolumn{2}{c}{斜探头扩散角 $\theta_2$} & \multicolumn{2}{c}{\SI{9.87}{\degree}} \\ \hline
+                \end{tabular}
+            \end{table}\par
+            \begin{align*}
+                \theta_1 &= (15.43 \pm 0.56) \unit{\degree}\\
+                \theta_2 &= (9.87 \pm 0.11) \unit{\degree}
+            \end{align*}
+        \subsubsection{直探头探测缺陷深度的计算}
+        \begin{table}[!ht]\caption{计算值}
+            \centering\begin{tabular}{c c|c c}\hline
+                $t_0$ & \SI{0.08}{\us} & $t_c$ & \SI{14.14}{\us}\\ \hline
+                \multicolumn{2}{c}{缺陷 C 深度 $H_C$} & \multicolumn{2}{c}{\SI{44.4312}{\mm}} \\ \hline
+            \end{tabular}
+        \end{table}\par
+            \begin{align*}
+                H_C &= (44.44 \pm 0.13) ~\unit{\mm}
+            \end{align*}
+        \subsubsection{待测试块内部缺陷位置的计算}
+        \begin{table}[!ht]\caption{计算值}
+            \centering\begin{tabular}{c c|c c}\hline
+                $t_D$ & \SI{33.44}{\us} & $x_D$ & \SI{109.5}{\mm}\\ \hline
+                缺陷 D 深度 $H_D$ & \SI{31.4142}{\mm} & 缺陷 D 水平距离 $L_D$ & \SI{93.6946}{\mm}  \\ \hline
+            \end{tabular}
+        \end{table}\par
+            \begin{align*}
+                H_D &= (31.42 \pm 0.027)~\unit{\mm}\\
+                L_D &= (93.7 \pm 0.8) ~\unit{\mm}
+            \end{align*}
+        从上面各个实验与讲义中给出的参考数据的比较可以看出，本次实验除缺陷 D 水平距离的误差较大，其它数据的准确程度和精度都非常可观，说明实验操作较为规范、数据处理五疏漏。值得注意的是本次实验数据均用 Excel 存储，由 Wolfram Mathematica 进行计算和处理，篇幅有限仅展示部分代码作为计算过程参考。
+        \begin{figure}[!ht]
+            \subfloat[误差计算传递]{\includegraphics[width=0.4\textwidth]{EP.png}}\\
+            \subfloat[公式计算（部分）]{\includegraphics[width=0.4\textwidth]{F.png}}
+        \end{figure}
+    \subsection{误差分析}
+        本次实验主要的误差来源有：
+        \begin{itemize}
+            \item 系统误差
+                \begin{itemize}
+                    \item 实验当天的温度、湿度对样品的影响。查阅资料得知，温度、湿度会在一定程度下影响超声波的传播速度，进而影响实验测量。
+                    \item 仪器本身精度的影响。刻度尺、示波器和探头所带来的误差。其中，示波器发射和接收器之间可能会有信号衰减和失真，使接收的信号强度降低，影响检测灵敏度和可靠性；也可能会导致信号形状的改变、波形的扭曲或者信号的重叠，影响信号的正确读取和分析。
+                    \item 待测样品并非是完全与标准一致的，必然有误差。
+                \end{itemize}
+            \item 偶然误差
+                \begin{itemize}
+                    \item 在用刻度尺测量各个长度时，可能会由于估读而产生读取数据的误差。测量声束扩散角的实验中需要找到极大值和振幅减小一半的位置，可能会由于选取示波器上波形的位置而产生主观的读数误差。
+                \end{itemize}
+        \end{itemize}
+        可以通过：根据当天的温度湿度进行结果修正、使用测量精度更高的仪器、多次测量来提高精度
+\section{思考题}
+    \begin{enumerate}
+        \item 测量斜探头延迟和横波声速的时候，为什么斜探头打在圆弧面上，只有超声横波？\par
+        超声波的传播受到声阻抗和材料性质的影响。当超声波从一个介质进入另一介质时，根据声阻抗匹配原理，超声波可能会发生折射和反射。斯涅尔定律描述了声波从一个介质传播到另一个介质时发生折射的规律，是光学中折射定律的声学对应。斯涅尔定律指出，对于两个介质界面，入射角（入射声波与法线的夹角）与折射角（折射声波与法线的夹角）的正弦之比，等于两个介质中声速的比值。而当入射角大于第一临界角时，折射角会大于 90 度，这意味着纵波不会进入第二个介质，所以斜探头接收不到超声纵波。
+        
+        \item 如果将待测试块从铝试块更换为钢试块，对同一斜探头测量到的延迟和入射
+        点是否一样？为什么？\par
+        一样。延迟本质上是超声波在探头内传播的时间，主要取决于探头本身的特性，入射点也是如此。而在测量时使用的是同一探头，因此延迟和入射点应该是一样的。不同的试样只能缩小或者放大信噪比，改变结果精度。
+    \end{enumerate}    
 \end{document}
