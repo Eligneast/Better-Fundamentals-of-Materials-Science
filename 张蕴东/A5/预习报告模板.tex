@@ -5,6 +5,14 @@
     {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
     材料科学基础实验预习报告}\\[34mm]
     \expinfo{金属材料力学、热学性能参数测量}{22301077}{张蕴东}{22高分子}{李继玲}
+    {\zihao{4}\bfseries\songti
+    实验考核\\[3mm]
+    \extrarowheight=3mm
+    \begin{tabularx}{150mm}{|X|X|X|X|X|}\hline
+        \hfil 项目 \hfil  & \hfil 实验预习 \hfil & \hfil 实验过程 \hfil & \hfil 分析与讨论 \hfil & \hfil 总评 \hfil \\[3mm] \hline
+        \hfil 评价 \hfil &  &  &  &  \\[3mm] \hline
+    \end{tabularx}
+    }
 \end{center}
 \newpage
 \part{动态悬挂法测量金属材料杨氏模量}
@@ -46,26 +54,47 @@
     \begin{table}[!ht]
         \centering\begin{tabular}{c c c c}\hline
             种类 & 直径 $\bar{d}$ & 长度 $\bar{L}$ & 质量 $\bar{m}$\\ \hline
-            不锈钢棒 & \SI{4.98}{\mm} & \SI{50.00}{\mm} & \\ 
-            铜棒 & \SI{2.83}{\mm} & \SI{61.10}{\mm} & \\ \hline
+            不锈钢棒 & \SI{6.00}{\mm} & \SI{150.16}{\mm} & \SI{33.279}{\g} \\ 
+            铜棒 & \SI{6.00}{\mm} & \SI{150.00}{\mm} & \SI{35.379}{\g} \\ \hline
         \end{tabular}
     \end{table}\par
     \begin{table}[!ht]
         \caption{不锈钢棒悬挂不同位置得到的频率}
         \centering\begin{tabular}{c c c c c c}\hline
             次数 & 1 & 2 & 3 & 4 & 5\\ \hline
-            距离 (mm) & & & & & \\ 
-            共振频率 (Hz) & & & & & \\ \hline
+            距离 (mm) & 10.0 & 20.0 & 25.0 & 40.0 & 45.0 \\ 
+            共振频率 (Hz) & 1179.0 & 1174.8 & 1172.4 & 1174.8 & 1176.0\\ \hline
         \end{tabular}
     \end{table}\par
+    如图，用四阶多项式拟合得到：$ y =  1163.14286 + 3.69029 * x  -0.2788 * x^2 + 0.0075 * x^3 - \num{6.62857E-5} *x^4 $ \par
+    \begin{figure}[!ht]
+        \includegraphics[width=0.6\textwidth]{fig1.pdf}
+    \end{figure}\par
+    计算得到不锈钢棒的杨氏模量为：$E_1=1.9176*10^{11}$ , $\text{相对误差：} 4.11 \%$
     \begin{table}[!ht]
         \caption{铜棒悬挂不同位置得到的频率}
         \centering\begin{tabular}{c c c c c c}\hline
             次数 & 1 & 2 & 3 & 4 & 5\\ \hline
-            距离 (mm) & & & & & \\ 
-            共振频率 (Hz) & & & & & \\ \hline
+            距离 (mm) & 10.0 & 20.0 & 25.0 & 40.0 & 45.0 \\ 
+            共振频率 (Hz) & 846.0 & 842.1 & 836.8 & 840.8 & 841.7 \\ \hline
         \end{tabular}
     \end{table}\par
+    如图，用四阶多项式拟合得到：$ y =  785.17143 + 12.48348 * x  -0.83557 * x^2 + 0.02142 * x^3 - \num{1.86476E-4} * x^4 $ \par
+    \begin{figure}[!ht]
+        \includegraphics[width=0.6\textwidth]{fig2.pdf}
+    \end{figure}\par
+    计算得到铜棒的杨氏模量为：$E_2=1.03166*10^{11}$ , $\text{相对误差：} 14.03 \%$\newpage
+    本次实验测得的数据虽然与真实值有所偏差，但是考虑到在动态悬挂时测得的点有限，拟合无法很好反映真实情况、测量时的误差、装置频率变化大，种种原因都会导致计算结果出现偏差。此外，试样也本身并非标准的样品，测得的杨氏模量应当与标准值有所偏差，这些都是正常情况，
+\section{思考题}
+    \subsection{什么是杨氏模量？杨氏模量的意义？} 
+    杨氏模量是材料力学中的一个重要参数，指在材料受到拉伸或压缩时，单位面积内的应力与相应的应变之间的比值，通常用符号 $E$ 表示。换言之，杨氏模量衡量了材料在受力时的刚度，即材料对外部应力的响应程度。其意义在于能够量化的比较材料的不同应力条件下的性能，更精确的指导工程设计。
+    \subsection{试讨论，试样的长度 l、直径 d、质量 m、共振频率 f 分别应该采用什么规格
+    的仪器测量？为什么？} 
+    \begin{enumerate}
+        \item $l,d$ 可以使用游标卡尺测量，以减小测量误差
+        \item $m$ 可以使用分析天平称量，以减小测量误差
+        \item $f$ 可以使用采样率高、带宽高、分辨率高的示波器采集、用分辨率更高的交流源来找到共振频率，以减小测量误差
+    \end{enumerate}
 \newpage
 \part{基于迈克尔逊干涉测量金属材料线膨胀系数}
 \setcounter{section}{0}
@@ -98,6 +127,28 @@
         \item 本次实验要求测量黄铜和硬铝两个试样并对测量数据做表记录         
     \end{enumerate}
 \section{实验数据}
-        
-    
+    \begin{table}[!ht]
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+            试样 & $\bar{L_0}$ & $\bar{\Delta t}$ & N \\ \hline
+            铜棒 & 150.00 & 0.98 & 10 \\ 
+            铝棒 & 149.99 & 0.80 & 10 \\ \hline
+        \end{tabular}
+    \end{table}
+    计算得到试样的线膨胀系数：
+    \begin{align*}
+        \alpha_1 & =\frac{N\frac\lambda2}{L_0 {\Delta t}_1}=\num{2.0952e5}~\unit{\per\degreeCelsius}\\
+        \alpha_2 & =\frac{N\frac\lambda2}{L_0 {\Delta t}_1}=\num{2.4368e5}~\unit{\per\degreeCelsius}\\
+    \end{align*}
+    相对误差分别为：$0.73 \%,3.25\%$，可以发现本实验的测量结果与事实吻合较好，体现了实验操作的准确与严谨，也反映出该实验的方案与器材合理、测量误差小。误差分析见思考题。
+\section{思考题}
+    \subsection{测量材料线膨胀系数的意义并举例说明} 
+    线膨胀系数是描述材料在温度变化下尺寸变化的参数，通常用于工程设计和材料选择中。例如高铁轨道由于工作状况变化跨度大，长轨道在温度变化下的长度变化将非常明显，此时就可以通过钢材的线膨胀系数来评估其适不适合用来铺设钢轨。
+    \subsection{分析实验中影响实验结果的因素有哪些？} 
+    \begin{enumerate}
+        \item 实验当天的温度、湿度所带来的误差。仪器本身精度的影响，如温控仪本身只能取到小数点后一位，会产生一定的误差。观察干涉条纹时难以判断何时是刚刚好出现一个干涉环，时间测量上也有误差。
+        \item 光源的频率或强度的微小变化可能导致测量误差
+        \item 迈克尔逊干涉仪的光路必须保持稳定，以确保干涉条纹的清晰度和稳定性，正规的光学实验常使用气动缓冲来保证平台的水平。
+    \end{enumerate}
 \end{document}

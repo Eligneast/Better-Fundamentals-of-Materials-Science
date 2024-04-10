@@ -1,0 +1,237 @@
+\documentclass[a4paper,utf8]{article}
+\input{../preamble.tex} %导入导言
+\begin{document}
+\begin{center}
+    {\mbox{}\\[7em]\zihao{2}\bfseries\songti%
+    材料科学基础实验报告}\\[34mm]
+    \expinfo{超声波无损探伤实验}{22301056}{王俊杰}{22 材物}{李继玲}
+    \pointingbox
+\end{center}\newpage
+\section{实验目的}
+    \begin{itemize}
+        \item 学习超声波的产生原理及特点，了解超声波探伤仪的工作原理及使用方法 
+        \item 学习超声探头指向性原理及其实际应用
+        \item 认识超声换能器及超声波探头的不同种类
+        \item 了解超声波的传播、波型和波型转换原理及超声波声速的测量方法
+    \end{itemize}
+\section{实验原理}%简单描述，含必要的公式和附图；
+    超声波是频率高于 20kHz 的机械波，具有穿透力强、传播方向性好等特点，实验所用探头通过压电晶片的逆压电效应，将电能转为机械能以产生脉冲超声波。超声波探头结构复杂，包括压电晶片、保护膜、匹配电感等部分，根据不同结构和应用情况可分为直探头、斜探头和可变角探头。超声波的指向性是指探头发射的声束扩散角大小，与波长、频率及探头内压电晶片尺寸有关。声束扩散角越小，指向性越好，测量精度越高。指向性大小可用公式表示：
+    \begin{equation}
+        \theta=2\sin^{-1}\left(1.22\frac\lambda D\right)
+    \end{equation}\par
+    超声波根据波形可分为超声纵波、超声横波和超声表面波三种，在介质界面发生反射、折射和波形转换时需满足斯特令定律：
+    \begin{equation}
+        \begin{aligned}
+            \text{反射：}\frac{\sin\alpha}C&=\frac{\sin\alpha_L}{C_{1L}}=\frac{\sin\alpha_S}{C_{1S}}\\
+            \text{折射：}\frac{\sin\alpha}C&=\frac{\sin\beta_L}{C_{2L}}=\frac{\sin\beta_S}{C_{2S}}
+        \end{aligned}
+    \end{equation}\par
+    测量超声波声速可采用直接或相对测量法。直接测量法利用超声波探头内部延迟时间和探头测量的人工反射体回波时间计算声速；相对测量法则通过测量两次反射回波的时间差来计算声速。
+\section{实验仪器}%规格及参数
+    JDUT-2 型超声波试验仪、DS1102E 双通示波器（100MHz）、直探头、斜探头、CSK-IB 试块、耦合剂(水)等。
+\section{实验过程}%简述主要过程和实验内容
+    \begin{enumerate}
+        \item 组装实验仪器；
+        \item 利用直探头测量脉冲超声纵波频率和波长
+        \item 测量直探头延迟和间接测量法测量试块纵波声速
+        \item 测量斜探头延迟、入射点和间接测量法测试块横波声速
+        \item 测量斜探头的折射角
+        \item 测量直探头和斜探头的声束扩散角
+        \item 使用直探头探测缺陷深度
+        \item 使用斜探头探测待测试块内部缺陷位置
+    \end{enumerate}
+\section{实验数据与分析}
+\subsection{实验数据\label{sss:data}}
+\begin{table}[!ht]
+    \caption{CSK-IB 铝试块参数测量}\label{tab:length}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $L_A$(\unit{\mm}) & 19.8 & 19.9 & 19.8 & 19.8 & 19.9 & 19.84 \\ 
+        $L_B$(\unit{\mm}) & 50.0 & 50.0 & 50.1 & 50.0 & 50.0 & 50.02 \\ 
+        $L_{AB}$(\unit{\mm}) & 30.2 & 30.1 & 30.3 & 30.2 & 30.1 & 29.86 \\[2mm]
+        $H_A$(\unit{\mm}) & 20.3 & 20.2 & 20.4 & 20.3 & 20.3 & 20.30 \\
+        $H_B$(\unit{\mm}) & 50.4 & 50.4 & 50.3 & 50.3 & 50.4 & 50.36 \\
+        $H_{AB}$(\unit{\mm}) & 30.1 & 30.2 & 29.9 & 30.0 & 30.1 & 30.06 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{利用直探头测量脉冲超声纵波频率和波长}\label{tab:exp1}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $t$(\unit{\us}) & 1.50 & 1.47 & 1.49 & 1.50 & 1.49 & 1.49 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{测量直探头延迟和间接测量法测量试块纵波声速}\label{tab:exp2}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $t_1$(\unit{\us}) & 15.26 & 15.24 & 15.23 & 15.22 & 15.24 & 15.238 \\ 
+        $t_2$(\unit{\us}) & 29.71 & 29.68 & 29.67 & 29.66 & 29.67 & 29.678 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{测量斜探头延迟、入射点和间接测量法测试块横波声速}\label{tab:exp3}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $t_3$(\unit{\us}) & 25.26 & 25.27 & 25.26 & 25.26 & 25.26 & 25.262 \\ 
+        $t_4$(\unit{\us}) & 44.28 & 44.28 & 44.28 & 44.27 & 44.28 & 44.278 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{测量斜探头入射点}\label{tab:exp4}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $L$(\unit{\mm}) & 42.5 & 42.3 & 42.2 & 42.3 & 42.2 & 42.3 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{测量斜探头的折射角}\label{tab:exp5}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $L_{A1}$(\unit{\mm}) & 27.4 & 27.5 & 27.5 & 27.5 & 27.5 & 27.48 \\ 
+        $L_{B1}$(\unit{\mm}) & 87.2 & 87.1 & 87.1 & 87.0 & 87.2 & 87.12 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{测量直探头和斜探头的声束扩散角}\label{tab:exp6}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $x_1$(\unit{\mm}) & 44.2 & 44.1 & 44.4 & 44.3 & 44.2 & 44.24 \\ 
+        $x_2$(\unit{\mm}) & 57.1 & 57.0 & 57.0 & 56.9 & 57.1 & 57.02 \\ 
+        $x_3$(\unit{\mm}) & 82.9 & 83.0 & 83.0 & 82.9 & 83.0 & 82.96 \\ 
+        $x_4$(\unit{\mm}) & 94.1 & 94.2 & 94.1 & 94.1 & 94.0 & 94.10 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{使用直探头探测缺陷深度}\label{tab:exp7}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        测量量 & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $t_c$(\unit{\us}) & 15.38 & 15.37 & 15.38 & 15.37 & 15.38 & 15.376 \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+    \caption{使用斜探头探测待测试块内部缺陷位置}\label{tab:exp8}
+    \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+        ~ & 1 & 2 & 3 & 4 & 5 & 平均值 \\ \midrule
+        $t_A$(\unit{\us}) & 25.404 & 25.400 & 25.404 & 25.404 & 25.408 & 25.404~~{} \\
+        $t_B$(\unit{\us}) & 51.548 & 51.552 & 51.552 & 51.548 & 51.556 & 51.5512 \\
+        $t_D$(\unit{\us}) & 33.264 & 33.272 & 33.272 & 33.264 & 22.272 & 31.0688 \\[2mm]
+        $x_A$(\unit{\mm}) & ~~28.6 & ~~29.0 & ~~29.0 & ~~28.9 & ~~29.0 & ~~28.90 \\
+        $x_B$(\unit{\mm}) & ~~86.9 & ~~86.9 & ~~87.0 & ~~86.9 & ~~87.0 & ~~86.94 \\
+        $x_D$(\unit{\mm}) & 107.0 & 106.9 & 107.0 & 107.1 & 107.1 & 107.02 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+\input{../uncertainty.tex}
+\subsection{间接测量量计算公式}
+\subsection{不确定度的计算}
+利用 \ref{sss:data} 的数据以及 \ref{sss:uncertaintyFormula} 中的公式可求得各个测量量的不确定度和自由度，如表 \ref{tab:result} 所示，部分表头省略了不确定度四字。
+% \begin{table}[!ht]
+%     \caption{使用斜探头探测待测试块内部缺陷位置}\label{tab:result}
+%     \begin{tabularx}{\textwidth}{*{7}{C}} \toprule
+%         测量量 & 平均值 & A 类 & B 类 & 合成 & 有效自由度 & 扩展 \\ \midrule
+%         $t$(\unit{\us})  &  &  &  &  &  &  \\
+%         $f$(\unit{\MHz})  &  &  &  &  &  &  \\[1em]
+%         $t_1$(\unit{\us})  &  &  &  &  &  & \\
+%         $t_2$(\unit{\us})  &  &  &  &  &  & \\
+%         $t_s$(\unit{\us})  &  &  &  &  &  & \\
+%         $c_L$(\unit{\m\per\s})  &  &  &  &  &  &  \\[1em]
+%         $t_3$(\unit{\us})  &  &  &  &  &  &  \\
+%         $t_4$(\unit{\us})  &  &  &  &  &  &  \\
+%         $t_i$(\unit{\us})  &  &  &  &  &  &  \\
+%         $c_S$(\unit{\m\per\s})  &  &  &  &  &  &  \\[1em]
+%         $L$(\unit{\mm})  &  &  &  &  &  &  \\
+%         $L_0$(\unit{\mm})  &  &  &  &  &  &  \\[1em]
+%         $L_{A1}$(\unit{\mm})  &  &  &  &  &  &  \\
+%         $L_{B1}$(\unit{\mm})  &  &  &  &  &  &  \\
+%         $\beta$(${}^\circ$)  &  &  &  &  &  &  \\[1em]
+%         $x_1$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $x_2$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $x_3$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $x_4$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $\theta_s$(${}^\circ$)  &  &  &  &  &  & \\ 
+%         $\theta_i$(${}^\circ$)  &  &  &  &  &  & \\[1em]
+%         $t_c$(\unit{\us})  &  &  &  &  &  &  \\ 
+%         $H_c$(\unit{\mm})  &  &  &  &  &  &  \\  \bottomrule
+%     \end{tabularx}
+% \end{table}\newpage
+% \begin{table}[!ht]
+%     \begin{tabularx}{\textwidth}{*{7}{C}} 
+%         \multicolumn{7}{r}{（接上表）} \\ \toprule
+%         测量量 & 平均值 & A 类 & B 类 & 合成 & 有效自由度 & 扩展 \\ \midrule
+%         $t_A$(\unit{\us})  &  &  &  &  &  &  \\ 
+%         $t_B$(\unit{\us})  &  &  &  &  &  &  \\ 
+%         $t_D$(\unit{\us})  &  &  &  &  &  &  \\[2mm]
+%         $x_A$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $x_B$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $x_D$(\unit{\mm})  &  &  &  &  &  &  \\[2mm]
+%         $t_0$(\unit{\us})  &  &  &  &  &  &  \\ 
+%         $L_0^{'}$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $H_D$(\unit{\mm})  &  &  &  &  &  &  \\ 
+%         $L_D$(\unit{\mm})  &  &  &  &  &  &  \\ \bottomrule
+%     \end{tabularx}
+% \end{table}
+\begin{longtable}{*{7}{>{\hfil}p{0.1428\textwidth-1em}<{\hfil}}}
+    \caption{各测量量的不确定度\label{tab:uncertaintyResult}} \\ \toprule
+    测量量 & 平均值 & A 类 & B 类 & 合成 & 有效自由度 & 扩展 \\ \midrule
+    \endfirsthead
+
+    \multicolumn{7}{r}{\small 表 \ref{tab:uncertaintyResult} (续)} \\ \toprule
+    测量量 & 平均值 & A 类 & B 类 & 合成 & 有效自由度 & 扩展 \\ \midrule
+    \endhead
+
+    \bottomrule
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+    $L_A$(\unit{\mm}) &  &  &  &  &  &  \\
+    $L_B$(\unit{\mm}) &  &  &  &  &  &  \\
+    $L_{AB}$(\unit{\mm}) &  &  &  &  &  &  \\
+    $H_A$(\unit{\mm}) &  &  &  &  &  &  \\
+    $H_B$(\unit{\mm}) &  &  &  &  &  &  \\
+    $H_{AB}$(\unit{\mm}) &  &  &  &  &  &  \\[1em]
+    $t$(\unit{\us})  &  &  &  &  &  &  \\
+    $f$(\unit{\MHz})  &  &  &  &  &  &  \\[1em]
+    $t_1$(\unit{\us})  &  &  &  &  &  & \\
+    $t_2$(\unit{\us})  &  &  &  &  &  & \\
+    $t_s$(\unit{\us})  &  &  &  &  &  & \\
+    $c_L$(\unit{\m\per\s})  &  &  &  &  &  &  \\[1em]
+    $t_3$(\unit{\us})  &  &  &  &  &  &  \\
+    $t_4$(\unit{\us})  &  &  &  &  &  &  \\
+    $t_i$(\unit{\us})  &  &  &  &  &  &  \\
+    $c_S$(\unit{\m\per\s})  &  &  &  &  &  &  \\[1em]
+    $L$(\unit{\mm})  &  &  &  &  &  &  \\
+    $L_0$(\unit{\mm})  &  &  &  &  &  &  \\[1em]
+    $L_{A1}$(\unit{\mm})  &  &  &  &  &  &  \\
+    $L_{B1}$(\unit{\mm})  &  &  &  &  &  &  \\
+    $\beta$(${}^\circ$)  &  &  &  &  &  &  \\[1em]
+    $x_1$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $x_2$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $x_3$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $x_4$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $\theta_s$(${}^\circ$)  &  &  &  &  &  & \\ 
+    $\theta_i$(${}^\circ$)  &  &  &  &  &  & \\[1em]
+    $t_c$(\unit{\us})  &  &  &  &  &  &  \\ 
+    $H_c$(\unit{\mm})  &  &  &  &  &  &  \\
+    $t_A$(\unit{\us})  &  &  &  &  &  &  \\ 
+    $t_B$(\unit{\us})  &  &  &  &  &  &  \\ 
+    $t_D$(\unit{\us})  &  &  &  &  &  &  \\
+    $x_A$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $x_B$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $x_D$(\unit{\mm})  &  &  &  &  &  &  \\
+    $t_0$(\unit{\us})  &  &  &  &  &  &  \\ 
+    $L_0^{'}$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $H_D$(\unit{\mm})  &  &  &  &  &  &  \\ 
+    $L_D$(\unit{\mm})  &  &  &  &  &  &  \\
+\end{longtable}
+\section{结果分析}
+\end{document}
