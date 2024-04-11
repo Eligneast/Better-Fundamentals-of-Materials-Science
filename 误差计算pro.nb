@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     83708,       2589]
-NotebookOptionsPosition[     82273,       2558]
-NotebookOutlinePosition[     82686,       2575]
-CellTagsIndexPosition[     82643,       2572]
+NotebookDataLength[     84917,       2601]
+NotebookOptionsPosition[     83447,       2569]
+NotebookOutlinePosition[     83896,       2587]
+CellTagsIndexPosition[     83853,       2584]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -105,7 +105,7 @@ Cell[BoxData[{
    3.9217323997330184`*^9}, {3.9217437657637835`*^9, 3.921743782777426*^9}, {
    3.9217439472333403`*^9, 3.921743972889942*^9}, {3.921744197530842*^9, 
    3.9217442047245502`*^9}},
- CellLabel->"In[96]:=",ExpressionUUID->"756c262a-4c0d-4ef4-9ac7-67bfd16624f5"],
+ CellLabel->"In[26]:=",ExpressionUUID->"756c262a-4c0d-4ef4-9ac7-67bfd16624f5"],
 
 Cell[BoxData[
  RowBox[{
@@ -327,9 +327,9 @@ Cell[BoxData[
    3.921743653821954*^9, 3.921743661428523*^9}, {3.921743698406598*^9, 
    3.9217437491558867`*^9}, {3.921743786708729*^9, 3.921743933233837*^9}, {
    3.921744224446821*^9, 3.9217442276801014`*^9}, {3.921744411889803*^9, 
-   3.921744464107777*^9}},
- CellLabel->
-  "In[110]:=",ExpressionUUID->"88652af7-1aa7-4ec2-9bbf-f8d8c4b8a8a8"],
+   3.921744464107777*^9}, {3.921790446669262*^9, 3.921790461440076*^9}, {
+   3.9217906084836426`*^9, 3.9217906103992734`*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"88652af7-1aa7-4ec2-9bbf-f8d8c4b8a8a8"],
 
 Cell[CellGroupData[{
 
@@ -363,7 +363,7 @@ Cell[BoxData[
   3.9217311004840355`*^9}, {3.921731260116748*^9, 3.921731260369984*^9}, {
   3.9217315947600746`*^9, 3.9217315965260267`*^9}, {3.9217317684922743`*^9, 
   3.921731798189639*^9}, {3.921731856886239*^9, 3.9217318593177233`*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"d9e39e9e-20be-4034-a54e-7bb488b39353"],
+ CellLabel->"In[4]:=",ExpressionUUID->"d9e39e9e-20be-4034-a54e-7bb488b39353"],
 
 Cell[BoxData[
  TagBox[
@@ -387,27 +387,57 @@ Cell[BoxData[
        HoldForm]},
      {
       TagBox["a",
-       HoldForm], "30.03333333333333`", "0.033333333333333805`", 
-      "0.5773502691896258`", "0.5783117190965825`", "181201.99999998984`", 
-      "1.1334777125010695`", "1.1334701412667463`"},
+       HoldForm], "30.03333333333333`", 
+      RowBox[{"nn3", "[", "0.033333333333333805`", "]"}], 
+      RowBox[{"nn3", "[", "0.5773502691896258`", "]"}], 
+      RowBox[{"nn3", "[", "0.5783117190965825`", "]"}], "181202.`", 
+      RowBox[{"nn3", "[", 
+       RowBox[{"0.5783117190965825`", " ", 
+        RowBox[{"tp", "[", 
+         RowBox[{"181201.99999998984`", ",", "0.95`"}], "]"}]}], "]"}], 
+      RowBox[{"nn3", "[", 
+       RowBox[{"0.5783117190965825`", " ", "t196"}], "]"}]},
      {
       TagBox["b",
-       HoldForm], "19.95`", "0.05000000000000071`", "0.5773502691896258`", 
-      "0.5795112883571238`", "18045.444444443434`", "1.1358974419427514`", 
-      "1.1358212538143686`"},
+       HoldForm], "19.95`", 
+      RowBox[{"nn3", "[", "0.05000000000000071`", "]"}], 
+      RowBox[{"nn3", "[", "0.5773502691896258`", "]"}], 
+      RowBox[{"nn3", "[", "0.5795112883571238`", "]"}], "18045.4`", 
+      RowBox[{"nn3", "[", 
+       RowBox[{"0.5795112883571238`", " ", 
+        RowBox[{"tp", "[", 
+         RowBox[{"18045.444444443434`", ",", "0.95`"}], "]"}]}], "]"}], 
+      RowBox[{"nn3", "[", 
+       RowBox[{"0.5795112883571238`", " ", "t196"}], "]"}]},
      {
       TagBox[
-       RowBox[{"a", " ", "b"}],
-       HoldForm], "599.165`", "1.6423238955144792`", "20.81668890666902`", 
-      "20.88137363333205`", "36683.45350548923`", "40.928090683795425`", 
-      "40.92674026905511`"},
+       RowBox[{"Hold", "[", 
+        RowBox[{"a", " ", "b"}], "]"}],
+       HoldForm], "599.165`", 
+      RowBox[{"nn3", "[", "1.6423238955144792`", "]"}], 
+      RowBox[{"nn3", "[", "20.81668890666902`", "]"}], 
+      RowBox[{"nn3", "[", "20.88137363333205`", "]"}], "36683.5`", 
+      RowBox[{"nn3", "[", 
+       RowBox[{"20.88137363333205`", " ", 
+        RowBox[{"tp", "[", 
+         RowBox[{"36683.45350548923`", ",", "0.95`"}], "]"}]}], "]"}], 
+      RowBox[{"nn3", "[", 
+       RowBox[{"20.88137363333205`", " ", "t196"}], "]"}]},
      {
       TagBox[
-       RowBox[{"a", " ", 
-        SuperscriptBox["b", "2"]}],
-       HoldForm], "11953.34175`", "61.36769205219149`", "729.0177818833251`", 
-      "731.5961453765977`", "22201.292327250467`", "1433.9802734880125`", 
-      "1433.9020961664612`"}
+       RowBox[{"Hold", "[", 
+        RowBox[{"a", " ", 
+         SuperscriptBox["b", "2"]}], "]"}],
+       HoldForm], "11953.34175`", 
+      RowBox[{"nn3", "[", "61.36769205219149`", "]"}], 
+      RowBox[{"nn3", "[", "729.0177818833251`", "]"}], 
+      RowBox[{"nn3", "[", "731.5961453765977`", "]"}], "22201.300000000003`", 
+      RowBox[{"nn3", "[", 
+       RowBox[{"731.5961453765977`", " ", 
+        RowBox[{"tp", "[", 
+         RowBox[{"22201.292327250467`", ",", "0.95`"}], "]"}]}], "]"}], 
+      RowBox[{"nn3", "[", 
+       RowBox[{"731.5961453765977`", " ", "t196"}], "]"}]}
     },
     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
     GridBoxDividers->{
@@ -422,10 +452,9 @@ Cell[BoxData[
         Offset[0.2]}}],
    {OutputFormsDump`HeadedRows, OutputFormsDump`HeadedColumns}],
   Function[BoxForm`e$, 
-   TableForm[
-   BoxForm`e$, 
-    TableHeadings -> {{$CellContext`a, $CellContext`b, $CellContext`a \
-$CellContext`b, $CellContext`a $CellContext`b^2}, {
+   TableForm[BoxForm`e$, TableHeadings -> {{$CellContext`a, $CellContext`b, 
+       Hold[$CellContext`a $CellContext`b], 
+       Hold[$CellContext`a $CellContext`b^2]}, {
       "Mean", "A", "B", "u", "\!\(\*SubscriptBox[\(\[Nu]\), \(eff\)]\)", "U", 
        "\!\(\*SubscriptBox[\(U\), \(1.96\)]\)"}}]]]], "Output",
  CellChangeTimes->{
@@ -448,10 +477,9 @@ $CellContext`b, $CellContext`a $CellContext`b^2}, {
    3.9217315543392005`*^9, 3.921731621283941*^9}, {3.9217316597099113`*^9, 
    3.921731711458295*^9}, {3.9217317717345247`*^9, 3.9217317988601427`*^9}, 
    3.9217318597474833`*^9, 3.921732405890314*^9, {3.92173913747526*^9, 
-   3.9217391474201946`*^9}},
+   3.9217391474201946`*^9}, {3.921790453715002*^9, 3.9217904635418215`*^9}},
  CellLabel->
-  "Out[10]//TableForm=",ExpressionUUID->"2f301877-0186-4170-8104-\
-e9c71261ff0f"]
+  "Out[4]//TableForm=",ExpressionUUID->"62ea31f8-a32f-422a-bcef-c5082f8a9c93"]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -559,7 +587,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.9217404430978093`*^9, 3.9217404930136557`*^9}, {
   3.921740530923402*^9, 3.9217409525866313`*^9}, {3.921741437063655*^9, 
   3.9217414420274987`*^9}, {3.921741498422448*^9, 3.921741531986064*^9}},
- CellLabel->"In[58]:=",ExpressionUUID->"8df2b368-f8ab-48a3-a3b6-49e8c80396ca"],
+ CellLabel->"In[5]:=",ExpressionUUID->"8df2b368-f8ab-48a3-a3b6-49e8c80396ca"],
 
 Cell[BoxData[
  RowBox[{
@@ -579,8 +607,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.921740983827136*^9, 3.9217410484926825`*^9}, {
   3.921745202913724*^9, 3.921745212828559*^9}},
- CellLabel->
-  "In[112]:=",ExpressionUUID->"c28b8669-4c81-444f-b2c6-293fa6607332"],
+ CellLabel->"In[22]:=",ExpressionUUID->"c28b8669-4c81-444f-b2c6-293fa6607332"],
 
 Cell[BoxData[
  RowBox[{
@@ -590,155 +617,139 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{"LA", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "19.8", ",", "19.9", ",", "19.8", ",", "19.8", ",", "19.9", ",", 
-         "19.84"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"19.8", ",", "19.9", ",", "19.8", ",", "19.8", ",", "19.9"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"LB", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "50", ",", "50", ",", "50.1", ",", "50", ",", "50", ",", "50.02"}], 
-        "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"50", ",", "50", ",", "50.1", ",", "50", ",", "50"}], "}"}]}],
+       "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"LAB", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "30.2", ",", "30.1", ",", "30.3", ",", "30.2", ",", "30.1", ",", 
-         "30.18"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"30.2", ",", "30.1", ",", "30.3", ",", "30.2", ",", "30.1"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"HA", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "20.3", ",", "20.2", ",", "20.4", ",", "20.3", ",", "20.3", ",", 
-         "20.3"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"20.3", ",", "20.2", ",", "20.4", ",", "20.3", ",", "20.3"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"HB", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "50.4", ",", "50.4", ",", "50.3", ",", "50.3", ",", "50.4", ",", 
-         "50.36"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"50.4", ",", "50.4", ",", "50.3", ",", "50.3", ",", "50.4"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"HAB", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "30.1", ",", "30.2", ",", "29.9", ",", "30", ",", "30.1", ",", 
-         "30.06"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"30.1", ",", "30.2", ",", "29.9", ",", "30", ",", "30.1"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"t", ",", "0.01", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "1.5", ",", "1.47", ",", "1.49", ",", "1.5", ",", "1.49", ",", 
-         "1.49"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"1.5", ",", "1.47", ",", "1.49", ",", "1.5", ",", "1.49"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"t1", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "15.26", ",", "15.24", ",", "15.23", ",", "15.22", ",", "15.24", ",", 
-         "15.238"}], "}"}]}], "}"}], ",", "\n", 
+        "15.26", ",", "15.24", ",", "15.23", ",", "15.22", ",", "15.24"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"t2", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "29.71", ",", "29.68", ",", "29.67", ",", "29.66", ",", "29.67", ",", 
-         "29.678"}], "}"}]}], "}"}], ",", "\n", 
+        "29.71", ",", "29.68", ",", "29.67", ",", "29.66", ",", "29.67"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"t3", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "25.26", ",", "25.27", ",", "25.26", ",", "25.26", ",", "25.26", ",", 
-         "25.262"}], "}"}]}], "}"}], ",", "\n", 
+        "25.26", ",", "25.27", ",", "25.26", ",", "25.26", ",", "25.26"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"t4", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "44.28", ",", "44.28", ",", "44.28", ",", "44.27", ",", "44.28", ",", 
-         "44.278"}], "}"}]}], "}"}], ",", "\n", 
+        "44.28", ",", "44.28", ",", "44.28", ",", "44.27", ",", "44.28"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"L", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "42.5", ",", "42.3", ",", "42.2", ",", "42.3", ",", "42.2", ",", 
-         "42.3"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"42.5", ",", "42.3", ",", "42.2", ",", "42.3", ",", "42.2"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"LA1", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "27.4", ",", "27.5", ",", "27.5", ",", "27.5", ",", "27.5", ",", 
-         "27.48"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"27.4", ",", "27.5", ",", "27.5", ",", "27.5", ",", "27.5"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"LB1", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "87.2", ",", "87.1", ",", "87.1", ",", "87", ",", "87.2", ",", 
-         "87.12"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"87.2", ",", "87.1", ",", "87.1", ",", "87", ",", "87.2"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"x1", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "44.2", ",", "44.1", ",", "44.4", ",", "44.3", ",", "44.2", ",", 
-         "44.24"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"44.2", ",", "44.1", ",", "44.4", ",", "44.3", ",", "44.2"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"x2", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "57.1", ",", "57", ",", "57", ",", "56.9", ",", "57.1", ",", 
-         "57.02"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"57.1", ",", "57", ",", "57", ",", "56.9", ",", "57.1"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"x3", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "82.9", ",", "83", ",", "83", ",", "82.9", ",", "83", ",", "82.96"}], 
+        RowBox[{"82.9", ",", "83", ",", "83", ",", "82.9", ",", "83"}], 
         "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"x4", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "94.1", ",", "94.2", ",", "94.1", ",", "94.1", ",", "94", ",", 
-         "94.1"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"94.1", ",", "94.2", ",", "94.1", ",", "94.1", ",", "94"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"tc", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "15.38", ",", "15.37", ",", "15.38", ",", "15.37", ",", "15.38", ",", 
-         "15.376"}], "}"}]}], "}"}], ",", "\n", 
+        "15.38", ",", "15.37", ",", "15.38", ",", "15.37", ",", "15.38"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"tA", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "25.404", ",", "25.4", ",", "25.404", ",", "25.404", ",", "25.408", 
-         ",", "25.404"}], "}"}]}], "}"}], ",", "\n", 
+        "25.404", ",", "25.4", ",", "25.404", ",", "25.404", ",", "25.408"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"tB", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "51.548", ",", "51.552", ",", "51.552", ",", "51.548", ",", "51.556", 
-         ",", "51.5512"}], "}"}]}], "}"}], ",", "\n", 
+        "51.548", ",", "51.552", ",", "51.552", ",", "51.548", ",", 
+         "51.556"}], "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"tD", ",", "0.01", ",", 
        RowBox[{"{", 
         RowBox[{
-        "33.264", ",", "33.272", ",", "33.272", ",", "33.264", ",", "22.272", 
-         ",", "31.0688"}], "}"}]}], "}"}], ",", "\n", 
+        "33.264", ",", "33.272", ",", "33.272", ",", "33.264", ",", 
+         "32.272"}], "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"xA", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "28.6", ",", "29", ",", "29", ",", "28.9", ",", "29", ",", "28.9"}], 
+        RowBox[{"28.6", ",", "29", ",", "29", ",", "28.9", ",", "29"}], 
         "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"xB", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "86.9", ",", "86.9", ",", "87", ",", "86.9", ",", "87", ",", 
-         "86.94"}], "}"}]}], "}"}], ",", "\n", 
+        RowBox[{"86.9", ",", "86.9", ",", "87", ",", "86.9", ",", "87"}], 
+        "}"}]}], "}"}], ",", "\n", 
      RowBox[{"{", 
       RowBox[{"xD", ",", "0.1", ",", 
        RowBox[{"{", 
-        RowBox[{
-        "107", ",", "106.9", ",", "107", ",", "107.1", ",", "107.1", ",", 
-         "107.02"}], "}"}]}], "}"}]}], "\n", "}"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.921741056135635*^9, 3.9217411039949503`*^9}},
- CellLabel->"In[32]:=",ExpressionUUID->"3071a4ea-06ec-4874-9120-936a83d63d07"],
+        RowBox[{"107", ",", "106.9", ",", "107", ",", "107.1", ",", "107.1"}],
+         "}"}]}], "}"}]}], "\n", "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.921741056135635*^9, 3.9217411039949503`*^9}, {
+  3.921794293902546*^9, 3.9217943706327815`*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"3071a4ea-06ec-4874-9120-936a83d63d07"],
 
 Cell[CellGroupData[{
 
@@ -746,8 +757,7 @@ Cell[BoxData[
  RowBox[{"EP", "[", 
   RowBox[{"func", ",", "data"}], "]"}]], "Input",
  CellChangeTimes->{{3.9217411056565905`*^9, 3.9217411112365913`*^9}},
- CellLabel->
-  "In[113]:=",ExpressionUUID->"e005971b-e9bd-4ec8-a518-11a8fbd17c59"],
+ CellLabel->"In[31]:=",ExpressionUUID->"e005971b-e9bd-4ec8-a518-11a8fbd17c59"],
 
 Cell[BoxData[
  TagBox[
@@ -771,12 +781,12 @@ Cell[BoxData[
        HoldForm]},
      {
       TagBox["LA",
-       HoldForm], "19.84`", 
+       HoldForm], "19.839999999999996`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.02\"\>",
+        StyleBox["\<\"0.0245\"\>",
          ShowStringCharacters->False],
-        0.019999999999999574`,
+        0.024494897427831258`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -788,142 +798,28 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0611\"\>",
+        StyleBox["\<\"0.0627\"\>",
          ShowStringCharacters->False],
-        0.06110100926607774,
+        0.06271629240742241,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "435.6`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.12\"\>",
-         ShowStringCharacters->False],
-        0.12008947769597357`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.12\"\>",
-         ShowStringCharacters->False],
-        0.1197557775805605,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["LB",
-       HoldForm], "50.02`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0163\"\>",
-         ShowStringCharacters->False],
-        0.016329931618554755`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.06\"\>",
-         ShowStringCharacters->False],
-        0.060000000000000074`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "911.2`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.118\"\>",
-         ShowStringCharacters->False],
-        0.11775424214748512`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.118\"\>",
-         ShowStringCharacters->False],
-        0.11759783907240338`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["LAB",
-       HoldForm], "30.180000000000003`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0306\"\>",
-         ShowStringCharacters->False],
-        0.030550504633038746`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0653\"\>",
-         ShowStringCharacters->False],
-        0.065319726474218,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "104.5`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.13\"\>",
-         ShowStringCharacters->False],
-        0.12952432309686682`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.128\"\>",
-         ShowStringCharacters->False],
-        0.12802431136947479`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["HA",
-       HoldForm], "20.3`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0258\"\>",
-         ShowStringCharacters->False],
-        0.025819888974716022`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0632\"\>",
-         ShowStringCharacters->False],
-        0.06324555320336755,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "180.`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.125\"\>",
-         ShowStringCharacters->False],
-        0.12479807500309811`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
+       NumberForm[#, 3]& ], "171.9`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.124\"\>",
          ShowStringCharacters->False],
-        0.12395900646091225`,
+        0.12379319374706053`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.123\"\>",
+         ShowStringCharacters->False],
+        0.12292167436243076`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
-      TagBox["HB",
-       HoldForm], "50.35999999999999`", 
+      TagBox["LB",
+       HoldForm], "50.019999999999996`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.02\"\>",
@@ -944,12 +840,12 @@ Cell[BoxData[
          ShowStringCharacters->False],
         0.06110100926607797,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "435.6`", 
+       NumberForm[#, 3]& ], "348.40000000000003`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.12\"\>",
          ShowStringCharacters->False],
-        0.12008947769597492`,
+        0.12017318813979257`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -960,13 +856,13 @@ Cell[BoxData[
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
-      TagBox["HAB",
-       HoldForm], "30.06`", 
+      TagBox["LAB",
+       HoldForm], "30.18`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0416\"\>",
+        StyleBox["\<\"0.0374\"\>",
          ShowStringCharacters->False],
-        0.041633319989322855`,
+        0.03741657386773919,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -978,23 +874,137 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0712\"\>",
+        StyleBox["\<\"0.0688\"\>",
          ShowStringCharacters->False],
-        0.07118052168020887,
+        0.0687992248018342,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "42.7`", 
+       NumberForm[#, 3]& ], "45.7`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.144\"\>",
+        StyleBox["\<\"0.139\"\>",
          ShowStringCharacters->False],
-        0.14357623126950586`,
+        0.13850827134696536`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.14\"\>",
+        StyleBox["\<\"0.135\"\>",
          ShowStringCharacters->False],
-        0.1395112588939819,
+        0.1348440027758699,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["HA",
+       HoldForm], "20.3`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0316\"\>",
+         ShowStringCharacters->False],
+        0.03162277660168368,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0658\"\>",
+         ShowStringCharacters->False],
+        0.06582805886043828,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "75.10000000000001`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.131\"\>",
+         ShowStringCharacters->False],
+        0.13113303829151735`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.129\"\>",
+         ShowStringCharacters->False],
+        0.12902062453864183`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["HB",
+       HoldForm], "50.36`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0245\"\>",
+         ShowStringCharacters->False],
+        0.02449489742783213,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0627\"\>",
+         ShowStringCharacters->False],
+        0.06271629240742274,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "171.9`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.124\"\>",
+         ShowStringCharacters->False],
+        0.12379319374706121`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.123\"\>",
+         ShowStringCharacters->False],
+        0.12292167436243141`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["HAB",
+       HoldForm], "30.059999999999995`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.051\"\>",
+         ShowStringCharacters->False],
+        0.05099019513592808,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.077\"\>",
+         ShowStringCharacters->False],
+        0.07702813338860912,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "20.8`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.16\"\>",
+         ShowStringCharacters->False],
+        0.16026792654789127`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.151\"\>",
+         ShowStringCharacters->False],
+        0.1509723672380211,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1002,9 +1012,9 @@ Cell[BoxData[
        HoldForm], "1.49`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00447\"\>",
+        StyleBox["\<\"0.00548\"\>",
          ShowStringCharacters->False],
-        0.004472135954999583,
+        0.005477225575051666,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1016,23 +1026,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0073\"\>",
+        StyleBox["\<\"0.00796\"\>",
          ShowStringCharacters->False],
-        0.007302967433402218,
+        0.007958224257542218,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "35.6`", 
+       NumberForm[#, 3]& ], "17.8`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0148\"\>",
+        StyleBox["\<\"0.0167\"\>",
          ShowStringCharacters->False],
-        0.014817535587520202`,
+        0.016731235670378958`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0143\"\>",
+        StyleBox["\<\"0.0156\"\>",
          ShowStringCharacters->False],
-        0.014313553149737264`,
+        0.015597832925675759`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1040,9 +1050,9 @@ Cell[BoxData[
        HoldForm], "15.238`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00542\"\>",
+        StyleBox["\<\"0.00663\"\>",
          ShowStringCharacters->False],
-        0.005416025603090524,
+        0.006633249580710658,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1054,23 +1064,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00792\"\>",
+        StyleBox["\<\"0.00879\"\>",
          ShowStringCharacters->False],
-        0.0079162280580252,
+        0.008793937305515174,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "22.8`", 
+       NumberForm[#, 3]& ], "12.4`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0164\"\>",
+        StyleBox["\<\"0.0191\"\>",
          ShowStringCharacters->False],
-        0.01638310595317157,
+        0.01909924691023513,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0155\"\>",
+        StyleBox["\<\"0.0172\"\>",
          ShowStringCharacters->False],
-        0.015515521887134846`,
+        0.017235800401112947`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1078,9 +1088,9 @@ Cell[BoxData[
        HoldForm], "29.677999999999997`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00702\"\>",
+        StyleBox["\<\"0.0086\"\>",
          ShowStringCharacters->False],
-        0.007023769168568478,
+        0.00860232526704261,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1092,375 +1102,33 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00909\"\>",
+        StyleBox["\<\"0.0104\"\>",
          ShowStringCharacters->False],
-        0.009092121131323893,
+        0.010360180178613355`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "14.`", 
+       NumberForm[#, 3]& ], "8.4`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0195\"\>",
+        StyleBox["\<\"0.0237\"\>",
          ShowStringCharacters->False],
-        0.01949552155941079,
+        0.023686976458751622`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0178\"\>",
+        StyleBox["\<\"0.0203\"\>",
          ShowStringCharacters->False],
-        0.0178202299604704,
+        0.02030558002342792,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
       TagBox["t3",
-       HoldForm], "25.262`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.00163\"\>",
-         ShowStringCharacters->False],
-        0.001632993161855127,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.00577\"\>",
-         ShowStringCharacters->False],
-        0.005773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.006\"\>",
-         ShowStringCharacters->False],
-        0.0059999999999999125`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "911.3000000000001`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0118\"\>",
-         ShowStringCharacters->False],
-        0.011775424214748531`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0118\"\>",
-         ShowStringCharacters->False],
-        0.011759783907240152`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["t4",
-       HoldForm], "44.278`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.00163\"\>",
-         ShowStringCharacters->False],
-        0.001632993161855127,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.00577\"\>",
-         ShowStringCharacters->False],
-        0.005773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.006\"\>",
-         ShowStringCharacters->False],
-        0.0059999999999999125`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "911.3000000000001`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0118\"\>",
-         ShowStringCharacters->False],
-        0.011775424214748531`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0118\"\>",
-         ShowStringCharacters->False],
-        0.011759783907240152`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["L",
-       HoldForm], "42.300000000000004`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0447\"\>",
-         ShowStringCharacters->False],
-        0.04472135954999537,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.073\"\>",
-         ShowStringCharacters->False],
-        0.07302967433402191,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "35.6`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.148\"\>",
-         ShowStringCharacters->False],
-        0.14817535587520092`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.143\"\>",
-         ShowStringCharacters->False],
-        0.1431355314973721,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["LA1",
-       HoldForm], "27.48`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0163\"\>",
-         ShowStringCharacters->False],
-        0.016329931618554755`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.06\"\>",
-         ShowStringCharacters->False],
-        0.060000000000000074`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "911.2`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.118\"\>",
-         ShowStringCharacters->False],
-        0.11775424214748512`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.118\"\>",
-         ShowStringCharacters->False],
-        0.11759783907240338`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["LB1",
-       HoldForm], "87.12`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0306\"\>",
-         ShowStringCharacters->False],
-        0.030550504633039675`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0653\"\>",
-         ShowStringCharacters->False],
-        0.06531972647421844,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "104.5`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.13\"\>",
-         ShowStringCharacters->False],
-        0.1295243230968675,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.128\"\>",
-         ShowStringCharacters->False],
-        0.12802431136947562`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["x1",
-       HoldForm], "44.24`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0416\"\>",
-         ShowStringCharacters->False],
-        0.041633319989321994`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0712\"\>",
-         ShowStringCharacters->False],
-        0.07118052168020837,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "42.7`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.144\"\>",
-         ShowStringCharacters->False],
-        0.14357623126950492`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.14\"\>",
-         ShowStringCharacters->False],
-        0.13951125889398092`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["x2",
-       HoldForm], "57.02`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0306\"\>",
-         ShowStringCharacters->False],
-        0.030550504633039367`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0653\"\>",
-         ShowStringCharacters->False],
-        0.0653197264742183,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "104.5`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.13\"\>",
-         ShowStringCharacters->False],
-        0.1295243230968676,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.128\"\>",
-         ShowStringCharacters->False],
-        0.12802431136947534`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["x3",
-       HoldForm], "82.96`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.02\"\>",
-         ShowStringCharacters->False],
-        0.019999999999998862`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0611\"\>",
-         ShowStringCharacters->False],
-        0.061101009266077505`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "435.6`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.12\"\>",
-         ShowStringCharacters->False],
-        0.12008947769597683`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.12\"\>",
-         ShowStringCharacters->False],
-        0.11975577758056002`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["x4",
-       HoldForm], "94.09999999999998`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0258\"\>",
-         ShowStringCharacters->False],
-        0.025819888974716477`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0577\"\>",
-         ShowStringCharacters->False],
-        0.05773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0632\"\>",
-         ShowStringCharacters->False],
-        0.06324555320336775,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "180.`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.125\"\>",
-         ShowStringCharacters->False],
-        0.12479807500309628`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.124\"\>",
-         ShowStringCharacters->False],
-        0.12395900646091264`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["tc",
-       HoldForm], "15.376`", 
+       HoldForm], "25.262000000000004`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.002\"\>",
          ShowStringCharacters->False],
-        0.0020000000000003127`,
+        0.0019999999999996024`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1474,31 +1142,31 @@ Cell[BoxData[
        InterpretationBox[
         StyleBox["\<\"0.00611\"\>",
          ShowStringCharacters->False],
-        0.0061101009266078905`,
+        0.006110100926607658,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "435.6`", 
+       NumberForm[#, 3]& ], "348.40000000000003`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.012\"\>",
          ShowStringCharacters->False],
-        0.012008947769597727`,
+        0.012017318813978457`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.012\"\>",
          ShowStringCharacters->False],
-        0.011975577758056277`,
+        0.011975577758055822`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
-      TagBox["tA",
-       HoldForm], "25.404`", 
+      TagBox["t4",
+       HoldForm], "44.278000000000006`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00103\"\>",
+        StyleBox["\<\"0.002\"\>",
          ShowStringCharacters->False],
-        0.0010327955589889894`,
+        0.001999999999999602,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1510,109 +1178,33 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00587\"\>",
+        StyleBox["\<\"0.00611\"\>",
          ShowStringCharacters->False],
-        0.005865151319446134,
+        0.006110100926607658,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "5200.3`", 
+       NumberForm[#, 3]& ], "348.40000000000003`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0115\"\>",
+        StyleBox["\<\"0.012\"\>",
          ShowStringCharacters->False],
-        0.011498161518699026`,
+        0.012017318813978457`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0115\"\>",
+        StyleBox["\<\"0.012\"\>",
          ShowStringCharacters->False],
-        0.011495485349992,
+        0.011975577758055822`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
-      TagBox["tB",
-       HoldForm], "51.551199999999994`", 
+      TagBox["L",
+       HoldForm], "42.3`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00122\"\>",
+        StyleBox["\<\"0.0548\"\>",
          ShowStringCharacters->False],
-        0.00122202018532088,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.00577\"\>",
-         ShowStringCharacters->False],
-        0.005773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0059\"\>",
-         ShowStringCharacters->False],
-        0.005901412260354722,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "2719.4`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0116\"\>",
-         ShowStringCharacters->False],
-        0.011571705758515436`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0116\"\>",
-         ShowStringCharacters->False],
-        0.011566555488218368`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["tD",
-       HoldForm], "31.0688`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"1.8\"\>",
-         ShowStringCharacters->False],
-        1.795639874807864,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.00577\"\>",
-         ShowStringCharacters->False],
-        0.005773502691896259,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"1.8\"\>",
-         ShowStringCharacters->False],
-        1.7956491565262225`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], "5.`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"4.62\"\>",
-         ShowStringCharacters->False],
-        4.615834399833063,
-        AutoDelete->True],
-       NumberForm[#, 3]& ], 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"3.52\"\>",
-         ShowStringCharacters->False],
-        3.5194076756611223`,
-        AutoDelete->True],
-       NumberForm[#, 3]& ]},
-     {
-      TagBox["xA",
-       HoldForm], "28.899999999999995`", 
-      TagBox[
-       InterpretationBox[
-        StyleBox["\<\"0.0632\"\>",
-         ShowStringCharacters->False],
-        0.06324555320336736,
+        0.0547722557505161,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1624,33 +1216,33 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0856\"\>",
+        StyleBox["\<\"0.0796\"\>",
          ShowStringCharacters->False],
-        0.08563488385776737,
+        0.0795822425754218,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "16.8`", 
+       NumberForm[#, 3]& ], "17.8`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.181\"\>",
+        StyleBox["\<\"0.167\"\>",
          ShowStringCharacters->False],
-        0.18083318513602767`,
+        0.16731235670378847`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.168\"\>",
+        StyleBox["\<\"0.156\"\>",
          ShowStringCharacters->False],
-        0.1678412881814945,
+        0.15597832925675686`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
-      TagBox["xB",
-       HoldForm], "86.94000000000001`", 
+      TagBox["LA1",
+       HoldForm], "27.48`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.02\"\>",
          ShowStringCharacters->False],
-        0.019999999999998862`,
+        0.020000000000000285`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1664,31 +1256,31 @@ Cell[BoxData[
        InterpretationBox[
         StyleBox["\<\"0.0611\"\>",
          ShowStringCharacters->False],
-        0.061101009266077505`,
+        0.06110100926607797,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "435.6`", 
+       NumberForm[#, 3]& ], "348.40000000000003`", 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.12\"\>",
          ShowStringCharacters->False],
-        0.12008947769597683`,
+        0.12017318813979257`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.12\"\>",
          ShowStringCharacters->False],
-        0.11975577758056002`,
+        0.11975577758056094`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
-      TagBox["xD",
-       HoldForm], "107.01999999999998`", 
+      TagBox["LB1",
+       HoldForm], "87.11999999999999`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0306\"\>",
+        StyleBox["\<\"0.0374\"\>",
          ShowStringCharacters->False],
-        0.030550504633037198`,
+        0.037416573867740326`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1700,23 +1292,441 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0653\"\>",
+        StyleBox["\<\"0.0688\"\>",
          ShowStringCharacters->False],
-        0.06531972647421729,
+        0.06879922480183483,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "104.5`", 
+       NumberForm[#, 3]& ], "45.7`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.13\"\>",
+        StyleBox["\<\"0.139\"\>",
          ShowStringCharacters->False],
-        0.12952432309686432`,
+        0.1385082713469675,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.128\"\>",
+        StyleBox["\<\"0.135\"\>",
          ShowStringCharacters->False],
-        0.12802431136947337`,
+        0.1348440027758711,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["x1",
+       HoldForm], "44.239999999999995`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.051\"\>",
+         ShowStringCharacters->False],
+        0.05099019513592704,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.077\"\>",
+         ShowStringCharacters->False],
+        0.07702813338860842,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "20.8`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.16\"\>",
+         ShowStringCharacters->False],
+        0.16026792654788966`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.151\"\>",
+         ShowStringCharacters->False],
+        0.15097236723801974`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["x2",
+       HoldForm], "57.02`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0374\"\>",
+         ShowStringCharacters->False],
+        0.037416573867739944`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0688\"\>",
+         ShowStringCharacters->False],
+        0.06879922480183462,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "45.7`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.139\"\>",
+         ShowStringCharacters->False],
+        0.13850827134696678`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.135\"\>",
+         ShowStringCharacters->False],
+        0.1348440027758707,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["x3",
+       HoldForm], "82.96000000000001`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0245\"\>",
+         ShowStringCharacters->False],
+        0.02449489742783039,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0627\"\>",
+         ShowStringCharacters->False],
+        0.06271629240742208,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "171.9`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.124\"\>",
+         ShowStringCharacters->False],
+        0.12379319374706164`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.123\"\>",
+         ShowStringCharacters->False],
+        0.12292167436243011`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["x4",
+       HoldForm], "94.1`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0316\"\>",
+         ShowStringCharacters->False],
+        0.03162277660168424,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0658\"\>",
+         ShowStringCharacters->False],
+        0.06582805886043856,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "75.10000000000001`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.131\"\>",
+         ShowStringCharacters->False],
+        0.13113303829151815`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.129\"\>",
+         ShowStringCharacters->False],
+        0.12902062453864238`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["tc",
+       HoldForm], "15.376`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00245\"\>",
+         ShowStringCharacters->False],
+        0.0024494897427835612`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00577\"\>",
+         ShowStringCharacters->False],
+        0.005773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00627\"\>",
+         ShowStringCharacters->False],
+        0.006271629240742411,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "171.9`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0124\"\>",
+         ShowStringCharacters->False],
+        0.012379319374706472`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0123\"\>",
+         ShowStringCharacters->False],
+        0.01229216743624341,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["tA",
+       HoldForm], "25.404`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00126\"\>",
+         ShowStringCharacters->False],
+        0.0012649110640677742`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00577\"\>",
+         ShowStringCharacters->False],
+        0.005773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00591\"\>",
+         ShowStringCharacters->False],
+        0.005910442735813826,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "1906.8000000000002`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0116\"\>",
+         ShowStringCharacters->False],
+        0.011591612819064928`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0116\"\>",
+         ShowStringCharacters->False],
+        0.011584254894881484`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["tB",
+       HoldForm], "51.551199999999994`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0015\"\>",
+         ShowStringCharacters->False],
+        0.0014966629547087471`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00577\"\>",
+         ShowStringCharacters->False],
+        0.005773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00596\"\>",
+         ShowStringCharacters->False],
+        0.005964338465691804,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "1008.8000000000001`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0117\"\>",
+         ShowStringCharacters->False],
+        0.01170393048525506,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0117\"\>",
+         ShowStringCharacters->False],
+        0.011689888584362821`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["tD",
+       HoldForm], "33.068799999999996`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.199\"\>",
+         ShowStringCharacters->False],
+        0.19920803196658557`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.00577\"\>",
+         ShowStringCharacters->False],
+        0.005773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.199\"\>",
+         ShowStringCharacters->False],
+        0.19929167903686676`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "4.`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.553\"\>",
+         ShowStringCharacters->False],
+        0.5529564638957736,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.391\"\>",
+         ShowStringCharacters->False],
+        0.39060451333077495`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["xA",
+       HoldForm], "28.9`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0775\"\>",
+         ShowStringCharacters->False],
+        0.07745966692414806,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0966\"\>",
+         ShowStringCharacters->False],
+        0.09660917830792938,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "9.700000000000001`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.216\"\>",
+         ShowStringCharacters->False],
+        0.2162302362358809,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.189\"\>",
+         ShowStringCharacters->False],
+        0.18935051005954984`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["xB",
+       HoldForm], "86.94000000000001`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0245\"\>",
+         ShowStringCharacters->False],
+        0.02449489742783039,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0627\"\>",
+         ShowStringCharacters->False],
+        0.06271629240742208,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "171.9`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.124\"\>",
+         ShowStringCharacters->False],
+        0.12379319374706164`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.123\"\>",
+         ShowStringCharacters->False],
+        0.12292167436243011`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ]},
+     {
+      TagBox["xD",
+       HoldForm], "107.01999999999998`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0374\"\>",
+         ShowStringCharacters->False],
+        0.037416573867737286`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0577\"\>",
+         ShowStringCharacters->False],
+        0.05773502691896259,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.0688\"\>",
+         ShowStringCharacters->False],
+        0.06879922480183318,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], "45.7`", 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.139\"\>",
+         ShowStringCharacters->False],
+        0.13850827134696284`,
+        AutoDelete->True],
+       NumberForm[#, 3]& ], 
+      TagBox[
+       InterpretationBox[
+        StyleBox["\<\"0.135\"\>",
+         ShowStringCharacters->False],
+        0.13484400277586786`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1725,9 +1735,9 @@ Cell[BoxData[
        HoldForm], "2.684563758389262`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00806\"\>",
+        StyleBox["\<\"0.00987\"\>",
          ShowStringCharacters->False],
-        0.008057539669383511,
+        0.009868430386111736,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1739,23 +1749,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0132\"\>",
+        StyleBox["\<\"0.0143\"\>",
          ShowStringCharacters->False],
-        0.013157907181482308`,
+        0.01433849692814237,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "35.6`", 
+       NumberForm[#, 3]& ], "17.8`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0267\"\>",
+        StyleBox["\<\"0.0301\"\>",
          ShowStringCharacters->False],
-        0.026697059749597137`,
+        0.03014501269380471,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0258\"\>",
+        StyleBox["\<\"0.0281\"\>",
          ShowStringCharacters->False],
-        0.025789024187626255`,
+        0.028102937571597243`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1765,9 +1775,9 @@ Cell[BoxData[
        HoldForm], "0.7980000000000018`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0129\"\>",
+        StyleBox["\<\"0.0158\"\>",
          ShowStringCharacters->False],
-        0.012909944487357853`,
+        0.01581138830084165,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1779,23 +1789,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0183\"\>",
+        StyleBox["\<\"0.0204\"\>",
          ShowStringCharacters->False],
-        0.018257418583505394`,
+        0.02041241452319296,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "34.300000000000004`", 
+       NumberForm[#, 3]& ], "19.1`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0371\"\>",
+        StyleBox["\<\"0.0427\"\>",
          ShowStringCharacters->False],
-        0.037091917778971695`,
+        0.04271594570923746,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0358\"\>",
+        StyleBox["\<\"0.04\"\>",
          ShowStringCharacters->False],
-        0.035783882874342865`,
+        0.040007597302960544`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1806,9 +1816,9 @@ Cell[BoxData[
        HoldForm], "6.232686980609419`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00383\"\>",
+        StyleBox["\<\"0.00469\"\>",
          ShowStringCharacters->False],
-        0.003828278259734603,
+        0.004688664164869873,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1820,23 +1830,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0052\"\>",
+        StyleBox["\<\"0.00587\"\>",
          ShowStringCharacters->False],
-        0.005203442265643596,
+        0.005865464059123068,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "32.1`", 
+       NumberForm[#, 3]& ], "18.400000000000002`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0106\"\>",
+        StyleBox["\<\"0.0123\"\>",
          ShowStringCharacters->False],
-        0.010598302381348181`,
+        0.012303542428129267`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0102\"\>",
+        StyleBox["\<\"0.0115\"\>",
          ShowStringCharacters->False],
-        0.010198559436294947`,
+        0.011496098308495328`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1850,9 +1860,9 @@ Cell[BoxData[
        HoldForm], "2.3216759002770084`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00711\"\>",
+        StyleBox["\<\"0.00871\"\>",
          ShowStringCharacters->False],
-        0.0071127741229248575`,
+        0.008711333628419027,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1864,23 +1874,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0115\"\>",
+        StyleBox["\<\"0.0126\"\>",
          ShowStringCharacters->False],
-        0.011543175244190013`,
+        0.012591293522905257`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "37.6`", 
+       NumberForm[#, 3]& ], "18.900000000000002`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0234\"\>",
+        StyleBox["\<\"0.0264\"\>",
          ShowStringCharacters->False],
-        0.023375823049512454`,
+        0.026360140759990713`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0226\"\>",
+        StyleBox["\<\"0.0247\"\>",
          ShowStringCharacters->False],
-        0.02262420774584677,
+        0.024678481823666762`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1890,9 +1900,9 @@ Cell[BoxData[
        HoldForm], "6.246000000000002`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00365\"\>",
+        StyleBox["\<\"0.00447\"\>",
          ShowStringCharacters->False],
-        0.003651483716700381,
+        0.00447213595499869,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -1904,23 +1914,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0134\"\>",
+        StyleBox["\<\"0.0137\"\>",
          ShowStringCharacters->False],
-        0.013416407864998543`,
+        0.013662601021279176`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "1340.1000000000001`", 
+       NumberForm[#, 3]& ], "512.4`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0263\"\>",
+        StyleBox["\<\"0.0268\"\>",
          ShowStringCharacters->False],
-        0.026319447775193808`,
+        0.026841604891724775`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0263\"\>",
+        StyleBox["\<\"0.0268\"\>",
          ShowStringCharacters->False],
-        0.026295676217297063`,
+        0.026778205936847346`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1928,40 +1938,40 @@ Cell[BoxData[
        FractionBox["60", 
         RowBox[{
          RowBox[{"-", "t3"}], "+", "t4"}]],
-       HoldForm], "3.1552376945729916`", 
+       HoldForm], "3.1552376945729907`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.000383\"\>",
+        StyleBox["\<\"0.000469\"\>",
          ShowStringCharacters->False],
-        0.0003831883324187229,
+        0.0004693079449069261,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.00135\"\>",
          ShowStringCharacters->False],
-        0.0013547753416244897`,
+        0.001354775341624489,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00141\"\>",
+        StyleBox["\<\"0.00143\"\>",
          ShowStringCharacters->False],
-        0.0014079238347210385`,
+        0.0014337594545203575`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "1822.5`", 
+       NumberForm[#, 3]& ], "696.9000000000001`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00276\"\>",
+        StyleBox["\<\"0.00282\"\>",
          ShowStringCharacters->False],
-        0.00276131384098358,
+        0.0028150058804507585`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00276\"\>",
+        StyleBox["\<\"0.00281\"\>",
          ShowStringCharacters->False],
-        0.002759480009028759,
+        0.0028101168933536945`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -1970,51 +1980,51 @@ Cell[BoxData[
         RowBox[{"15", " ", "t"}], 
         RowBox[{
          RowBox[{"-", "t3"}], "+", "t4"}]],
-       HoldForm], "1.1753260412284394`", 
+       HoldForm], "1.1753260412284392`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00353\"\>",
+        StyleBox["\<\"0.00432\"\>",
          ShowStringCharacters->False],
-        0.0035305495569935884`,
+        0.004324022463121743,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.00458\"\>",
          ShowStringCharacters->False],
-        0.004582068568564494,
+        0.004582068568564492,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00578\"\>",
+        StyleBox["\<\"0.0063\"\>",
          ShowStringCharacters->False],
-        0.005784473402256621,
+        0.006300200205438561,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "36.1`", 
+       NumberForm[#, 3]& ], "18.1`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0117\"\>",
+        StyleBox["\<\"0.0132\"\>",
          ShowStringCharacters->False],
-        0.011729795619891941`,
+        0.013231712053083813`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0113\"\>",
+        StyleBox["\<\"0.0123\"\>",
          ShowStringCharacters->False],
-        0.01133735953795285,
+        0.01234816549805143,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
       TagBox[
        RowBox[{"60", "-", "L"}],
-       HoldForm], "17.699999999999996`", 
+       HoldForm], "17.700000000000003`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0447\"\>",
+        StyleBox["\<\"0.0548\"\>",
          ShowStringCharacters->False],
-        0.04472135954999537,
+        0.0547722557505161,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -2026,23 +2036,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.073\"\>",
+        StyleBox["\<\"0.0796\"\>",
          ShowStringCharacters->False],
-        0.07302967433402191,
+        0.0795822425754218,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "35.6`", 
+       NumberForm[#, 3]& ], "17.8`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.148\"\>",
+        StyleBox["\<\"0.167\"\>",
          ShowStringCharacters->False],
-        0.14817535587520092`,
+        0.16731235670378847`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.143\"\>",
+        StyleBox["\<\"0.156\"\>",
          ShowStringCharacters->False],
-        0.1431355314973721,
+        0.15597832925675686`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2054,40 +2064,40 @@ Cell[BoxData[
            FractionBox[
             RowBox[{"LA1", "+", "LAB", "-", "LB1"}], "HAB"], "]"}]}], 
          "\[Pi]"]}],
-       HoldForm], "44.42244114068855`", 
+       HoldForm], "44.42244114068854`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0599\"\>",
+        StyleBox["\<\"0.0734\"\>",
          ShowStringCharacters->False],
-        0.059918148862792966`,
+        0.07338444552298347,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.112\"\>",
          ShowStringCharacters->False],
-        0.11170813916970973`,
+        0.11170813916970976`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.127\"\>",
+        StyleBox["\<\"0.134\"\>",
          ShowStringCharacters->False],
-        0.1267631370702976,
+        0.1336562202124352,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "315.1`", 
+       NumberForm[#, 3]& ], "138.5`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.249\"\>",
+        StyleBox["\<\"0.264\"\>",
          ShowStringCharacters->False],
-        0.24940899772305195`,
+        0.26427069550555765`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.248\"\>",
+        StyleBox["\<\"0.262\"\>",
          ShowStringCharacters->False],
-        0.24845118322509752`,
+        0.2619613779261274,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2099,40 +2109,40 @@ Cell[BoxData[
            RowBox[{"2", " ", "HB"}], 
            RowBox[{"RealAbs", "[", 
             RowBox[{"x1", "-", "x2"}], "]"}]], "]"}]}], "\[Pi]"],
-       HoldForm], "14.462824949265677`", 
+       HoldForm], "14.462824949265684`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0581\"\>",
+        StyleBox["\<\"0.0712\"\>",
          ShowStringCharacters->False],
-        0.058099494343555776`,
+        0.07115705772771455,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.0929\"\>",
          ShowStringCharacters->False],
-        0.09288311169588143,
+        0.0928831116958814,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.11\"\>",
+        StyleBox["\<\"0.117\"\>",
          ShowStringCharacters->False],
-        0.10955739902574566`,
+        0.11700683442763025`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "118.2`", 
+       NumberForm[#, 3]& ], "54.7`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.217\"\>",
+        StyleBox["\<\"0.235\"\>",
          ShowStringCharacters->False],
-        0.2169491086248869,
+        0.2345167591556213,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.215\"\>",
+        StyleBox["\<\"0.229\"\>",
          ShowStringCharacters->False],
-        0.2147285563303451,
+        0.22932918142319658`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2153,12 +2163,12 @@ Cell[BoxData[
             SuperscriptBox["HAB", "2"], " ", 
             RowBox[{"RealAbs", "[", 
              RowBox[{"x3", "-", "x4"}], "]"}]}]], "]"}]}], "\[Pi]"],
-       HoldForm], "6.458028321692998`", 
+       HoldForm], "6.458028321692997`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0232\"\>",
+        StyleBox["\<\"0.0284\"\>",
          ShowStringCharacters->False],
-        0.02319488035640989,
+        0.028407810759054526`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -2170,23 +2180,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0586\"\>",
+        StyleBox["\<\"0.0608\"\>",
          ShowStringCharacters->False],
-        0.058566899732670076`,
+        0.060820086991640473`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "759.9000000000001`", 
+       NumberForm[#, 3]& ], "314.20000000000005`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.115\"\>",
+        StyleBox["\<\"0.12\"\>",
          ShowStringCharacters->False],
-        0.11497212966057509`,
+        0.11966607182982252`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.115\"\>",
+        StyleBox["\<\"0.119\"\>",
          ShowStringCharacters->False],
-        0.11478901416220187`,
+        0.11920518004020837`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2202,9 +2212,9 @@ Cell[BoxData[
        HoldForm], "45.430055401662045`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0178\"\>",
+        StyleBox["\<\"0.0219\"\>",
          ShowStringCharacters->False],
-        0.017842217263154325`,
+        0.02185216408730274,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -2216,23 +2226,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.031\"\>",
+        StyleBox["\<\"0.0334\"\>",
          ShowStringCharacters->False],
-        0.03097831803599337,
+        0.03344889455231598,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "57.800000000000004`", 
+       NumberForm[#, 3]& ], "28.`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.062\"\>",
+        StyleBox["\<\"0.0685\"\>",
          ShowStringCharacters->False],
-        0.06201337525900344,
+        0.0685218475600781,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0607\"\>",
+        StyleBox["\<\"0.0656\"\>",
          ShowStringCharacters->False],
-        0.06071638765217459,
+        0.06555862864521733,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2248,12 +2258,12 @@ Cell[BoxData[
                RowBox[{"LA1", "+", "LAB", "-", "LB1"}], ")"}], "2"], 
              SuperscriptBox["HAB", "2"]]}]]}], 
          RowBox[{"tA", "-", "tB"}]]}],
-       HoldForm], "3.2193989405875447`", 
+       HoldForm], "3.2193989405875443`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00337\"\>",
+        StyleBox["\<\"0.00412\"\>",
          ShowStringCharacters->False],
-        0.003365504444190787,
+        0.004121884307668268,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -2265,23 +2275,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.00714\"\>",
+        StyleBox["\<\"0.00752\"\>",
          ShowStringCharacters->False],
-        0.007137854010507538,
+        0.007524112569416578,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "311.6`", 
+       NumberForm[#, 3]& ], "136.8`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.014\"\>",
+        StyleBox["\<\"0.0149\"\>",
          ShowStringCharacters->False],
-        0.0140444934634836,
+        0.01487863451377392,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.014\"\>",
+        StyleBox["\<\"0.0147\"\>",
          ShowStringCharacters->False],
-        0.01398993678749956,
+        0.014746989651681619`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2291,40 +2301,40 @@ Cell[BoxData[
          RowBox[{"HB", " ", 
           RowBox[{"(", 
            RowBox[{"tA", "-", "tB"}], ")"}]}], "HAB"], "+", "tB"}],
-       HoldForm], "7.746376580172992`", 
+       HoldForm], "7.746376580172985`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0631\"\>",
+        StyleBox["\<\"0.0773\"\>",
          ShowStringCharacters->False],
-        0.06314402663054645,
+        0.0773353227747757,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
         StyleBox["\<\"0.0985\"\>",
          ShowStringCharacters->False],
-        0.0985360290497792,
+        0.09853602904977923,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.117\"\>",
+        StyleBox["\<\"0.125\"\>",
          ShowStringCharacters->False],
-        0.11703212003556157`,
+        0.1252601339995199,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "68.8`", 
+       NumberForm[#, 3]& ], "32.1`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.233\"\>",
+        StyleBox["\<\"0.255\"\>",
          ShowStringCharacters->False],
-        0.2334869221543625,
+        0.2551199330740426,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.229\"\>",
+        StyleBox["\<\"0.246\"\>",
          ShowStringCharacters->False],
-        0.22937874030406916`,
+        0.24550535133772014`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2335,12 +2345,12 @@ Cell[BoxData[
           RowBox[{"(", 
            RowBox[{"LA1", "+", "LAB", "-", "LB1"}], ")"}]}], "HAB"], "-", 
         "xB"}],
-       HoldForm], "12.434810379241512`", 
+       HoldForm], "12.434810379241497`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.108\"\>",
+        StyleBox["\<\"0.133\"\>",
          ShowStringCharacters->False],
-        0.1082178293906178,
+        0.13253923153928915`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
@@ -2352,23 +2362,23 @@ Cell[BoxData[
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.242\"\>",
+        StyleBox["\<\"0.254\"\>",
          ShowStringCharacters->False],
-        0.24214057912569936`,
+        0.25394410676040013`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "471.`", 
+       NumberForm[#, 3]& ], "202.60000000000002`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.476\"\>",
+        StyleBox["\<\"0.501\"\>",
          ShowStringCharacters->False],
-        0.4758095843580499,
+        0.5007127584539837,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.475\"\>",
+        StyleBox["\<\"0.498\"\>",
          ShowStringCharacters->False],
-        0.47458681428204197`,
+        0.4977213033365787,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2380,40 +2390,40 @@ Cell[BoxData[
          RowBox[{"HB", " ", "tB"}], "-", 
          RowBox[{"HAB", " ", "tD"}]}], 
         RowBox[{"tA", "-", "tB"}]],
-       HoldForm], "26.812509484763176`", 
+       HoldForm], "29.11179965732469`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"2.06\"\>",
+        StyleBox["\<\"0.233\"\>",
          ShowStringCharacters->False],
-        2.0647032636384424`,
+        0.23313063250171448`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.0738\"\>",
+        StyleBox["\<\"0.0712\"\>",
          ShowStringCharacters->False],
-        0.07383730345949055,
+        0.07119473080843138,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"2.07\"\>",
+        StyleBox["\<\"0.244\"\>",
          ShowStringCharacters->False],
-        2.066023115616426,
+        0.24375926957868588`,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "5.`", 
+       NumberForm[#, 3]& ], "5.1000000000000005`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"5.31\"\>",
+        StyleBox["\<\"0.622\"\>",
          ShowStringCharacters->False],
-        5.305713179732826,
+        0.6218648674858221,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"4.05\"\>",
+        StyleBox["\<\"0.478\"\>",
          ShowStringCharacters->False],
-        4.049330897835428,
+        0.47775938927201433`,
         AutoDelete->True],
        NumberForm[#, 3]& ]},
      {
@@ -2432,40 +2442,40 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"-", "tB"}], "+", "tD"}], ")"}]}], 
          RowBox[{"tA", "-", "tB"}]], "-", "xB", "+", "xD"}],
-       HoldForm], "93.1774807245135`", 
+       HoldForm], "90.92408456737239`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"2.02\"\>",
+        StyleBox["\<\"0.233\"\>",
          ShowStringCharacters->False],
-        2.023863049481306,
+        0.2331881953489622,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"0.127\"\>",
+        StyleBox["\<\"0.123\"\>",
          ShowStringCharacters->False],
-        0.12730527825528729`,
+        0.12273385482357993`,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"2.03\"\>",
+        StyleBox["\<\"0.264\"\>",
          ShowStringCharacters->False],
-        2.027862982779514,
+        0.2635153383960056,
         AutoDelete->True],
-       NumberForm[#, 3]& ], "5.`", 
+       NumberForm[#, 3]& ], "7.6000000000000005`", 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"5.2\"\>",
+        StyleBox["\<\"0.613\"\>",
          ShowStringCharacters->False],
-        5.198277934727086,
+        0.6134325114201739,
         AutoDelete->True],
        NumberForm[#, 3]& ], 
       TagBox[
        InterpretationBox[
-        StyleBox["\<\"3.97\"\>",
+        StyleBox["\<\"0.516\"\>",
          ShowStringCharacters->False],
-        3.9745384118298155`,
+        0.5164805726300559,
         AutoDelete->True],
        NumberForm[#, 3]& ]}
     },
@@ -2526,10 +2536,11 @@ $CellContext`tD) - $CellContext`xB + $CellContext`xD}, {
   3.921741112359378*^9, {3.921741517932043*^9, 3.921741540675403*^9}, 
    3.9217438740871096`*^9, {3.921743937238511*^9, 3.921743955596103*^9}, {
    3.9217442175378556`*^9, 3.921744233398818*^9}, {3.921744455277678*^9, 
-   3.921744467657797*^9}, 3.921745219705494*^9},
+   3.921744467657797*^9}, 3.921745219705494*^9, 3.921790487937296*^9, 
+   3.9217906266241393`*^9, 3.9217943749574614`*^9},
  CellLabel->
-  "Out[113]//TableForm=",ExpressionUUID->"0d4d2e10-f5e5-4bbe-9776-\
-6e6600b46c40"]
+  "Out[31]//TableForm=",ExpressionUUID->"6008ad46-8b39-4f7b-af06-\
+d99e505ed929"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2556,8 +2567,9 @@ Cell[BoxData[
 cade966c0ac8"]
 }, Open  ]]
 },
-WindowSize->{945, 562.5},
-WindowMargins->{{-5, Automatic}, {Automatic, 0}},
+WindowSize->{471, 556.875},
+WindowMargins->{{Automatic, -4.125}, {Automatic, 0}},
+Magnification:>0.5 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (2023\:5e747\:670824\
 \:65e5)",
 StyleDefinitions->"Default.nb",
@@ -2574,22 +2586,22 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 3443, 87, 102, "Input",ExpressionUUID->"756c262a-4c0d-4ef4-9ac7-67bfd16624f5"],
-Cell[4004, 109, 10134, 222, 651, "Input",ExpressionUUID->"88652af7-1aa7-4ec2-9bbf-f8d8c4b8a8a8"],
+Cell[558, 20, 3443, 87, 49, "Input",ExpressionUUID->"756c262a-4c0d-4ef4-9ac7-67bfd16624f5"],
+Cell[4004, 109, 10230, 222, 335, "Input",ExpressionUUID->"88652af7-1aa7-4ec2-9bbf-f8d8c4b8a8a8"],
 Cell[CellGroupData[{
-Cell[14163, 335, 1417, 30, 33, "Input",ExpressionUUID->"d9e39e9e-20be-4034-a54e-7bb488b39353"],
-Cell[15583, 367, 3836, 86, 116, "Output",ExpressionUUID->"2f301877-0186-4170-8104-e9c71261ff0f"]
+Cell[14259, 335, 1416, 30, 15, "Input",ExpressionUUID->"d9e39e9e-20be-4034-a54e-7bb488b39353"],
+Cell[15678, 367, 5145, 114, 58, "Output",ExpressionUUID->"62ea31f8-a32f-422a-bcef-c5082f8a9c93"]
 }, Open  ]],
-Cell[19434, 456, 3256, 105, 598, "Input",ExpressionUUID->"8df2b368-f8ab-48a3-a3b6-49e8c80396ca"],
-Cell[22693, 563, 739, 19, 45, "Input",ExpressionUUID->"c28b8669-4c81-444f-b2c6-293fa6607332"],
-Cell[23435, 584, 5703, 156, 504, "Input",ExpressionUUID->"3071a4ea-06ec-4874-9120-936a83d63d07"],
+Cell[20838, 484, 3255, 105, 299, "Input",ExpressionUUID->"8df2b368-f8ab-48a3-a3b6-49e8c80396ca"],
+Cell[24096, 591, 735, 18, 22, "Input",ExpressionUUID->"c28b8669-4c81-444f-b2c6-293fa6607332"],
+Cell[24834, 611, 5223, 140, 252, "Input",ExpressionUUID->"3071a4ea-06ec-4874-9120-936a83d63d07"],
 Cell[CellGroupData[{
-Cell[29163, 744, 237, 5, 28, "Input",ExpressionUUID->"e005971b-e9bd-4ec8-a518-11a8fbd17c59"],
-Cell[29403, 751, 52136, 1780, 970, "Output",ExpressionUUID->"0d4d2e10-f5e5-4bbe-9776-6e6600b46c40"]
+Cell[30082, 755, 233, 4, 18, "Input",ExpressionUUID->"e005971b-e9bd-4ec8-a518-11a8fbd17c59"],
+Cell[30318, 761, 52395, 1781, 551, "Output",ExpressionUUID->"6008ad46-8b39-4f7b-af06-d99e505ed929"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[81576, 2536, 264, 5, 33, "Input",ExpressionUUID->"bfd5f4ac-d54d-4886-84af-2499a0ab7eae"],
-Cell[81843, 2543, 414, 12, 51, "Output",ExpressionUUID->"51f6f146-29b4-4a21-bb96-cade966c0ac8"]
+Cell[82750, 2547, 264, 5, 18, "Input",ExpressionUUID->"bfd5f4ac-d54d-4886-84af-2499a0ab7eae"],
+Cell[83017, 2554, 414, 12, 27, "Output",ExpressionUUID->"51f6f146-29b4-4a21-bb96-cade966c0ac8"]
 }, Open  ]]
 }
 ]
