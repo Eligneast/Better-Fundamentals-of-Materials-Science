@@ -69,6 +69,55 @@
         \item 利用硬度计对\textbf{所有热处理后的试样进行硬度测试}，每个试样至少三个试验点，再取一个平均值。\textbf{进行回火的试样需进行两次硬度测试，即淬火后回火前、回火后两次}，测试结果记录于下表中。（硬度测试须在金相磨制观察前完成）
         \item 根据拟定的热处理工艺对试样进行相应的热处理，然后利用金相砂纸对热处理后的试样进行\textbf{磨制、抛光}，并用 $4\%$ 的硝酸酒精进行腐蚀制得金相试样。\textbf{利用金相显微镜对其进行显微组织观察，分析热处理工艺对其组织的影响。}
         \item 实验结束后，汇总各小组实验数据，根据实验数据分析冷却方法及回火温度对碳钢性能（硬度）的影响，画出回火温度同硬度的关系曲线，并阐明硬度变化的原因。
-    \end{enumerate}
+    \end{enumerate}\newpage
+\section{实验结果}
+    本人处理的是 45 钢盐淬工艺。
+    \subsection{硬度测试数据}
+        \begin{table}[!ht]\centering
+            \caption{不同热处理试样的硬度值}
+            \begin{tabularx}{0.8\textwidth}{|m{12em}|c|*{4}{C|}}\hline
+                \multicolumn{2}{|c|}{材料及热处理状态} & \multicolumn{3}{c|}{测得硬度数据} & 平均值 \bigstrut \\ \hline
+        
+                \multicolumn{2}{|c|}{45 钢经 \SI{860}{\degreeCelsius} 加热、油淬(HRC)} & 28.1 & 33.1 & 31.0 & 30.7 \bigstrut \\ \hline
+        
+                \multicolumn{2}{|c|}{45 钢经 \SI{860}{\degreeCelsius} 加热、水淬(HRC)} & 56.7 & 57.7 & 54.3 & 56.2 \bigstrut \\ \hline
 
+                \multicolumn{2}{|c|}{45 钢经 \SI{860}{\degreeCelsius} 加热、盐淬(HRC)} & 60.5 & 62.7 & 61.0 & 61.4 \bigstrut \\ \hline
+
+                \multirow{2}{12em}{45 钢经 \SI{860}{\degreeCelsius} 加热、水淬、\SI{200}{\degreeCelsius} 回火(HRC)} & 回火前 & 54.0 & 57.0 & 62.0 & 57.7\bigstrut \\ \cline{2-6}
+                & 回火后 & 56.0 & 55.0 & 53.4 & 54.8 \bigstrut \\ \hline
+
+                \multirow{2}{12em}{45 钢经 \SI{860}{\degreeCelsius} 加热、水淬、\SI{400}{\degreeCelsius} 回火(HRC)} & 回火前 & 62.3 & 57.6 & 59.2 & 59.7\bigstrut \\ \cline{2-6}
+                & 回火后 & 41.5 & 38.5 & 45.2 & 41.7 \bigstrut \\ \hline
+        
+                \multirow{2}{12em}{45 钢经 \SI{860}{\degreeCelsius} 加热、水淬、\SI{600}{\degreeCelsius} 回火(HRC)} & 回火前 & 63.2 & 62.5 & 60.0 & 61.9 \bigstrut \\ \cline{2-6}
+                & 回火后 & 23.9 & 23.7 & 24.2 & 23.9 \bigstrut \\ \hline
+            \end{tabularx}
+        \end{table}
+    \subsection{试样金相图}
+        见下一页
+        \begin{figure}[!ht]
+            \subfloat[45 钢油淬 500x]{\includegraphics[width=0.40\textwidth]{exp_img/fig1a.jpg}\label{expfig:fig1a}} \hspace{30pt}
+            \subfloat[45 钢水淬 500x]{\includegraphics[width=0.40\textwidth]{exp_img/fig1b.jpg}\label{expfig:fig1b}} \\
+            \subfloat[45 钢盐淬 500x]{\includegraphics[width=0.40\textwidth]{exp_img/fig1c.jpg}\label{expfig:fig1c}}\hspace{30pt}
+            \subfloat[45 钢水淬 低温回火后 500x]{\includegraphics[width=0.40\textwidth]{exp_img/fig1d.jpg}\label{expfig:fig1d}} \\ 
+            \subfloat[45 钢水淬 中温回火后 500x]{\includegraphics[width=0.40\textwidth]{exp_img/fig1e.jpg}\label{expfig:fig1e}} 
+            \hspace{30pt} 
+            \subfloat[45 钢水淬 高温回火后 500x]{\includegraphics[width=0.40\textwidth]{exp_img/fig1f.jpg}\label{expfig:fig1f}} \\
+        \end{figure}
+    \subsection{结果分析}
+        \subsubsection{淬火工艺}
+            三种淬火介质按照冷却速率从大到小依次排序分别为：盐水、水、油。而淬火降温速度越快，则越容易得到较硬的马氏体相，这与得到的三种试样的淬火后硬度完全吻合。再来看金相图，随着介质的冷却速率提升，我们可以明显看出金相组织的粒度急剧缩小，从油淬样品中粗大而均匀的大晶粒最终变成盐淬样品中细小针状的细密晶粒，这些针状或板条状的深色结构正是我们想要得到的马氏体相。\par
+            至于为什么主要成分同样是水，盐水淬能比水淬获得更理想的马氏体结构，这要考虑到一个特殊性质：当冷却介质为 20 ℃ 的自来水，工件温度在 200 $\sim$ 300 ℃ 时，平均冷却速度为 450 ℃/s；工件温度在 340 ℃时，平均冷却速度为 775 ℃/s；工件温度在 500 $\sim$ 650 ℃ 时，平均冷却速度为 135 ℃/s。因此，水的冷却特性并不理想，在需要快冷的 500 $\sim$ 650 ℃ 温度范围内，它的冷却速度很小，而在 200 $\sim$ 300 ℃ 需要慢冷时，它的冷却速度反而很大。查阅资料得知：钢加热到奥氏体后，只有冷却速度大于临界冷却速度时才能获得马氏体组织。因此，理想淬火冷却介质的性能是使钢在高温区域（ 700 ℃ 以上）较缓慢地冷却，以减少工件的热应力；在 550 $\sim$ 600 ℃ 间以足够快的冷却速度迅速通过奥氏体等温转变图的“鼻尖”，以防止发生珠光体或贝氏体转变；在容易造成淬火裂纹的过冷奥氏体较稳定的低温区域（ 300 ℃ 以下）缓慢冷却，使工件在缓冷条件下通过奥氏体向马氏体的转变区，从而减少相变应力。而盐溶液的蒸汽压使其刚好能满足上述要求，故可以得到更理想的马氏体结构。
+        \subsubsection{回火工艺}
+            如 \fgref{fig2} ，随着回火温度越来越高，回火后的硬度下降幅度越来越大。\par
+            \begin{figure}
+                \caption{硬度减少量随温度变化曲线\label{fig2}}
+                \includegraphics[width=0.5\textwidth]{exp_img/fig2.pdf}
+            \end{figure}\par
+            一方面回火可以释放内应力，让组织结构更加稳定，韧性提高、但硬度下降。另一方面是随着回火温度的升高，马氏体回火的比例提高，这使得钢材损失一部分硬度、但是可以得到更大的韧性。金相图显示，200℃ 回火时，有部分马氏体分解，形成了细小的回火马氏体组织； 400℃ 回火时，马氏体结构进一步分解转变为细小的回火索氏体，由小尺寸的铁素体和碳化物均匀混合得到；这一现象在 600℃ 回火时非常显著，整个金相结构都转变为了均匀的灰色组织，这正是回火索氏体。
+\section{思考题}
+    \subsection{45 钢淬火后硬度不足，如何用金相分析来断定是淬火加热温度不足还是冷却速度不够？}
+        如果淬火加热温度不足，通常会导致试样中的组织结构未完全转变为马氏体。在金相分析中，观察试样的组织结构是否存在未转变为马氏体的组织相，如珠光体或渗碳体，可以判断加热温度是否达到足够高的临界温度。\par
+        如果淬火后的试样中存在未转变为马氏体的组织相，并且淬火后的组织结构呈现出较粗大的珠光体或渗碳体，这可能是由于冷却速度不够快所致。在金相分析中，观察试样的组织结构是否存在较大的珠光体或渗碳体，以及马氏体的比例较低，可以判断冷却速度是否达到足够快的水平。
 \end{document}
