@@ -45,30 +45,99 @@
     \end{enumerate}
 
 \section{实验数据}
-\subsection{铜棒}
-
+\subsection{不锈钢棒}
+根据\seqref{eq:2} 可估算出不锈钢棒的共振频率为 \SI{1156.25}{\Hz}，节点位置为 \SI{33.63}{\mm}
 \begin{table}[!ht]
-    \caption{不锈钢棒几何尺寸测量数据}\label{tab:copperSize}
+    \caption{不锈钢棒几何尺寸测量数据}\label{tab:steelSize}
     \begin{tabular}{c *{5}{S[table-format=3.3]} S[table-format=3.4]} \toprule
-        次数 & {1} & {2} & {3} & {4} & {5} & {平均值}  \\ \midrule
+        次数 & {1} & {2} & {3} & {4} & {5} & {平均值} \\ \midrule
         长度(\unit{\mm}) & 150.12 & 150.10 & 150.16 & 150.14 & 150.10 & 150.124 \\ 
-        直径(\unit{\mm}) & 5.92 & 5.90  & 5.90 & 5.88 & 5.88 & 5.896 \\ 
+        直径(\unit{\mm}) & 5.92 & 5.90 & 5.90 & 5.88 & 5.88 & 5.896 \\ 
         质量(\unit{\g}) & 33.349 & 33.350 & 33.350 & 33.350 & 33.350 & 33.3498 \\ \bottomrule
     \end{tabular}
 \end{table}
 
 \begin{table}[!ht]
-    \caption{铜棒几何尺寸测量数据}\label{tab:copperFreq}
+    \caption{不锈钢棒共振频率测量数据}\label{tab:steelFreq}
     \begin{tabular}{c *{5}{S[table-format=4.1]}} \toprule
-        次数 & {1} & {2} & {3} & {4} & {5}  \\ \midrule
-        x(\unit{\mm}) & 10.0 & 20.0 & 25.0 & 45.0 & 55.0 \\ 
-        f(\unit{\Hz}) & 1178.9 & 1175.0 & 1172.6 & 1176.7 & 1180.1 \\\bottomrule
+        次数 & {1} & {2} & {3} & {4} & {5} \\ \midrule
+        $x$(\unit{\mm}) & 10.0 & 20.0 & 25.0 & 45.0 & 55.0 \\ 
+        $f$(\unit{\Hz}) & 1178.9 & 1175.0 & 1172.6 & 1176.7 & 1180.1 \\\bottomrule
+    \end{tabular}
+\end{table}
+根据以上数据，在 OriginPro 软件中作图并拟合可得
+\begin{figure}[!ht]
+    \caption{不锈钢棒共振频率拟合曲线}
+    \includegraphics[width=0.8\textwidth]{steelFreq.pdf}
+\end{figure}
+
+\subsection{铜棒}
+根据\seqref{eq:2} 可估算出不锈钢棒的共振频率为 \SI{1156.25}{\Hz}，节点位置为 \SI{33.63}{\mm}
+\begin{table}[!ht]
+    \caption{铜棒几何尺寸测量数据}\label{tab:copperSize}
+    \begin{tabular}{c *{5}{S[table-format=3.3]} S[table-format=3.4]} \toprule
+        次数 & {1} & {2} & {3} & {4} & {5} & {平均值} \\ \midrule
+        长度(\unit{\mm}) & 149.90 & 149.88 & 149.90 & 149.88 & 149.88 & 149.888 \\ 
+        直径(\unit{\mm}) & 5.88 & 5.86 & 5.88 & 5.88 & 5.86 & 5.872 \\ 
+        质量(\unit{\g}) & 34.980 & 34.980 & 34.979 & 34.980 & 34.979 & 34.9796 \\ \bottomrule
     \end{tabular}
 \end{table}
 
+\begin{table}[!ht]
+    \caption{铜棒共振频率测量数据}\label{tab:copperFreq}
+    \begin{tabular}{c *{5}{S[table-format=4.1]}} \toprule
+        次数 & {1} & {2} & {3} & {4} & {5} \\ \midrule
+        $x$(\unit{\mm}) & 10.0 & 20.0 & 25.0 & 45.0 & 55.0 \\ 
+        $f$(\unit{\Hz}) & 839.9 & 836.4 & 834.1 & 840.3 & 844.2 \\ \bottomrule
+    \end{tabular}
+\end{table}
+根据以上数据，在 OriginPro 软件中作图并拟合可得
 \begin{figure}[!ht]
-    \caption{}
+    \caption{铜棒共振频率拟合曲线}
+    \includegraphics[width=0.8\textwidth]{copperFreq.pdf}
 \end{figure}
+\section{结果分析}
+根据\seqref{eq:2} 可计算
+\begin{align*}
+    E_\text{不锈钢棒} &= 1.6067\times \frac{150.124^3 \times 33.3498}{5.896^4}\times 1171.34^2= \SI{1.937d11}{\N \per \square \m} \\
+    E_\text{铜棒} &= 1.6067\times \frac{149.888^3 \times 34.9796}{5.872^4}\times 833.153^2= \SI{1.105d11}{\N \per \square \m}
+\end{align*}
+相对误差为
+\begin{align*}
+    \Delta E_\text{不锈钢棒} &= 3.2\% \\
+    \Delta E_\text{铜棒} &= 7.9\%
+\end{align*}
+\subsection{误差分析}
+\subsubsection{系统误差}
+\begin{enumerate}
+    \item 在数据分析中我们可以得到曲线最小值点分别为 $x=31.2368$ 和 $x=30.1289$，这两个点与理论的 $x \approx 33.6$ 具有一定的差异。是因为拟合所采取的方程式四次曲线，但实际的曲线可能并非如此，甚至可能偏差较大，造成拟合结果看似十分完美。
+    \item 实验当天的温度、湿度所带来的误差。
+    \item 仪器本身精度的影响，存在一定的误差。
+    \item 不锈钢棒和铜棒的加工工艺可能会对杨氏模量产生一定的影响，使不同的不锈钢棒和铜棒具有不完全相同的杨氏模量。
+    \item 本实验计算的杨氏模量所需要的固有频率是由拟合曲线出来的，与事实存在偏差。
+\end{enumerate}
+\subsubsection{偶然误差}
+\begin{enumerate}
+    \item 在读取频率时，可能会由于主观取舍固有频率的波动值而产生一定的误差。在悬挂时，也难以完全准确地固定悬挂点在指定位置。
+    \item 在对数据进行四舍五入和拟合分析时，可能会产生偶然误差。
+\end{enumerate}
+
+\section{思考题}
+\begin{enumerate}
+    \item \thinking{什么是杨氏模量？杨氏模量的意义？}{杨氏模量是材料力学中的一个重要参数指在材料受到拉伸或压缩时，单位面积内的应力与相应的应变之间的比值，通常用符号 $E$ 表示。换言之，杨氏模量衡量了材料在受力时的刚度，即材料对外部应力的响应程度。杨氏模量的意义在于：
+    \begin{enumerate}
+        \item 比较不同材料的应力应变性质：通过比较不同材料的杨氏模量，可以评估它们在特定应力条件下的相对性能。这对于工程设计和材料选择至关重要，因为杨氏模量直接影响到材料在使用过程中的变形和稳定性。
+        \item 设计应用的指导：杨氏模量是工程设计中的重要参数之一。它用于计算结构在受力时的变形、应力分布等，有助于工程师设计出更加稳定和符合要求的结构。
+    \end{enumerate}
+    }
+    \item \thinking{试讨论，试样的长度 $l$、直径 $d$、质量 $m$、共振频率 $f$ 分别应该采用什么规格的仪器测量？为什么？}{
+    \begin{enumerate}
+        \item 试样的长度 $l$ 和直径 $d$ 用最小刻度 \SI{0.02}{\mm} 的游标卡尺测量，这样可以使测量尽可能准确，减少实验误差。
+        \item 质量 $m$ 用最小刻度 \SI{0.001}{\g} 的电子天平测量，这样可以使测量尽可能准确，减少实验误差。
+        \item 共振频率 $f$ 用带宽大于 \SI{10}{\kHz} 的示波器测量，这样测量的频率满足五倍法则，能更加准确的找到相应的共振峰。如果精度不够的话，可能会出现无论怎么变化都得不到共振峰的情况。
+    \end{enumerate}}
+\end{enumerate}
+\newpage
 \part{基于迈克尔逊干涉测量金属材料线膨胀系数}
 \setcounter{section}{0}
 \section{实验目的}
