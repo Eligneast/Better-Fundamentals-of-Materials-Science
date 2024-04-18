@@ -196,8 +196,64 @@
 \subsection{数据处理}
 由于直接对 $\Delta t$ 取平均值会丢失数据，故使用线性拟合处理实验数据，以试样温度 $t$ 为纵坐标，干涉环总变化数 $N_\text{总}$ 为横坐标，根据\seqref{eq:alpha} 可得
 \begin{equation}
-    \alpha = \frac{\lambda}{2 L_1 k}
+    \alpha = \frac{\lambda}{2 L_1 k} \label{eq:5}
 \end{equation}
-其中 $k$ 为拟合直线的斜率
+其中 $k$ 为拟合直线的斜率 \par
 将数据放入 OriginPro 中处理可得
+\begin{figure}[!ht]
+    \begin{floatrow}
+        \ffigbox[0.49\textwidth]{\caption{黄铜数据拟合结果}}{\includegraphics[width=0.49\textwidth]{Copper.pdf}}
+        \ffigbox[0.49\textwidth]{\caption{硬铝数据拟合结果}}{\includegraphics[width=0.49\textwidth]{Aluminum.pdf}}
+    \end{floatrow}
+\end{figure}
+\begin{align}
+    k_\text{黄铜}&=\SI{0.1086(24)}{\degreeCelsius}\\
+    k_\text{硬铝}&=\SI{0.0946(24)}{\degreeCelsius}
+\end{align}
+带入\seqref{eq:5} 可得
+\begin{align}
+    \alpha_\text{黄铜}&=\SI{1.944(43)d-5}{\per\degreeCelsius}\\
+    \alpha_\text{硬铝}&=\SI{2.233(57)d-5}{\per\degreeCelsius}
+\end{align}
+不确定度汇总得到表 \ref{tab:uncertainty2}
+\begin{table}[!ht]
+    \caption{不确定度}\label{tab:uncertainty2}
+    \begin{tabular}{*{4}{c}} \toprule
+        & $k$(\unit{\degreeCelsius}) & $L$(\unit{\mm}) & $\alpha$(\unit{\per\degreeCelsius})  \\ \midrule
+        黄铜 & 0.0024 & 0.0075 & \num{5.7d-7} \\ 
+        硬铝(\unit{\mm}) & 0.0024 & 0.0102 & \num{4.3d-7} \\ \bottomrule
+    \end{tabular}
+\end{table}
+\section{结果分析}
+\subsection{实验数据}
+查阅讲义得知，铜棒的线膨胀系数参考值为 \SI{2.08d-5}{\per\degreeCelsius}，铝棒的线膨胀系数参考值为 \SI{2.36d-5}{\per\degreeCelsius}。可以看出，相对误差的值在合理范围之内而且相对较小，体现了实验操作的准确严谨。实验标准误差也很小，可以看出实验的精密性非常好。
+\subsection{误差分析}
+\subsubsection{系统误差}
+\begin{enumerate}
+    \item 实验当天的温度、湿度所带来的误差。
+    \item 仪器本身精度的影响，如温控仪本身只能取到小数点后一位，会产生一定的误差和较大的不确定度。
+    \item 不锈钢棒和铜棒的成分和组分不均可能会对实验造成一定影响。
+    \item 实验原理的线膨胀系数使用高阶多项式表示，但计算的只是常数项，忽略高阶项计算得到常数项的可能不准确。
+\end{enumerate}
+\subsubsection{偶然误差}
+\begin{enumerate}
+    \item 在读取温度时，由于较难界定何时达到与初始温度相同的干涉环状态，因此，何时读取最终的温度具有一定的主观性，进而产生偶然误差。
+    \item 在对数据进行四舍五入计算时，可能会产生偶然误差。
+\end{enumerate}
+\section{思考题}
+\begin{enumerate}
+    \item \thinking{测量材料线膨胀系数的意义并举例说明。}{线膨胀系数是描述材料在温度变化下尺寸变化的参数，通常用于工程设计和材料选择中。以下是材料线膨胀系数在不同方面的意义：
+    \begin{enumerate}
+        \item 工程结构稳定性：在许多工程应用中，例如建筑、桥梁、管道系统等，材料的尺寸稳定性对结构的安全和稳定至关重要。温度变化会引起材料的线膨胀或收缩，如果这些变化没有被适当考虑，可能会导致结构的不稳定或者产生过度应力，最终影响结构的性能和寿命。
+        \item 材料选择和设计考虑：在工程设计过程中，了解材料的线膨胀系数可以帮助工程师选择合适的材料，并确保设计的结构在不同温度条件下保持稳定。在高温环境下工作的设备或构件，需要选择线膨胀系数较低的材料，以减少因温度变化引起的尺寸变化对结构的影响。除此之外，比如温度在夏季和冬季会发生较大变化，在构建桥梁时就需要考虑材料的线膨胀系数，以及长度可能会随着温度的变化而发生微小的变化。如果不考虑这种长度变化，可能会导致桥梁在不同温度下出现过度应力或结构不稳定的问题。
+        \item 工程测量和校准：许多测量设备和仪器在使用时需要考虑温度对其尺寸和性能的影响。了解材料的线膨胀系数可以帮助校准这些设备，以确保它们在不同温度下提供准确的测量结果。
+        \item 材料研究和开发：在材料科学和工程领域，研究材料的线膨胀系数可以帮助开发新的材料，以满足特定工程应用的需求。通过调整材料的成分和结构，可以改变其线膨胀系数，从而使其更适用于特定的温度环境下。
+    \end{enumerate}}
+    \item \thinking{分析实验中影响实验结果的因素有哪些。}{
+    \begin{enumerate}
+        \item 光源稳定性：光源的频率或强度的微小变化可能导致测量误差，所以实验中使用的光源必须具有稳定的频率和强度，以确保干涉图样的稳定性和准确性。
+        \item 环境温度：金属材料的线膨胀系数与温度密切相关，因此必须确保实验室环境的温度稳定。即使微小的温度变化也可能影响金属材料的尺寸，进而影响干涉图样的解释和测量结果。
+        \item 光路稳定性：迈克尔逊干涉仪的光路必须保持稳定，以确保干涉条纹的清晰度和稳定性。任何光路中的微小振动或调整都可能导致干涉图样的变化。
+    \end{enumerate}}
+\end{enumerate}
 \end{document}
