@@ -131,11 +131,11 @@
     \end{enumerate}
     }
     \item \thinking{试讨论，试样的长度 $l$、直径 $d$、质量 $m$、共振频率 $f$ 分别应该采用什么规格的仪器测量？为什么？}{
-    \begin{enumerate}
+    }\begin{enumerate}
         \item 试样的长度 $l$ 和直径 $d$ 用最小刻度 \SI{0.02}{\mm} 的游标卡尺测量，这样可以使测量尽可能准确，减少实验误差。
         \item 质量 $m$ 用最小刻度 \SI{0.001}{\g} 的电子天平测量，这样可以使测量尽可能准确，减少实验误差。
         \item 共振频率 $f$ 用带宽大于 \SI{10}{\kHz} 的示波器测量，这样测量的频率满足五倍法则，能更加准确的找到相应的共振峰。如果精度不够的话，可能会出现无论怎么变化都得不到共振峰的情况。
-    \end{enumerate}}
+    \end{enumerate}
 \end{enumerate}
 \newpage
 \part{基于迈克尔逊干涉测量金属材料线膨胀系数}
@@ -156,7 +156,7 @@
     本实验基于迈克尔逊干涉实验测量线膨胀系数，具体方法为：将待测金属试样置于左下侧温控炉内并通过温控炉在一定温度范围内改变待测试样温度，试样将受热发生膨胀而伸长，推动反射镜向上移动，从而使迈克尔逊干涉中其中的一路的光程发生变化，因而，两路光线的光程差改变，由此可实现干涉条纹的动态观察。\par
     经推导得到本次实验计算用公式：
     \begin{equation}
-        \alpha=\frac{N\frac\lambda2}{L_1(t_2-t_1)}
+        \alpha=\frac{N\frac\lambda2}{L_1(t_2-t_1)}\label{eq:alpha}
     \end{equation}
 \section{实验仪器}%规格及参数
     热膨胀实验仪
@@ -168,4 +168,36 @@
         \item 根据所测数据，计算待测试样的线膨胀系数
         \item 本次实验要求测量黄铜和硬铝两个试样并对测量数据做表记录         
     \end{enumerate}
+\section{实验数据}
+\subsection{原始数据}
+\subsubsection{长度}
+\begin{table}[!ht]
+    \caption{长度测量原始数据}
+    \begin{tabular}{*{7}{c}} \toprule
+        测量次数 & 1 & 2 & 3 & 4 & 5 & 平均值  \\ \midrule
+        黄铜(\unit{\mm}) & 149.90 & 149.92 & 149.90 & 149.88 & 149.92 & 149.904 \\ 
+        硬铝(\unit{\mm}) & 149.86 & 149.84 & 149.80 & 149.82 & 149.82 & 149.828 \\ \bottomrule
+    \end{tabular}
+\end{table}
+\subsubsection{干涉环变化}
+\begin{table}[!ht]
+    \caption{干涉环变化原始数据}
+    \begin{tabular}{*{7}{c}}\toprule
+        & \multicolumn{3}{c}{黄铜} & \multicolumn{3}{c}{硬铝} \\ 
+        & $t$(\unit{\degreeCelsius}) & $\Delta t$(\unit{\degreeCelsius}) & $N$ & $t$(\unit{\degreeCelsius}) & $\Delta t$(\unit{\degreeCelsius}) & $N$  \\ \midrule
+       1 & 23.4 &     &    & 27.0 &     &    \\ 
+       2 & 24.5 & 1.1 & 10 & 27.9 & 0.9 & 10 \\ 
+       3 & 25.5 & 1.0 & 10 & 28.9 & 1.0 & 10 \\ 
+       4 & 26.6 & 1.1 & 10 & 29.8 & 0.9 & 10 \\ 
+       5 & 27.8 & 1.2 & 10 & 30.8 & 1.0 & 10 \\ 
+       6 & 28.8 & 1.0 & 10 & 31.7 & 0.9 & 10 \\ \bottomrule
+    \end{tabular}
+\end{table}
+\subsection{数据处理}
+由于直接对 $\Delta t$ 取平均值会丢失数据，故使用线性拟合处理实验数据，以试样温度 $t$ 为纵坐标，干涉环总变化数 $N_\text{总}$ 为横坐标，根据\seqref{eq:alpha} 可得
+\begin{equation}
+    \alpha = \frac{\lambda}{2 L_1 k}
+\end{equation}
+其中 $k$ 为拟合直线的斜率
+将数据放入 OriginPro 中处理可得
 \end{document}
