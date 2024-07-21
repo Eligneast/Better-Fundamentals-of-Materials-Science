@@ -1,0 +1,293 @@
+\contentsline {chapter}{不确定度评估方法}{ii}{Doc-Start}%
+\contentsline {section}{\numberline {0.1}A 类不确定度分量的评估}{ii}{section.0.1}%
+\contentsline {section}{\numberline {0.2}B 类不确定度分量的评估}{ii}{section.0.2}%
+\contentsline {section}{\numberline {0.3}直接测量量的合成标准不确定度}{ii}{section.0.3}%
+\contentsline {section}{\numberline {0.4}标准不确定度的传播规律}{ii}{section.0.4}%
+\contentsline {chapter}{\numberline {实验一\hspace {.3em}}铁碳合金的显微组织观察及性能分析}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}实验目的}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}实验原理}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}金相显微镜的成像原理}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}金相显微镜的构造}{2}{subsection.1.2.2}%
+\contentsline {subsubsection}{照明系统}{2}{subsection.1.2.2}%
+\contentsline {subsubsection}{显微镜调焦装置}{2}{subsection.1.2.2}%
+\contentsline {subsubsection}{孔径光阑（AS）}{2}{subsection.1.2.2}%
+\contentsline {subsubsection}{视场光阑（FS）}{2}{subsection.1.2.2}%
+\contentsline {subsubsection}{滤色片}{2}{subsection.1.2.2}%
+\contentsline {subsubsection}{载物台}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{物镜转换器}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}实验仪器}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}实验过程}{3}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}实验内容}{3}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}实验要求}{4}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}实验注意事项}{4}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}实验结果}{4}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}铁碳合金室温下的平衡组织}{4}{subsection.1.5.1}%
+\contentsline {subsubsection}{工业纯铁}{5}{subsection.1.5.1}%
+\contentsline {subsubsection}{亚共析钢}{5}{figure.caption.3}%
+\contentsline {subsubsection}{共析钢}{5}{figure.caption.4}%
+\contentsline {subsubsection}{过共析钢}{6}{figure.caption.5}%
+\contentsline {subsubsection}{亚共晶白口铸铁}{6}{figure.caption.6}%
+\contentsline {subsubsection}{共晶白口铸铁}{6}{figure.caption.7}%
+\contentsline {subsubsection}{过共晶白口铸铁}{7}{figure.caption.8}%
+\contentsline {subsection}{\numberline {1.5.2}铁碳合金室温下的非平衡组织}{8}{subsection.1.5.2}%
+\contentsline {subsubsection}{45 钢 \SI {860}{\degreeCelsius } 水淬 $+$ 中温回火}{8}{subsection.1.5.2}%
+\contentsline {subsubsection}{45 钢 \SI {860}{\degreeCelsius } 水淬 $+$ 高温回火}{8}{figure.caption.10}%
+\contentsline {subsubsection}{45 钢 \SI {780}{\degreeCelsius } 水淬}{8}{figure.caption.11}%
+\contentsline {subsubsection}{45 钢 \SI {1100}{\degreeCelsius } 水淬}{8}{figure.caption.12}%
+\contentsline {subsubsection}{T12 钢球化退火}{9}{figure.caption.13}%
+\contentsline {subsubsection}{T12 钢 \SI {780}{\degreeCelsius } 水淬 $+$ 低温回火}{9}{figure.caption.14}%
+\contentsline {subsubsection}{T12 钢 \SI {1100}{\degreeCelsius } 水淬 $+$ 低温回火}{9}{figure.caption.15}%
+\contentsline {section}{\numberline {1.6}实验思考与讨论}{10}{section.1.6}%
+\contentsline {chapter}{\numberline {实验二\hspace {.3em}}铁碳合金的显微组织观察及性能分析}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}实验目的}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}实验原理}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}金相试样的磨光}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{手工磨光}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{金相试样的抛光}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{金相显微组织的显示}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{化学浸蚀操作}{13}{figure.caption.17}%
+\contentsline {section}{\numberline {2.3}实验仪器}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}实验过程}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}实验内容}{13}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}实验内容}{14}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}实验结果}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}金相样品的制备步骤}{14}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}存在的问题}{14}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}思考题}{14}{section.2.6}%
+\contentsline {chapter}{\numberline {实验三\hspace {.3em}}碳钢退火、正火后的组织观察与硬度分析}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}实验目的}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}实验原理}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}退火}{15}{subsection.3.2.1}%
+\contentsline {subsubsection}{完全退火}{15}{subsection.3.2.1}%
+\contentsline {subsubsection}{不完全退火}{15}{subsection.3.2.1}%
+\contentsline {subsubsection}{球化退火}{15}{subsection.3.2.1}%
+\contentsline {subsubsection}{去应力退火}{16}{subsection.3.2.1}%
+\contentsline {subsubsection}{扩散退火}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}正火}{16}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}退火与正火保温时间的确定}{16}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}碳钢退火、正火后的显微组织}{16}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}注意事项}{17}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}实验仪器}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}实验过程}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}实验数据}{18}{section.3.5}%
+\contentsline {section}{\numberline {3.6}样品显微组织}{19}{section.3.6}%
+\contentsline {section}{\numberline {3.7}组织分析}{20}{section.3.7}%
+\contentsline {section}{\numberline {3.8}实验思考与讨论}{20}{section.3.8}%
+\contentsline {chapter}{\numberline {实验四\hspace {.3em}}碳钢淬火、回火后的组织观察与硬度分析}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}实验目的}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}实验原理}{21}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}淬火}{21}{subsection.4.2.1}%
+\contentsline {subsubsection}{淬火温度的选择}{21}{subsection.4.2.1}%
+\contentsline {subsubsection}{保温时间}{22}{figure.caption.23}%
+\contentsline {subsubsection}{淬火冷却介质}{22}{equation.4.2.1}%
+\contentsline {subsubsection}{淬火后的组织}{22}{equation.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}回火}{22}{subsection.4.2.2}%
+\contentsline {subsubsection}{回火马氏体}{22}{subsection.4.2.2}%
+\contentsline {subsubsection}{回火屈氏体}{23}{subsection.4.2.2}%
+\contentsline {subsubsection}{回火索氏体}{23}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}实验仪器}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}实验过程}{23}{section.4.4}%
+\contentsline {section}{\numberline {4.5}实验数据}{24}{section.4.5}%
+\contentsline {section}{\numberline {4.6}样品显微组织}{25}{section.4.6}%
+\contentsline {section}{\numberline {4.7}组织分析}{26}{section.4.7}%
+\contentsline {section}{\numberline {4.8}实验思考与讨论}{26}{section.4.8}%
+\contentsline {chapter}{\numberline {实验五\hspace {.3em}}动态悬挂法测量金属材料杨氏模量}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}实验目的}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}实验原理}{27}{section.5.2}%
+\contentsline {section}{\numberline {5.3}实验仪器}{28}{section.5.3}%
+\contentsline {section}{\numberline {5.4}实验过程}{28}{section.5.4}%
+\contentsline {section}{\numberline {5.5}实验数据}{29}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}不锈钢棒}{29}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}铜棒}{30}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}结果分析}{31}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}误差分析}{31}{subsection.5.6.1}%
+\contentsline {subsubsection}{系统误差}{31}{subsection.5.6.1}%
+\contentsline {subsubsection}{偶然误差}{31}{Item.88}%
+\contentsline {section}{\numberline {5.7}思考题}{31}{section.5.7}%
+\contentsline {chapter}{\numberline {实验六\hspace {.3em}}基于迈克尔逊干涉测量金属材料线膨胀系数}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}实验目的}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}实验原理}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.3}实验仪器}{33}{section.6.3}%
+\contentsline {section}{\numberline {6.4}实验过程}{34}{section.6.4}%
+\contentsline {section}{\numberline {6.5}实验数据}{34}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}原始数据}{34}{subsection.6.5.1}%
+\contentsline {subsubsection}{长度}{34}{subsection.6.5.1}%
+\contentsline {subsubsection}{干涉环变化}{34}{table.caption.35}%
+\contentsline {subsection}{\numberline {6.5.2}数据处理}{34}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}结果分析}{35}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}实验数据}{35}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}误差分析}{35}{subsection.6.6.2}%
+\contentsline {subsubsection}{系统误差}{35}{subsection.6.6.2}%
+\contentsline {subsubsection}{偶然误差}{36}{Item.109}%
+\contentsline {section}{\numberline {6.7}思考题}{36}{section.6.7}%
+\contentsline {chapter}{\numberline {实验七\hspace {.3em}}金属材料机械性能测量：拉伸}{38}{chapter.7}%
+\contentsline {section}{\numberline {7.1}实验目的}{38}{section.7.1}%
+\contentsline {section}{\numberline {7.2}实验原理}{38}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}低碳钢拉伸的应力-应变曲线及特征参数}{38}{subsection.7.2.1}%
+\contentsline {subsubsection}{低碳钢拉伸的应力-应变曲线}{38}{subsection.7.2.1}%
+\contentsline {subsubsection}{铸铁的应力-应变曲线}{38}{figure.caption.39}%
+\contentsline {subsection}{\numberline {7.2.2}相关概念基本定义及计算公式}{39}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}实验仪器}{39}{section.7.3}%
+\contentsline {section}{\numberline {7.4}实验过程}{39}{section.7.4}%
+\contentsline {section}{\numberline {7.5}实验数据}{40}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}尺寸数据}{40}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}数据绘制}{40}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}数据计算}{41}{subsection.7.5.3}%
+\contentsline {subsubsection}{低碳钢}{41}{subsection.7.5.3}%
+\contentsline {subsubsection}{铸铁}{41}{equation.7.5.5}%
+\contentsline {section}{\numberline {7.6}结果分析}{42}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}数据分析}{42}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}误差分析}{42}{subsection.7.6.2}%
+\contentsline {subsubsection}{系统误差}{42}{subsection.7.6.2}%
+\contentsline {subsubsection}{偶然误差}{42}{Item.138}%
+\contentsline {section}{\numberline {7.7}思考题}{42}{section.7.7}%
+\contentsline {chapter}{\numberline {实验八\hspace {.3em}}金属材料机械性能测量：压缩}{44}{chapter.8}%
+\contentsline {section}{\numberline {8.1}实验目的}{44}{section.8.1}%
+\contentsline {section}{\numberline {8.2}实验原理}{44}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}低碳钢}{44}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}铸铁}{44}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}实验仪器}{44}{section.8.3}%
+\contentsline {section}{\numberline {8.4}实验过程}{45}{section.8.4}%
+\contentsline {section}{\numberline {8.5}实验数据}{46}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}尺寸数据}{46}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}数据绘制}{46}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.5.3}数据计算}{47}{subsection.8.5.3}%
+\contentsline {section}{\numberline {8.6}结果分析}{47}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}数据分析}{47}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}误差分析}{47}{subsection.8.6.2}%
+\contentsline {subsubsection}{系统误差}{47}{subsection.8.6.2}%
+\contentsline {subsubsection}{偶然误差}{47}{Item.168}%
+\contentsline {section}{\numberline {8.7}思考题}{48}{section.8.7}%
+\contentsline {chapter}{\numberline {实验九\hspace {.3em}}超声波无损探伤实验}{49}{chapter.9}%
+\contentsline {section}{\numberline {9.1}实验目的}{49}{section.9.1}%
+\contentsline {section}{\numberline {9.2}实验原理}{49}{section.9.2}%
+\contentsline {section}{\numberline {9.3}实验仪器}{49}{section.9.3}%
+\contentsline {section}{\numberline {9.4}实验过程}{49}{section.9.4}%
+\contentsline {section}{\numberline {9.5}实验数据与分析}{50}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}实验数据}{50}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}间接测量量计算公式}{52}{subsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.5.3}不确定度的计算}{52}{subsection.9.5.3}%
+\contentsline {section}{\numberline {9.6}结果分析}{54}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}数据分析}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{超声波频率和波长}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{探头延迟}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{超声波波速}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{斜探头的前沿距离}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{斜探头的折射角}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{声束扩散角}{54}{subsection.9.6.1}%
+\contentsline {subsubsection}{缺陷深度}{55}{subsection.9.6.1}%
+\contentsline {subsubsection}{缺陷内超声声速和探头延迟}{55}{subsection.9.6.1}%
+\contentsline {subsubsection}{前沿距离、缺陷 D 的垂直深度和水平距离}{55}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}误差分析}{55}{subsection.9.6.2}%
+\contentsline {subsubsection}{系统误差}{55}{subsection.9.6.2}%
+\contentsline {subsubsection}{偶然误差}{55}{Item.194}%
+\contentsline {subsubsection}{减小误差的方法}{55}{Item.196}%
+\contentsline {section}{\numberline {9.7}思考题}{56}{section.9.7}%
+\contentsline {chapter}{\numberline {实验十\hspace {.3em}}磁性材料基础测量：静态磁化特性}{57}{chapter.10}%
+\contentsline {section}{\numberline {10.1}实验目的}{57}{section.10.1}%
+\contentsline {section}{\numberline {10.2}实验原理}{57}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}初始磁化曲线}{57}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}磁滞回线}{58}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}基本磁化曲线}{58}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}测量原理}{58}{subsection.10.2.4}%
+\contentsline {section}{\numberline {10.3}实验仪器}{59}{section.10.3}%
+\contentsline {section}{\numberline {10.4}实验过程}{59}{section.10.4}%
+\contentsline {section}{\numberline {10.5}实验数据}{59}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}实验仪器}{59}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}数据处理}{59}{subsection.10.5.2}%
+\contentsline {section}{\numberline {10.6}结果分析}{59}{section.10.6}%
+\contentsline {subsection}{\numberline {10.6.1}误差分析}{60}{subsection.10.6.1}%
+\contentsline {subsubsection}{系统误差}{60}{subsection.10.6.1}%
+\contentsline {subsubsection}{偶然误差}{60}{Item.212}%
+\contentsline {subsubsection}{有关减小误差的改进方案}{60}{Item.214}%
+\contentsline {section}{\numberline {10.7}思考题}{61}{section.10.7}%
+\contentsline {chapter}{\numberline {实验十一\hspace {.3em}}磁性材料基础测量：交流磁化率}{62}{chapter.11}%
+\contentsline {section}{\numberline {11.1}实验目的}{62}{section.11.1}%
+\contentsline {section}{\numberline {11.2}实验原理}{62}{section.11.2}%
+\contentsline {section}{\numberline {11.3}实验仪器}{62}{section.11.3}%
+\contentsline {section}{\numberline {11.4}实验过程}{63}{section.11.4}%
+\contentsline {section}{\numberline {11.5}数据处理}{63}{section.11.5}%
+\contentsline {section}{\numberline {11.6}结果分析}{64}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}图像分析}{64}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}误差分析}{64}{subsection.11.6.2}%
+\contentsline {subsubsection}{系统误差}{64}{subsection.11.6.2}%
+\contentsline {section}{\numberline {11.7}思考题}{65}{section.11.7}%
+\contentsline {chapter}{\numberline {实验十二\hspace {.3em}}Sn-Bi 合金相图的测定}{66}{chapter.12}%
+\contentsline {section}{\numberline {12.1}实验目的}{66}{section.12.1}%
+\contentsline {section}{\numberline {12.2}实验原理}{66}{section.12.2}%
+\contentsline {section}{\numberline {12.3}实验仪器}{67}{section.12.3}%
+\contentsline {section}{\numberline {12.4}实验过程}{67}{section.12.4}%
+\contentsline {section}{\numberline {12.5}实验结果}{67}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}机器直接绘制的相图}{67}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}处理后的相图}{67}{subsection.12.5.2}%
+\contentsline {section}{\numberline {12.6}思考题}{68}{section.12.6}%
+\contentsline {chapter}{\numberline {实验十三\hspace {.3em}}使用热流计法和平面热源法测量材料的热导率}{69}{chapter.13}%
+\contentsline {section}{\numberline {13.1}实验目的}{69}{section.13.1}%
+\contentsline {section}{\numberline {13.2}实验原理}{69}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}热传导理论中的一些基本概念}{69}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}测量材料热导率的方法简介}{69}{subsection.13.2.2}%
+\contentsline {subsubsection}{热流计法测量材料热导率的原理}{70}{subsection.13.2.2}%
+\contentsline {subsubsection}{平面热源法测量材料热导率的原理}{70}{figure.caption.70}%
+\contentsline {section}{\numberline {13.3}实验仪器}{71}{section.13.3}%
+\contentsline {section}{\numberline {13.4}实验过程}{71}{section.13.4}%
+\contentsline {subsection}{\numberline {13.4.1}使用稳态法（热流计法）测量样品的热阻和材料的热导率}{71}{subsection.13.4.1}%
+\contentsline {subsubsection}{测量方块状白橡胶样品的热阻和白橡胶的热导率}{71}{subsection.13.4.1}%
+\contentsline {subsubsection}{测量圆柱形石英样品的热阻和石英的热导率}{71}{Item.262}%
+\contentsline {subsubsection}{测量圆柱形铝合金样品的热阻和铝合金的热导率}{71}{Item.262}%
+\contentsline {subsection}{\numberline {13.4.2}使用准稳态法（平面热源法）测量有机玻璃和黑橡胶的热导率和比热}{72}{subsection.13.4.2}%
+\contentsline {subsubsection}{测量有机玻璃的热导率和比热}{72}{subsection.13.4.2}%
+\contentsline {subsubsection}{测量黑橡胶的热导率和比热}{72}{Item.265}%
+\contentsline {section}{\numberline {13.5}实验数据与分析}{72}{section.13.5}%
+\contentsline {subsection}{\numberline {13.5.1}稳态法测量铝合金导热系数不确定度计算}{73}{subsection.13.5.1}%
+\contentsline {subsubsection}{仪器引入的不确定度}{73}{subsection.13.5.1}%
+\contentsline {subsubsection}{数学模型}{73}{table.caption.75}%
+\contentsline {subsubsection}{有贡献的方差}{74}{equation.13.5.7}%
+\contentsline {subsubsection}{合成标准不确定度}{75}{equation.13.5.10}%
+\contentsline {subsubsection}{扩展不确定度}{75}{equation.13.5.13}%
+\contentsline {subsection}{\numberline {13.5.2}准稳态法测量结果}{75}{subsection.13.5.2}%
+\contentsline {section}{\numberline {13.6}思考题}{75}{section.13.6}%
+\contentsline {chapter}{\numberline {实验十四\hspace {.3em}}四探针法测量半导体电阻率和薄层电阻}{77}{chapter.14}%
+\contentsline {section}{\numberline {14.1}实验目的}{77}{section.14.1}%
+\contentsline {section}{\numberline {14.2}实验原理}{77}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}半导体材料体电阻率的测量}{77}{subsection.14.2.1}%
+\contentsline {subsubsection}{半无穷大样品体电阻率的测量}{77}{subsection.14.2.1}%
+\contentsline {subsubsection}{无穷大薄样品体电阻率的测量}{78}{figure.caption.78}%
+\contentsline {subsection}{\numberline {14.2.2}半导体材料电阻的测量}{78}{subsection.14.2.2}%
+\contentsline {subsubsection}{半导体薄层电阻（或方块电阻）的测量}{78}{subsection.14.2.2}%
+\contentsline {section}{\numberline {14.3}实验仪器}{78}{section.14.3}%
+\contentsline {section}{\numberline {14.4}实验过程}{78}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}测量样品电阻率或方块电阻的操作步骤}{78}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}测量 p 型硅棒的电阻率}{79}{subsection.14.4.2}%
+\contentsline {subsection}{\numberline {14.4.3}测量 p 型单晶硅片（薄样品）的电阻率}{79}{subsection.14.4.3}%
+\contentsline {subsection}{\numberline {14.4.4}测量 p 型单晶硅衬底上的 n 型扩散片的方块电阻}{79}{subsection.14.4.4}%
+\contentsline {subsection}{\numberline {14.4.5}测量两种透明导电玻璃的方块电阻}{79}{subsection.14.4.5}%
+\contentsline {section}{\numberline {14.5}实验数据与分析}{80}{section.14.5}%
+\contentsline {subsection}{\numberline {14.5.1}实验数据}{80}{subsection.14.5.1}%
+\contentsline {subsection}{\numberline {14.5.2}对 p 型单晶硅片（薄样品）的电阻率不确定度的计算}{81}{subsection.14.5.2}%
+\contentsline {subsubsection}{仪器引入的标准不确定度}{81}{subsection.14.5.2}%
+\contentsline {subsubsection}{数学模型}{82}{table.caption.84}%
+\contentsline {subsubsection}{有贡献的方差}{82}{equation.14.5.8}%
+\contentsline {subsubsection}{合成标准不确定度}{82}{table.caption.85}%
+\contentsline {subsubsection}{扩展不确定度}{83}{equation.14.5.16}%
+\contentsline {section}{\numberline {14.6}结果分析与讨论}{83}{section.14.6}%
+\contentsline {section}{\numberline {14.7}思考题}{83}{section.14.7}%
+\contentsline {chapter}{\numberline {实验十五\hspace {.3em}}绝缘材料的相对介电常数和介质损耗因数测试}{84}{chapter.15}%
+\contentsline {section}{\numberline {15.1}实验目的}{84}{section.15.1}%
+\contentsline {section}{\numberline {15.2}实验原理}{84}{section.15.2}%
+\contentsline {subsection}{\numberline {15.2.1}基本概念}{84}{subsection.15.2.1}%
+\contentsline {subsection}{\numberline {15.2.2}测试原理}{84}{subsection.15.2.2}%
+\contentsline {subsubsection}{Q 表法（谐振法）测量绝缘材料相对介电常数和介质损耗因数的原理}{85}{figure.caption.86}%
+\contentsline {subsubsection}{变电纳法测量绝缘材料相对介电常数和介质损耗因数的原理}{85}{figure.caption.87}%
+\contentsline {section}{\numberline {15.3}实验仪器}{85}{section.15.3}%
+\contentsline {section}{\numberline {15.4}实验过程}{86}{section.15.4}%
+\contentsline {subsection}{\numberline {15.4.1}利用谐振法（或 Q 表法）测量 \SI {1}{\mega \hertz } 下三种样品（印刷电路板、聚四氟乙烯和石英玻璃）的相对介电常数和介质损耗因数}{86}{subsection.15.4.1}%
+\contentsline {subsection}{\numberline {15.4.2}利用谐振法（或 Q 表法）测量 \SI {10}{\mega \hertz } 下三种样品的相对介电常数和介质损耗因数}{87}{subsection.15.4.2}%
+\contentsline {subsection}{\numberline {15.4.3}利用变电纳法测量 \SI {1}{\mega \hertz } 下三种样品的相对介电常数和介质损耗因数}{87}{subsection.15.4.3}%
+\contentsline {section}{\numberline {15.5}实验数据与分析}{87}{section.15.5}%
+\contentsline {subsection}{\numberline {15.5.1}谐振法}{87}{subsection.15.5.1}%
+\contentsline {subsection}{\numberline {15.5.2}变电纳法}{88}{subsection.15.5.2}%
+\contentsline {subsection}{\numberline {15.5.3}变电纳法的不确定度分析}{88}{subsection.15.5.3}%
+\contentsline {subsubsection}{有贡献的不确定度}{89}{subsection.15.5.3}%
+\contentsline {subsubsection}{最终结果}{89}{equation.15.5.10}%
+\contentsline {section}{\numberline {15.6}结果分析与讨论}{89}{section.15.6}%
+\contentsline {section}{\numberline {15.7}思考题}{89}{section.15.7}%
